@@ -250,6 +250,7 @@ h1 .hl {{ background: linear-gradient(transparent 62%, var(--lime) 62%); }}
 .route .ticks {{ list-style: none; padding: 0; margin: 0 0 18px; display: grid; gap: 12px; }}
 .route .ticks li {{ display: flex; gap: 12px; align-items: flex-start; font-weight: 500; }}
 .route .ticks b {{ flex: none; width: 26px; height: 26px; border-radius: 999px; background: var(--lime); color: #17202D; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; }}
+.route .route-art {{ display: block; width: min(320px, 70%); height: auto; margin: 0 0 18px; }}
 .route .small {{ color: var(--ink-2); font-size: 14px; margin: 0; }}
 .route-shots {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; justify-items: center; }}
 @media (max-width: 860px) {{ .route .wrap {{ grid-template-columns: 1fr; gap: 32px; }} }}
@@ -386,6 +387,7 @@ footer .note {{ flex-basis: 100%; }}
   <section id="route" class="route">
     <div class="wrap">
       <div class="route-text">
+        <img class="route-art" src="img/plan-days.webp" alt="" width="900" height="677" loading="lazy">
         <div class="kicker" data-t="route_kicker">{s("route_kicker")}</div>
         <h2 data-t="route_h2">{s("route_h2")}</h2>
         <p class="lead" data-t="route_p">{s("route_p")}</p>
