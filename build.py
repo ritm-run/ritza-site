@@ -136,9 +136,9 @@ footer .note {{ flex-basis: 100%; }}
       <a href="#privacy" data-t="nav_privacy">{s("nav_privacy")}</a>
     </nav>
     <div class="lang" role="group" aria-label="{s("lang_label")}" id="lang">
-      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
-      <button type="button" data-lang="en" aria-pressed="false">EN</button>
-      <button type="button" data-lang="he" aria-pressed="false">עב</button>
+      <button type="button" data-lang="ru" aria-pressed="true" title="Русский">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+      <button type="button" data-lang="he" aria-pressed="false" title="עברית">HE</button>
     </div>
   </div>
 </header>
