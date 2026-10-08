@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Рица · Ritza · ריצה</title>
+<meta name="description" content="Рица — бег, ходьба и охота. Ritza — run, walk and hunt.">
+<style>
+  :root { --bg: #ebeff4; --card: #ffffff; --ink: #17202d; --muted: #6b7889; --lime: #b8f66b; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #090c10; --card: #1c222b; --ink: #f1f4f8; --muted: #9aa6b5; color-scheme: dark; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; display: grid; gap: 16px; }
+  .card { background: var(--card); border-radius: 20px; padding: 20px; display: grid; gap: 8px; }
+  h1 { margin: 0; font-size: 34px; letter-spacing: -.01em; }
+  h1 span { display: inline-block; background: var(--lime); color: #17202d; border-radius: 999px; padding: 2px 14px; }
+  h2 { margin: 0; font-size: 18px; }
+  p { margin: 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1><span>Рица</span></h1>
+  <section class="card" lang="ru">
+    <h2>Бег, ходьба и охота</h2>
+    <p>Приложение для Android: шаги, тренировки с голосом и игра «Охота» — волк и заяц.</p>
+    <p class="muted">Готовится к выходу в Google Play.</p>
+  </section>
+  <section class="card" lang="en">
+    <h2>Ritza — run, walk &amp; hunt</h2>
+    <p>An Android app: steps, voice-guided workouts and the «Hunt» game — the wolf and the hare.</p>
+    <p class="muted">Coming to Google Play.</p>
+  </section>
+  <section class="card" lang="he" dir="rtl">
+    <h2>ריצה — ריצה, הליכה וציד</h2>
+    <p>אפליקציה לאנדרואיד: ספירת צעדים, אימונים בהנחיה קולית ומשחק ״הציד״ עם הזאב והארנבת.</p>
+    <p class="muted">בקרוב ב־Google Play.</p>
+  </section>
+  <section class="card">
+    <p><a href="https://ritm-run.github.io/privacy/">Политика конфиденциальности · Privacy policy · מדיניות פרטיות</a></p>
+    <p class="muted">Поддержка · Support · תמיכה: ritza.support@gmail.com</p>
+  </section>
+</main>
+</body>
+</html>
