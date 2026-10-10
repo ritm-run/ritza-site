@@ -80,7 +80,8 @@
     "trophy_half_name": "Полумарафон",
     "trophy_half_desc": "21,1 км за одну тренировку",
     "trophy_owl_name": "Ночной бегун",
-    "trophy_owl_desc": "Старт после 22:00"
+    "trophy_owl_desc": "Старт после 22:00",
+    "foot_terms": "Условия использования"
   },
   "en": {
     "title": "Ritza — run, walk & hunt",
@@ -163,7 +164,8 @@
     "trophy_half_name": "Half marathon",
     "trophy_half_desc": "21.1 km in one workout",
     "trophy_owl_name": "Night runner",
-    "trophy_owl_desc": "Start after 10 pm"
+    "trophy_owl_desc": "Start after 10 pm",
+    "foot_terms": "Terms of use"
   },
   "he": {
     "title": "ריצה — ריצה, הליכה וציד",
@@ -246,6 +248,7 @@
     "trophy_half_name": "חצי מרתון",
     "trophy_half_desc": "21.1 ק״מ באימון אחד",
     "trophy_owl_name": "רץ לילה",
-    "trophy_owl_desc": "יציאה אחרי 22:00"
+    "trophy_owl_desc": "יציאה אחרי 22:00",
+    "foot_terms": "תנאי שימוש"
   }
 }

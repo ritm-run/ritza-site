@@ -454,7 +454,8 @@ FEATURES
 
 <footer>
   <div class="wrap">
-    <a href="https://ritm-run.github.io/privacy/" data-t="foot_privacy">{s("foot_privacy")}</a>
+    <a href="/privacy/" data-t="foot_privacy">{s("foot_privacy")}</a>
+    <a href="/terms/" data-t="foot_terms">{s("foot_terms")}</a>
     <span><span data-t="foot_support">{s("foot_support")}</span>: <bdi dir="ltr">ritza.support@gmail.com</bdi></span>
     <span>© 2026</span>
     <span class="note" data-t="foot_note">{s("foot_note")}</span>
