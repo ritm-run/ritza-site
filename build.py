@@ -523,3 +523,17 @@ for k in ("f1", "f2", "f3", "f4", "f5", "f6"):
 page = page.replace("FEATURES", "\n".join(cards)).replace("I18N", json.dumps(t, ensure_ascii=False))
 open(os.path.join(here, "index.html"), "w", encoding="utf-8").write(page)
 print("ok", len(page))
+
+
+# The canonical three-language policy matches the in-app legal asset.
+# Rebuild the standalone privacy page together with the homepage.
+import re
+privacy_source = open(os.path.join(here, "privacy", "policy.html"), encoding="utf-8").read()
+privacy_template = open(os.path.join(here, "privacy", "template.html"), encoding="utf-8").read()
+privacy_sections = re.findall(r'<section id="(?:en|ru|he)".*?</section>', privacy_source, re.S)
+assert len(privacy_sections) == 3, "Expected en, ru and he privacy sections"
+assert privacy_template.count("{{PRIVACY_SECTIONS}}") == 1
+privacy_page = privacy_template.replace("{{PRIVACY_SECTIONS}}", "\n".join(privacy_sections))
+assert chr(63) * 2 not in privacy_page, "Privacy page contains a broken encoding marker"
+with open(os.path.join(here, "privacy", "index.html"), "w", encoding="utf-8", newline="\n") as handle:
+    handle.write(privacy_page)
