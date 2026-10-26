@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Рица — что нового</title>
+<meta name="description" content="Полный список нового и исправлений в Рице 0.20.">
+<meta property="og:title" content="Рица — что нового">
+<meta property="og:description" content="Полный список нового и исправлений в Рице 0.20.">
+<meta property="og:image" content="https://ritza.app/img/chase.webp">
+<link rel="icon" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap">
+
+<link rel="canonical" href="https://ritza.app/new/">
+<style>
+
+:root {
+  --lime: #B8F66B; --lime-soft: #E4FBC7; --ink: #17202D; --ink-2: #3A4656; --muted: #5F6B7B;
+  --page: #F6F8F2; --card: #FFFFFF; --line: #E2E8DC; --run: #1FAE82; --walk: #3B82F6; --sun: #ED8A3B;
+  --r-card: 24px; --r-tile: 16px; --gutter: 20px;
+  --font: "Rubik", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --page: #0E1418; --card: #18212A; --ink: #F1F4F8; --ink-2: #C9D2DC; --muted: #9AA6B5; --line: #26313B; --lime-soft: #22311A; }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 17px/1.55 var(--font); -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+figure { margin: 0; }
+a { color: inherit; }
+.wrap { max-width: 1160px; margin: 0 auto; padding-inline: var(--gutter); }
+
+/* header */
+header { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--page) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.bar { display: flex; align-items: center; gap: 18px; height: 68px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand img.mark { width: 46px; height: 46px; }
+.brand .wm { height: 26px; width: auto; }
+.brand .wm.dark { display: none; }
+@media (prefers-color-scheme: dark) { .brand .wm.light { display: none; } .brand .wm.dark { display: block; } }
+nav { display: flex; gap: 22px; margin-inline-start: auto; font-weight: 500; font-size: 15px; }
+nav a { text-decoration: none; color: var(--ink-2); }
+nav a:hover { color: var(--ink); }
+.lang { display: inline-flex; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+.lang button { font: 600 13px/1 var(--font); color: var(--ink-2); background: transparent; border: 0; border-radius: 999px; min-width: 42px; height: 32px; padding: 0 10px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+.lang button[aria-pressed="true"] { background: var(--lime); color: #17202D; }
+.lang button:focus-visible, .btn:focus-visible { outline: 3px solid var(--run); outline-offset: 2px; }
+@media (max-width: 960px) { nav { display: none; } .lang { margin-inline-start: auto; } .brand .wm { height: 22px; } }
+
+
+html { scroll-padding-top: 88px; }
+[hidden] { display: none !important; }
+.release-wrap { max-width: 820px; padding-block: 40px 64px; }
+.release { padding-block-end: 40px; }
+.release + .release { border-top: 1px solid var(--line); padding-block-start: 32px; }
+.release-meta { color: var(--muted); font-size: 14px; margin: 0 0 12px; }
+h1, .release > h2 { font-size: clamp(30px, 5vw, 46px); line-height: 1.15; letter-spacing: -.025em; margin: 0 0 20px; text-wrap: balance; }
+.release-intro { color: var(--ink-2); font-size: 18px; margin: 0 0 24px; }
+.release-contents { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 36px; font-size: 14px; }
+.release-contents a { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; padding: 10px 14px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; text-decoration: none; }
+.release-category { margin-block: 36px; padding-block-start: 8px; border-top: 1px solid var(--line); }
+.release-category > h2, .release-category > h3[id] { font-size: 25px; line-height: 1.3; margin: 24px 0; }
+.release-category > h3:not([id]), .release-category > h4 { font-size: 18px; line-height: 1.4; margin: 28px 0 12px; }
+ul { padding-inline-start: 24px; margin-block: 12px 24px; }
+li { margin-block: 12px; }
+main a:focus-visible, footer a:focus-visible { outline: 3px solid var(--run); outline-offset: 3px; }
+.back-top { display: inline-block; padding-block: 12px; color: var(--ink-2); }
+footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; padding-block: 28px; }
+footer .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
+footer a { text-decoration: none; }
+footer a:hover { color: var(--ink); text-decoration: underline; }
+footer .note { flex-basis: 100%; }
+bdi { unicode-bidi: isolate; }
+@media (max-width: 600px) { .release-wrap { padding-block-start: 28px; } .release-intro { font-size: 17px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="/#top" aria-label="Рица">
+      <img class="mark" src="/img/mark.webp" alt="" width="46" height="46">
+      <img class="wm light" id="wm-light" src="/img/wordmark-ru.svg" alt="Рица">
+      <img class="wm dark" id="wm-dark" src="/img/wordmark-ru-dark.svg" alt="Рица">
+    </a>
+    <nav>
+      <a href="/#hunt" data-t="nav_hunt">Охота</a>
+      <a href="/#route" data-t="nav_route">Маршрут к цели</a>
+      <a href="/#features" data-t="nav_features">Возможности</a>
+      <a href="/#privacy" data-t="nav_privacy">Приватность</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык" id="lang">
+      <button type="button" data-lang="ru" aria-pressed="true" title="Русский">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+      <button type="button" data-lang="he" aria-pressed="false" title="עברית">HE</button>
+    </div>
+  </div>
+</header>
+<main class="wrap release-wrap" id="top">
+<!-- New releases are prepended in i18n.json; earlier releases remain below them. -->
+<section id="ru" lang="ru" dir="ltr" data-release-language>
+<article class="release" aria-labelledby="ru-0-20-title">
+<p class="release-meta"><bdi dir="ltr">0.20-beta</bdi> · <time datetime="2026-10-25">25 октября 2026</time></p>
+<h1 id="ru-0-20-title">Рица 0.20 — что нового</h1>
+<p class="release-intro">Большой выпуск после 0.11: облики и трофеи, новый итог тренировки, картинки и видео, музыкальный итог года и карты с рельефом. Здесь весь список нового и исправлений, включая правки 24–25 октября.</p>
+<nav class="release-contents" aria-label="Разделы выпуска">
+<a href="#ru-0-20-new">Новое</a>
+<a href="#ru-0-20-latest">Дополнения и последние исправления</a>
+<a href="#ru-0-20-fixed">Исправлено</a>
+<a href="#ru-0-20-trophies">Все 53 новых больших трофея</a>
+</nav>
+<section class="release-category" aria-labelledby="ru-0-20-new"><h2 id="ru-0-20-new">Новое</h2>
+<h3>Облики</h3>
+<ul>
+<li data-note="N01">Коллекция из 19 заработанных обликов: условия, прогресс, закрытый и полученный облик, выбор и четыре уровня — Редкий, Эпический, Легендарный, Мифический.</li>
+<li data-note="N02">Рамки по уровню: серебро и камень, золотое свечение, крылья и корона, голографические переливы; четыре мифических зверя оживают и реагируют на касание.</li>
+<li data-note="N03">Ёжик за первый миллион, коршун за путь по своей стране, ночная лиса за 50 тренировок после заката, ястреб за 8 849 м подъёма и легендарный бобр для участников беты; у особых обликов есть свои трофеи.</li>
+<li data-note="N04">Момент получения становится ярче с уровнем; у полученного облика сохраняются дата, причина и путь к награде.</li>
+<li data-note="N05">Облик с рамкой заметнее в шапках и на странице «Я»; имя, звание, очки и прогресс собраны рядом, отметки редактирования видны поверх рамки.</li>
+<li data-note="N06">Обликом можно поделиться картинкой или коротким видео: дата получения, дни до награды, коллекция и сохранённое место или круг.</li>
+</ul>
+<h3>Трофеи и медали</h3>
+<ul>
+<li data-note="N07">53 новых больших трофея: накопленные шаги, дальность ходьбы и бега, путешествия, Луна, привычка, скорость, охота, коллекция обликов, страны и континенты.</li>
+<li data-note="N08">10 медалей Израиля: Стена Плача, Масада, Швиль Исраэль, стены Старого города, Мёртвое море, Эйн-Геди, Цфат, Кинерет, Зал Независимости и Метулла — Эйлат; учитываются свои записанные тренировки.</li>
+<li data-note="N09">Лист «Как получить» с картой, расстоянием и прогрессом; ряд «Скоро получишь» показывает ближайшие награды.</li>
+<li data-note="N10">История медали: когда, где и за какую тренировку получена награда, с числами и переходом к исходной тренировке, в том числе из итога недели.</li>
+</ul>
+<h3>Итоги и карточки</h3>
+<ul>
+<li data-note="N11">Новый итог тренировки: карта во всю ширину, маршрут по темпу, до пяти меток, легенда, равные ячейки, достижения, километры, пульсовые зоны и ощущения.</li>
+<li data-note="N12">События гонки с тенью и охоты сохраняются с местом на треке: обгоны, отрыв, поимки, побеги, щит и находки; в итоге — полосы кругов и погони.</li>
+<li data-note="N13">Вертикальные карточки 9:16 для тренировки, рекорда и трофея: маршрут, медаль, облик и основные числа в общем стиле.</li>
+<li data-note="N14">Выбор картинки или пятисекундного видео для карточек тренировки, рекорда и трофея; ролик собирается на телефоне и открывает системное «Поделиться».</li>
+<li data-note="N15">Название города или места старта на итоге тренировки и карточке определяется офлайн.</li>
+</ul>
+<h3>Твой год</h3>
+<ul>
+<li data-note="N16">Восемь страниц «Твоего года пока»: ходьба, бег, привычка или вес, рекорды, места, награды, охота с тенью и итоговая карточка — из своих данных.</li>
+<li data-note="N17">Итог года можно отправить картинкой или видео всех страниц с общей мягкой гитарной музыкой, без выбора языка озвучки.</li>
+<li data-note="N18">Итог открывается после наград; в «Истории» есть лаймовая строка с закрытием, затем обычная строка на 30 дней; с 25 декабря начинается новый период.</li>
+</ul>
+<h3>Высота и подъёмы</h3>
+<ul>
+<li data-note="N19">Высота, набор и спуск: датчик давления при наличии, сглаженный GPS без него; данные сохраняются с тренировкой.</li>
+<li data-note="N20">Круг запоминает профиль подъёмов по своим полным кругам: один с барометром или минимум три с GPS; на странице круга — профиль и метки на карте.</li>
+<li data-note="N21">Подъёмы выделены цветом на линии круга на «Старте», странице круга и карте тренировки.</li>
+<li data-note="N22">Компактная карточка круга показывает число подъёмов и набор: «2 подъёма · +40 м», сохраняя прежнюю высоту и место карте.</li>
+<li data-note="N23">Подъёмы нарисованного круга известны ещё до первой пробежки по доступному рельефу; после своих кругов измеренный профиль заменяет оценку.</li>
+</ul>
+<h3>Голоса и звуки</h3>
+<ul>
+<li data-note="N24">Подсказки интервалов: следующий бег или шаг, отсчёт 10/5/3 секунды либо сигнал, длительность отрезка, оставшееся время, последний бег и заминка.</li>
+<li data-note="N25">Голос предупреждает о подъёме примерно за 200 м, отдельно называет набор и сообщает о вершине; подсказки интервалов сохраняют приоритет.</li>
+<li data-note="N26">Восемь звуков получения трофеев, звания и обликов по уровню; переключатель «Звуки наград», учёт беззвучного режима и речи тренировки.</li>
+</ul>
+<h3>Вес, пульс и настройки</h3>
+<ul>
+<li data-note="N27">Еда и вес рядом на «Сегодня» и «Цели»: ккал и бюджет плана, последний вес и изменение за семь дней; рядом серия с твоей личной дневной целью шагов.</li>
+<li data-note="N28">Выбранный BLE-пульсометр подключается при старте тренировки и восстанавливает связь после разрыва; пульс сохраняется в тренировке.</li>
+<li data-note="N29">Через 25 секунд без пульса появляется подсказка; сердечко с линией бьётся в ритме только свежего живого замера.</li>
+<li data-note="N30">Настройки тренировки приведены к общему стилю: короткая страница полей и выбор отсчёта в листе интервалов.</li>
+<li data-note="N31">Оценка калорий ходьбы учитывает скорость, а план — собственный темп; план и тренировка используют общую модель движения.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="ru-0-20-latest"><h2 id="ru-0-20-latest">Дополнения и последние исправления</h2>
+<h3>Дистанция, круги и шаги</h3>
+<ul>
+<li data-note="A01">Дистанция считается по сглаженным точкам GPS: исправлено занижение при ходьбе примерно на 10 % на некоторых телефонах.</li>
+<li data-note="A02">Круги засчитываются и при первой точке чуть за стартом, и при остановке у финиша: 3 из 3, а время тени совпадает со временем первого круга.</li>
+<li data-note="A03">Везде одна личная дневная цель шагов. План больше не прибавляет и не вычитает шаги из неё: день плана оценивается по минутам, а цель меняется только по твоему выбору.</li>
+</ul>
+<h3>Карты и рельеф</h3>
+<ul>
+<li data-note="A04">Обновлена карта: MapLibre 13.7.1.</li>
+<li data-note="A05">На всех картах компактная подпись «© OpenMapTiles © OpenStreetMap»; касание открывает полный список источников карты и рельефа с понятными русскими подписями.</li>
+<li data-note="A06">Метки показывают, где начинается и заканчивается подъём или спуск. Касание выделяет участок фиолетовым пунктиром; цвета ходьбы и бега остаются видны.</li>
+<li data-note="A07">Вместо большой карточки подъёма или спуска — компактная полупрозрачная плашка с длиной, набором или спуском и уклоном; повторное касание закрывает её.</li>
+<li data-note="A08">Набор высоты виден уже при рисовании. Страница любого круга показывает профиль по карте высот, даже до первой тренировки; уточнение подъёма по рельефу снова работает и в GPS-тренировках.</li>
+<li data-note="A09">Карта сохраняет выбранные наклон и масштаб при рисовании, сохранении и выборе подъёма. Под «Найди меня» есть кнопка 2D/3D, а рельеф в предпросмотре отображается точнее.</li>
+<li data-note="A10">Маленькая и большая карты страницы круга снова вписывают весь круг; кнопка 2D/3D круглая с первого кадра и не перекрывает статус GPS.</li>
+<li data-note="A11">«Слабый GPS» и другие статусы на «Старте» — небольшие плашки с эффектом матового стекла и белым текстом между обликом и «Найди меня».</li>
+</ul>
+<h3>Настройки тренировки</h3>
+<ul>
+<li data-note="A12">На короткой странице «Тренировка» — только поля экрана в двух колонках, без дублирующих настроек. При шрифте 200 % длинные подписи занимают две строки, ряды одинаковой высоты.</li>
+<li data-note="A13">«Отсчёт в интервалах» теперь в «Темп → Интервалы»: выбор 10, 5 или 3 секунд либо «Сигнал».</li>
+<li data-note="A14">«Назад» со страниц «Тренировка» и «Карта», открытых со «Старта», возвращает в «Настройки записи».</li>
+</ul>
+<h3>План и прогноз</h3>
+<ul>
+<li data-note="A15">Темп снижения веса выбираешь самостоятельно. Выше 0,65 % текущего веса в неделю появляется предупреждение; расчёт не допускает больше 1 кг в неделю и питание ниже порогов 1200/1350/1500 ккал.</li>
+<li data-note="A16">Каждая доступная ступень дефицита меняет бюджет еды. Сразу под быстрым вариантом — заметная карточка «Быстрее, чем мы советуем» с твоими числами.</li>
+<li data-note="A17">Изменение дней плана сохраняется после выхода и перезапуска. Ближайшие недели, прогноз веса и дата цели пересчитываются прямо во время редактирования, ещё до сохранения.</li>
+</ul>
+<h3>Текст и экран «Старт»</h3>
+<ul>
+<li data-note="A18">На иврите минус остаётся слева от числа: «−500», а смешанный текст и номера версий сохраняют правильное направление.</li>
+<li data-note="A19">На плашке спуска вместо вопросительного знака показан настоящий минус.</li>
+<li data-note="A20">Уведомление шагов стало нагляднее: наши значки шагов, молнии и секундомера, крупнее цифры и толще полоса прогресса.</li>
+<li data-note="A21">Облик и «Найди меня» на «Старте» стоят на той же высоте, что на остальных вкладках, и больше не прыгают при переключении.</li>
+</ul>
+<h3>Батарея и разрешения</h3>
+<ul>
+<li data-note="A22">Снижены лишние затраты батареи и памяти: голос и датчик шагов освобождаются вовремя, фоновые опросы экрана останавливаются, а ручная пауза больше не удерживает процессор активным.</li>
+<li data-note="A23">После отказа в доступе Health Connect можно сразу открыть его настройки; при возврате разрешения проверяются заново.</li>
+<li data-note="A24">«Сохранять разрешения, когда не используется» показывает реальное системное состояние, в том числе на Samsung.</li>
+</ul>
+<h3>Итоги и доступность</h3>
+<ul>
+<li data-note="A25">Итог года не открывается поверх вопроса о ночных отчётах или после первой прогулки: для автоматического показа нужны хотя бы три тренировки или семь дней шагов.</li>
+<li data-note="A26">Сеансы других приложений — только справочная информация без маршрута и без наград, рекордов, очков и зачёта целей. При обновлении итоги пересчитываются, свои тренировки сохраняются; шаги и вес из Health Connect остаются.</li>
+<li data-note="A27">Из списка ивритских дикторов убран один голос; при его прежнем выборе включается Яэль.</li>
+<li data-note="A28">Улучшен TalkBack: назначение кнопок, подписи полос кругов и подсказка долгого нажатия на снаряжение.</li>
+<li data-note="A29">Разделители в итоге тренировки стоят между видимыми ячейками и больше не пересекают числа, когда ячеек только две.</li>
+</ul>
+<h3>Приватность и другие правки</h3>
+<ul>
+<li data-note="A30">Обновлены политика, условия и согласие на ночные отчёты: отправка только в бете и по отдельному согласию, удаление после разбора, остановка очереди после отказа или конца беты. Отправка через мобильную сеть — только после двух суток без Wi-Fi.</li>
+<li data-note="A31">Уточнены предупреждения о нагрузке, необязательность учёта калорий и ориентировочный характер прогнозов; отображаемый темп снижения веса округляется вниз.</li>
+<li data-note="A32">Имя экспорта GPX и английское напоминание о неделе используют название Ritza.</li>
+<li data-note="A33">Иллюстрации занимают меньше места; убраны неиспользуемые элементы и обновлён список лицензий и источников.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="ru-0-20-fixed"><h2 id="ru-0-20-fixed">Исправлено</h2>
+<h3>Голоса, облики и итог года</h3>
+<ul>
+<li data-note="F01">Две ивритские реплики о первом круге тени произносят הצל правильно.</li>
+<li data-note="F02">Карточка круга снова сохраняет высоту 0.11, а профиль перенесён на страницу круга.</li>
+<li data-note="F03">Тексты и перезаписанные русские и ивритские реплики используют «мы» или нейтральные формы без приписывания пола.</li>
+<li data-note="F04">Заголовок годового итога помещается при шрифте 200 %.</li>
+<li data-note="F05">При обновлении с 0.11 момент получения бобра беты больше не считается уже просмотренным.</li>
+</ul>
+<h3>Языки и подписи</h3>
+<ul>
+<li data-note="F06">Стрелки назад и переходов на иврите направлены правильно.</li>
+<li data-note="F07">Большая дистанция в «Истории» видна целиком, в том числе на иврите и с крупным шрифтом.</li>
+<li data-note="F08">Английские «With shadow» и пояснение круга не обрезают текст и время.</li>
+<li data-note="F09">Плашка Health Connect на «Сегодня» сохраняет целые слова при крупном шрифте.</li>
+<li data-note="F10">Короткая ивритская подпись «ימים» помещается над числом на карточке облика.</li>
+<li data-note="F11">Подписи карточек на иврите стоят над своими значениями в картинках и видео.</li>
+<li data-note="F12">В ивритской озвучке «וחצי» идёт сразу после числа: «חמש וחצי דקות».</li>
+<li data-note="F13">Предупреждение о подъёме разделяет расстояние до него и высоту набора.</li>
+</ul>
+<h3>Графики, треки и подсказки</h3>
+<ul>
+<li data-note="F14">Километровый график не падает в узком окне с крупным шрифтом и при смене числа столбцов.</li>
+<li data-note="F15">Автосохранение длинных тренировок и пульса меньше мешает работе экрана.</li>
+<li data-note="F16">Картинки и видео не соединяют ложной линией отдельные отрезки через разрыв GPS.</li>
+<li data-note="F17">Геометрия маршрута и меток на карточке не отражается зеркально при выборе иврита.</li>
+<li data-note="F18">Подсказка плана прямо говорит не урезать еду сильнее и больше не допускает противоположного прочтения.</li>
+<li data-note="F19">Уточнены единицы минут и кг, формы чисел и направление смешанного текста в русских, английских и ивритских строках.</li>
+</ul>
+<h3>Награды и сохранение</h3>
+<ul>
+<li data-note="F20">Награды ждут закрытия итога, окончания речи и первой настройки вместо появления поверх них.</li>
+<li data-note="F21">Правки линии круга и связи тренировок сохраняются согласованно, в том числе при ошибке.</li>
+<li data-note="F22">Удаление старой тренировки учитывает её запись шагов 0.11 в Health Connect и сохраняет очередь повторной очистки при недоступном доступе.</li>
+<li data-note="F23">Просмотр прошлой даты больше не открывает редактор еды, который записывал данные относительно неверного «сегодня».</li>
+<li data-note="F24">Остатки частично перекрытых справочных сеансов Health Connect относятся к правильным дням, в том числе через полночь и смену времени.</li>
+<li data-note="F25">История, недельные итоги и виджет получают одинаковые географические факты для наград и очков.</li>
+</ul>
+<h3>Карта, шаги и отчёты</h3>
+<ul>
+<li data-note="F26">Записанный след виден поверх приглушённого пунктира плана круга.</li>
+<li data-note="F27">После первого полного круга план скрывается, а фактический замкнутый круг остаётся.</li>
+<li data-note="F28">Убраны причины серого экрана при возврате: карта сохраняется, проверка голосов больше не блокирует главный поток.</li>
+<li data-note="F29">Живой след и сохранённый первый круг показывают цвета скорости и не перекрываются следующими кругами.</li>
+<li data-note="F30">Строка серии использует ту же личную дневную цель шагов, что и остальные экраны; план её не меняет.</li>
+<li data-note="F31">Ночной отчёт точнее определяет системный источник шагов телефона.</li>
+<li data-note="F32">Ночной отчёт проверяет время изменения записей шагов за семь дней и отличает ошибку чтения от отсутствия записи.</li>
+</ul>
+<h3>Крупный шрифт и другие правки</h3>
+<ul>
+<li data-note="F33">Ивритский заголовок еды не перекрывает «+» при шрифте 200 %.</li>
+<li data-note="F34">Заголовок часов при крупном шрифте не разрывается внутри слов.</li>
+<li data-note="F35">Расчёт калорий бега в плане и тренировке совпадает: 1,0 ккал/кг/км.</li>
+<li data-note="F36">Русская фраза расстояния до тени естественно звучит «Тень позади тебя в … метрах».</li>
+<li data-note="F37">Заголовок «Маршрут к цели» переносится целиком вместо обрезки при крупном шрифте.</li>
+<li data-note="F38">В «Перенести» подписи дней остаются целыми, с отступами; ячейки недели равны по высоте, а длинный лист прокручивается.</li>
+<li data-note="F39">Новые большие медали визуально совпадают по размеру с соседними медалями 0.11.</li>
+<li data-note="F40">Вкладки «Темп / Интервалы» снова одинаковой высоты.</li>
+<li data-note="F41">Строка «Ходьба 70 / 70 мин» не разрывает число и единицу; при нехватке места переносится вся строка.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="ru-0-20-trophies"><h2 id="ru-0-20-trophies">Все 53 новых больших трофея</h2>
+<ul>
+<li data-note="trophy-1">Шаги и годы — 10: 2/5/10/25/50/100 млн шагов; 1 000 активных дней; 1/2/5 активных лет с Рицей.</li>
+<li data-note="trophy-2">Ходьба и бег — 8: Ходьба: 2 500/5 000/10 000/20 000 км; бег: 2 500/5 000/10 000/15 000 км.</li>
+<li data-note="trophy-3">Путешествия — 14: Тель-Авив — Иерусалим 54 км; Сеул — Пусан 325; Токио — Киото 360; Бангкок — Чиангмай 582; Лондон — Цюрих 776; Берлин — Париж 877; Лондон — Мюнхен 919; Амстердам — Вена 935; Прага — Барселона 1 353; Мадрид — Рим 1 364; Копенгаген — Афины 2 136; Лиссабон — Берлин 2 312; Нью-Йорк — Лос-Анджелес 3 936; вокруг Земли 40 075 км.</li>
+<li data-note="trophy-4">Луна — 3: 0,1 %, 1 % и 10 % среднего расстояния до Луны.</li>
+<li data-note="trophy-5">Привычка и скорость — 2: 52 недели подряд; собственные 5 км быстрее первых на 10 %.</li>
+<li data-note="trophy-6">Охота — 5: 100 000 морковок; 1 000 побегов; 1 000 поимок; 5 000 км охоты; «Две легенды» — по 500 побегов и поимок.</li>
+<li data-note="trophy-7">Коллекция — 3: 5/10/15 заработанных обликов.</li>
+<li data-note="trophy-8">Мир — 8: 5/10/20 стран с тренировками от 5 км в каждой; Европа, Азия, Америка, Африка и Океания.</li>
+</ul>
+</section>
+<a class="back-top" href="#ru">К началу</a>
+</article>
+</section>
+<section id="en" lang="en" dir="ltr" data-release-language>
+<article class="release" aria-labelledby="en-0-20-title">
+<p class="release-meta"><bdi dir="ltr">0.20-beta</bdi> · <time datetime="2026-10-25">25 October 2026</time></p>
+<h1 id="en-0-20-title">Ritza 0.20 — what&#x27;s new</h1>
+<p class="release-intro">A major release after 0.11: earned avatars and trophies, a new workout summary, pictures and videos, a musical year recap and terrain maps. Here is the full list of additions and fixes, including the 24–25 October changes.</p>
+<nav class="release-contents" aria-label="In this release">
+<a href="#en-0-20-new">New</a>
+<a href="#en-0-20-latest">Further additions and latest fixes</a>
+<a href="#en-0-20-fixed">Fixed</a>
+<a href="#en-0-20-trophies">All 53 new big trophies</a>
+</nav>
+<section class="release-category" aria-labelledby="en-0-20-new"><h2 id="en-0-20-new">New</h2>
+<h3>Avatars</h3>
+<ul>
+<li data-note="N01">A collection of 19 earned avatars: conditions, progress, locked/earned views, selection and four tiers — Rare, Epic, Legendary and Mythic.</li>
+<li data-note="N02">Tiered frames: silver and stone, golden glow, wings and crown, holographic colour; four Mythic animals come alive and react to taps.</li>
+<li data-note="N03">A hedgehog for the first million, a kite for a journey in one country, a night fox for 50 workouts after sunset, a hawk for 8,849 m climbed and a Legendary beaver for beta participants; special avatars have matching trophies.</li>
+<li data-note="N04">Unlock moments grow with the tier; earned avatars retain the date, reason and journey to the reward.</li>
+<li data-note="N05">Framed avatars are prominent in headers and Me, with name, rank, points and progress together and edit badges above the frame.</li>
+<li data-note="N06">Share an avatar as a picture or short video with its unlock date, days to the reward, collection and saved place or loop.</li>
+</ul>
+<h3>Trophies and medals</h3>
+<ul>
+<li data-note="N07">53 new big trophies for lifetime steps, walking/running distance, journeys, the Moon, habit, speed, hunt, avatar collection, countries and continents.</li>
+<li data-note="N08">10 Israel medals: Western Wall, Masada, Israel Trail, Old City walls, Dead Sea, Ein Gedi, Tzfat, Kinneret, Independence Hall and Metula–Eilat, based on Ritza-recorded workouts.</li>
+<li data-note="N09">A How to earn sheet with map, distance and progress, plus a Nearly there row for upcoming rewards.</li>
+<li data-note="N10">Medal history shows when, where and which workout earned it, with figures and a link to that workout, including from the weekly recap.</li>
+</ul>
+<h3>Summaries and sharing</h3>
+<ul>
+<li data-note="N11">A redesigned workout summary with full-width pace-coloured map, up to five markers, legend, equal cells, achievements, kilometres, heart-rate zones and effort.</li>
+<li data-note="N12">Shadow-race and hunt events retain their position on the track — passes, gaps, catches, escapes, shields and finds — with lap and chase timelines in the summary.</li>
+<li data-note="N13">Portrait 9:16 cards for workouts, records and trophies, with route, medal, avatar and key figures in one style.</li>
+<li data-note="N14">Choose a picture or five-second video for workout, record and trophy cards; videos are made on the phone and use the system share sheet.</li>
+<li data-note="N15">The workout summary and card show the starting town or locality using an offline lookup.</li>
+</ul>
+<h3>Your year</h3>
+<ul>
+<li data-note="N16">Eight Your year so far pages cover walking, running, habit or weight, records, places, rewards, hunt/shadow and a final card, from the saved personal data.</li>
+<li data-note="N17">Share the year recap as a picture or a video of all pages with gentle guitar music, independent of narration language.</li>
+<li data-note="N18">The recap opens after rewards; History has a dismissible lime row, then an ordinary row for 30 days, with a new period from 25 December.</li>
+</ul>
+<h3>Elevation and climbs</h3>
+<ul>
+<li data-note="N19">Altitude, ascent and descent use the pressure sensor when available and smoothed GPS otherwise, and are saved with the workout.</li>
+<li data-note="N20">A loop learns its climb profile from complete laps: one with a barometer or at least three with GPS, with an elevation profile and map markers.</li>
+<li data-note="N21">Climbs are highlighted in colour on the loop line on Start, the loop page and the workout map.</li>
+<li data-note="N22">The compact loop card shows climb count and gain, “2 climbs · +40 m”, while preserving its height and map space.</li>
+<li data-note="N23">A drawn loop can show climbs before the first run from available terrain data; recorded laps later replace the estimate with measurements.</li>
+</ul>
+<h3>Voice cues and sounds</h3>
+<ul>
+<li data-note="N24">Interval cues cover the next run/walk, 10/5/3-second countdown or signal, segment duration, remaining time, the last run and cooldown.</li>
+<li data-note="N25">Voice cues announce a climb about 200 m ahead, state its gain separately and mark the top; interval cues keep priority.</li>
+<li data-note="N26">Eight tiered trophy, rank and avatar unlock sounds, with a Reward sounds switch and respect for silent mode and workout speech.</li>
+</ul>
+<h3>Weight, heart rate and settings</h3>
+<ul>
+<li data-note="N27">Food and weight sit together on Today and Goal: calories, plan allowance, latest weight and seven-day change, alongside the streak and your personal daily step goal.</li>
+<li data-note="N28">The selected BLE heart-rate sensor connects at workout start and reconnects after a drop; readings are saved with the workout.</li>
+<li data-note="N29">A hint appears after 25 seconds without a pulse reading; the heart with a pulse line beats only to fresh live readings.</li>
+<li data-note="N30">Workout settings share one style, with a short fields page and countdown choices in the interval sheet.</li>
+<li data-note="N31">Walking calorie estimates account for speed and the plan uses personal pace; plan and workout share the movement model.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="en-0-20-latest"><h2 id="en-0-20-latest">Further additions and latest fixes</h2>
+<h3>Distance, laps and steps</h3>
+<ul>
+<li data-note="A01">Distance uses smoothed GPS positions, fixing walking distances that were about 10% short on some phones.</li>
+<li data-note="A02">Laps count when the first GPS fix is just past the start and when stopping near the finish: 3 of 3, with shadow time matching the first lap.</li>
+<li data-note="A03">One personal daily step goal everywhere. The plan no longer adds or subtracts steps from it: plan days use minutes, and the goal changes only when you change it.</li>
+</ul>
+<h3>Maps and terrain</h3>
+<ul>
+<li data-note="A04">The map now uses MapLibre 13.7.1.</li>
+<li data-note="A05">Every map has a small © OpenMapTiles © OpenStreetMap credit; tap it for all map and terrain sources, with clearer Russian wording.</li>
+<li data-note="A06">Climbs and descents have start and summit or bottom markers. Tap to highlight a section with purple dashes while keeping walking and running colours visible.</li>
+<li data-note="A07">A compact translucent pill replaces the large climb or descent card, showing length, gain or descent and grade; tap again to close it.</li>
+<li data-note="A08">Elevation gain appears while drawing. Any loop page shows a terrain-based profile before the first workout; terrain correction for GPS-workout ascent works again.</li>
+<li data-note="A09">The map keeps your tilt and zoom when drawing, saving or selecting a climb. A 2D/3D button sits below recenter, and terrain previews are more accurate.</li>
+<li data-note="A10">The small and full loop-page maps frame the whole loop again; the 2D/3D button is round from the first frame and no longer overlaps GPS status.</li>
+<li data-note="A11">Weak GPS and other Start statuses use small frosted-glass pills with white text between the avatar and recenter button.</li>
+</ul>
+<h3>Workout settings</h3>
+<ul>
+<li data-note="A12">The Workout page is shorter: only screen fields in two columns, without duplicate settings. Long labels use two lines at 200% text size, with equal-height rows.</li>
+<li data-note="A13">Interval countdown is now in Pace → Intervals: choose 10, 5 or 3 seconds, or a signal.</li>
+<li data-note="A14">Back from Workout or Map settings opened on Start returns to Recording settings.</li>
+</ul>
+<h3>Plan and forecast</h3>
+<ul>
+<li data-note="A15">You choose the weight-loss pace. Above 0.65% of current weight per week a warning appears; calculations block more than 1 kg per week and intake below the applicable 1200/1350/1500 kcal floor.</li>
+<li data-note="A16">Each available deficit level changes the food allowance. A prominent Faster than we advise card with your figures appears directly below a faster option.</li>
+<li data-note="A17">Plan-day changes persist after leaving and restarting. Upcoming weeks, projected weight and goal date recalculate while editing, before saving.</li>
+</ul>
+<h3>Text and the Start screen</h3>
+<ul>
+<li data-note="A18">In Hebrew, the minus stays before the digits, as in −500; mixed text and version numbers keep the correct direction.</li>
+<li data-note="A19">The descent pill shows a real minus sign instead of a question mark.</li>
+<li data-note="A20">The steps notification is clearer, with our steps, lightning and stopwatch icons, larger numbers and a thicker progress bar.</li>
+<li data-note="A21">The Start avatar and recenter button align with the other tabs and no longer jump when switching tabs.</li>
+</ul>
+<h3>Battery and permissions</h3>
+<ul>
+<li data-note="A22">Less unnecessary battery and memory use: voice and step sensing release resources on time, background screen polling stops, and manual pause no longer keeps the CPU awake.</li>
+<li data-note="A23">After Health Connect access is denied, its settings can be opened directly; permissions are checked again on return.</li>
+<li data-note="A24">Keep permissions when unused reflects the actual Android setting, including on Samsung.</li>
+</ul>
+<h3>Recaps and accessibility</h3>
+<ul>
+<li data-note="A25">The year recap waits for the nightly-report question and does not open after a first walk: automatic display needs at least three workouts or seven days of steps.</li>
+<li data-note="A26">Other apps’ sessions are information only, without routes, rewards, records, points or goal credit. Upgrade totals recalculate while keeping Ritza workouts; Health Connect steps and weight remain available.</li>
+<li data-note="A27">The Hebrew narrator list was updated; an existing selection of the removed voice switches to Yael.</li>
+<li data-note="A28">TalkBack improvements cover button roles, lap-bar labels and the gear long-press hint.</li>
+<li data-note="A29">Workout-summary dividers sit between the visible cells and no longer cross numbers when only two cells are shown.</li>
+</ul>
+<h3>Privacy and other updates</h3>
+<ul>
+<li data-note="A30">Privacy, terms and nightly-report consent now match the app: beta only, separate opt-in, deletion after review and no queued sends after refusal or the beta ends. Mobile-data fallback waits two days without Wi-Fi.</li>
+<li data-note="A31">Load warnings, optional calorie tracking and the estimated nature of forecasts are clearer; displayed weight-loss pace rounds down.</li>
+<li data-note="A32">GPX export names and the English weekly reminder use the Ritza name.</li>
+<li data-note="A33">Illustrations take less space; unused items were removed and the licence and source lists were updated.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="en-0-20-fixed"><h2 id="en-0-20-fixed">Fixed</h2>
+<h3>Voices, avatars and year recap</h3>
+<ul>
+<li data-note="F01">Two Hebrew first-shadow-lap clips now pronounce הצל correctly.</li>
+<li data-note="F02">The loop card retains its 0.11 height, with the elevation profile on the loop page.</li>
+<li data-note="F03">Text and re-recorded Russian/Hebrew cues use “we” or neutral wording without assigning the listener a gender.</li>
+<li data-note="F04">The year-recap heading fits at 200% text size.</li>
+<li data-note="F05">Upgrading from 0.11 no longer marks the beta-beaver unlock moment as already seen.</li>
+</ul>
+<h3>Languages and labels</h3>
+<ul>
+<li data-note="F06">Hebrew back and navigation arrows point the right way.</li>
+<li data-note="F07">The large History distance stays fully visible, including in Hebrew and with large text.</li>
+<li data-note="F08">English With shadow and the loop explanation no longer clip their text or time.</li>
+<li data-note="F09">The Today Health Connect notice keeps words whole with large text.</li>
+<li data-note="F10">The short Hebrew ימים label fits above the number on the avatar card.</li>
+<li data-note="F11">Hebrew card labels stay above their own values in pictures and videos.</li>
+<li data-note="F12">Hebrew spoken halves follow the number: חמש וחצי דקות.</li>
+<li data-note="F13">Climb warnings distinguish distance to the climb from elevation gain.</li>
+</ul>
+<h3>Charts, tracks and cues</h3>
+<ul>
+<li data-note="F14">The kilometre chart avoids crashes in narrow windows, at large text sizes and when its bar count changes.</li>
+<li data-note="F15">Autosaving long workouts and heart-rate data is less disruptive to the screen.</li>
+<li data-note="F16">Pictures and videos no longer draw false connectors across GPS gaps.</li>
+<li data-note="F17">Choosing Hebrew no longer mirrors the route geometry or geographic markers on a card.</li>
+<li data-note="F18">The plan&#x27;s food advice clearly says not to cut intake further, removing the opposite interpretation.</li>
+<li data-note="F19">Minute/kg units, number forms and mixed-direction text were clarified in Russian, English and Hebrew copy.</li>
+</ul>
+<h3>Rewards and saved data</h3>
+<ul>
+<li data-note="F20">Rewards wait for the summary, speech and first setup to finish instead of covering them.</li>
+<li data-note="F21">Loop-line edits and workout links stay consistent when saving, including on failure.</li>
+<li data-note="F22">Deleting an old workout includes its legacy 0.11 Health Connect step record and retains a retry queue if access is unavailable.</li>
+<li data-note="F23">Viewing a past date no longer opens the food editor with the wrong date treated as today.</li>
+<li data-note="F24">Uncovered parts of overlapping informational Health Connect sessions belong to the correct days, including across midnight and clock changes.</li>
+<li data-note="F25">History, weekly recaps and the widget use the same geographic facts for awards and points.</li>
+</ul>
+<h3>Maps, steps and reports</h3>
+<ul>
+<li data-note="F26">The recorded trail stays visible above the quieter planned loop.</li>
+<li data-note="F27">After the first complete lap, the plan disappears and the recorded closed lap remains.</li>
+<li data-note="F28">Map retention and off-main voice checks address the grey screen when returning to the app.</li>
+<li data-note="F29">The live trail and saved first lap keep pace colours without later laps overwriting them.</li>
+<li data-note="F30">The streak row uses the same personal daily step goal as the other screens; the plan does not change it.</li>
+<li data-note="F31">The nightly report correctly recognises the phone’s system step source.</li>
+<li data-note="F32">The nightly report checks step-record modification time over seven days and distinguishes unreadable data from absent records.</li>
+</ul>
+<h3>Large text and other fixes</h3>
+<ul>
+<li data-note="F33">The Hebrew food heading no longer overlaps the plus button at 200% text size.</li>
+<li data-note="F34">The watch heading no longer breaks inside words at large text sizes.</li>
+<li data-note="F35">Plan and workout running calories agree at 1.0 kcal/kg/km.</li>
+<li data-note="F36">The Russian shadow-distance phrase now naturally says Тень позади тебя в … метрах.</li>
+<li data-note="F37">The Route to goal heading wraps rather than truncating with large text.</li>
+<li data-note="F38">Move-day labels stay whole with padding, week cells share a height and the long sheet scrolls.</li>
+<li data-note="F39">New big-medal artwork is drawn at the same apparent size as adjacent 0.11 medals.</li>
+<li data-note="F40">Pace and Intervals tabs share the same height again.</li>
+<li data-note="F41">The Walk 70 / 70 min legend never splits its figures or unit and moves as a whole when space is tight.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="en-0-20-trophies"><h2 id="en-0-20-trophies">All 53 new big trophies</h2>
+<ul>
+<li data-note="trophy-1">Steps and years — 10: 2/5/10/25/50/100 million steps; 1,000 active days; 1/2/5 active years with Ritza.</li>
+<li data-note="trophy-2">Walking and running — 8: Walk: 2,500/5,000/10,000/20,000 km; run: 2,500/5,000/10,000/15,000 km.</li>
+<li data-note="trophy-3">Journeys — 14: Tel Aviv–Jerusalem 54 km; Seoul–Busan 325; Tokyo–Kyoto 360; Bangkok–Chiang Mai 582; London–Zurich 776; Berlin–Paris 877; London–Munich 919; Amsterdam–Vienna 935; Prague–Barcelona 1,353; Madrid–Rome 1,364; Copenhagen–Athens 2,136; Lisbon–Berlin 2,312; New York–Los Angeles 3,936; around Earth 40,075 km.</li>
+<li data-note="trophy-4">Moon — 3: 0.1%, 1% and 10% of the mean distance to the Moon.</li>
+<li data-note="trophy-5">Habit and speed — 2: 52 consecutive weeks; a full personal 5 km at least 10% faster than the first.</li>
+<li data-note="trophy-6">Hunt — 5: 100,000 carrots; 1,000 escapes; 1,000 catches; 5,000 hunt km; Two Legends with 500 escapes and 500 catches.</li>
+<li data-note="trophy-7">Collection — 3: 5/10/15 earned avatars.</li>
+<li data-note="trophy-8">World — 8: 5/10/20 countries with at least 5 km of workouts in each; Europe, Asia, America, Africa and Oceania.</li>
+</ul>
+</section>
+<a class="back-top" href="#en">Back to top</a>
+</article>
+</section>
+<section id="he" lang="he" dir="rtl" data-release-language>
+<article class="release" aria-labelledby="he-0-20-title">
+<p class="release-meta"><bdi dir="ltr">0.20-beta</bdi> · <time datetime="2026-10-25"><bdi dir="ltr">25</bdi> באוקטובר <bdi dir="ltr">2026</bdi></time></p>
+<h1 id="he-0-20-title">ריצה <bdi dir="ltr">0.20</bdi> — מה חדש</h1>
+<p class="release-intro">גרסה גדולה אחרי ⁨0.11⁩: אווטארים וגביעים להישגים, סיכום אימון חדש, תמונות וסרטונים, סיכום שנה עם מוזיקה ומפות תבליט. זו הרשימה המלאה, כולל התוספות והתיקונים מ־⁨24⁩–⁨25⁩ באוקטובר.</p>
+<nav class="release-contents" aria-label="בעדכון הזה">
+<a href="#he-0-20-new">חדש</a>
+<a href="#he-0-20-latest">תוספות ותיקונים אחרונים</a>
+<a href="#he-0-20-fixed">תוקן</a>
+<a href="#he-0-20-trophies">כל ⁨53⁩ הגביעים הגדולים החדשים</a>
+</nav>
+<section class="release-category" aria-labelledby="he-0-20-new"><h2 id="he-0-20-new">חדש</h2>
+<h3>אווטארים</h3>
+<ul>
+<li data-note="N01">אוסף של ⁨19⁩ אווטארים שמקבלים על הישגים: תנאים, התקדמות, תצוגה נעולה ופתוחה, בחירה וארבע דרגות — נדיר, אפי, אגדי ומיתי.</li>
+<li data-note="N02">מסגרות לפי דרגה: כסף ואבן, זוהר זהוב, כנפיים וכתר, וצבעים הולוגרפיים; ארבע חיות מיתיות מתעוררות לחיים ומגיבות לנגיעה.</li>
+<li data-note="N03">קיפוד למיליון הראשון, דיה למסע במדינה אחת, שועלת לילה ל־⁨50⁩ אימונים אחרי השקיעה, נץ לצבירת ⁨8,849⁩ מ׳ עלייה ובונה אגדי להשתתפות בבטא; לאווטארים המיוחדים יש גביעים תואמים.</li>
+<li data-note="N04">רגע קבלת האווטאר גדל עם הדרגה; נשמרים התאריך, הסיבה והדרך להישג.</li>
+<li data-note="N05">האווטאר עם המסגרת בולט בכותרות וב״אני״; השם, הדרגה, הנקודות וההתקדמות מופיעים יחד, וסימוני העריכה מעל המסגרת.</li>
+<li data-note="N06">אפשר לשתף אווטאר כתמונה או כסרטון קצר, עם תאריך הקבלה, הימים עד להישג, האוסף והמקום או הסיבוב שנשמרו.</li>
+</ul>
+<h3>גביעים ומדליות</h3>
+<ul>
+<li data-note="N07">⁨53⁩ גביעים גדולים חדשים לצעדים מצטברים, מרחקי הליכה וריצה, מסעות, הירח, התמדה, מהירות, ציד, אוסף אווטארים, מדינות ויבשות.</li>
+<li data-note="N08">⁨10⁩ מדליות בישראל: הכותל, מצדה, שביל ישראל, חומות העיר העתיקה, ים המלח, עין גדי, צפת, כנרת, בית העצמאות ומטולה–אילת, לפי אימונים שהוקלטו בריצה.</li>
+<li data-note="N09">דף ״איך מקבלים״ עם מפה, מרחק והתקדמות, ושורת הישגים קרובים לקבלה.</li>
+<li data-note="N10">סיפור המדליה מציג מתי, איפה ובאיזה אימון התקבל ההישג, עם נתונים וקישור לאימון, גם מהסיכום השבועי.</li>
+</ul>
+<h3>סיכומים ושיתוף</h3>
+<ul>
+<li data-note="N11">סיכום אימון בעיצוב חדש: מפה לרוחב המסך, מסלול בצבעי קצב, עד חמישה סימונים, מקרא, תאים שווים, הישגים, קילומטרים, אזורי דופק ותחושה.</li>
+<li data-note="N12">אירועי מרוץ עם הצל וציד נשמרים עם מיקומם במסלול: עקיפות, פערים, תפיסות, בריחות, מגינים ומציאות; בסיכום מופיעים צירי סיבובים ומרדפים.</li>
+<li data-note="N13">כרטיסים אנכיים ביחס ⁨9:16⁩ לאימון, לשיא ולגביע, עם מסלול, מדליה, אווטאר ונתונים מרכזיים בעיצוב משותף.</li>
+<li data-note="N14">בחירה בתמונה או בסרטון של חמש שניות לכרטיסי אימון, שיא וגביע; הסרטון נוצר בטלפון ונשלח דרך חלון השיתוף של המערכת.</li>
+<li data-note="N15">שם העיר או היישוב בנקודת ההתחלה מופיע בסיכום ובכרטיס האימון ונמצא ללא אינטרנט.</li>
+</ul>
+<h3>השנה שלך</h3>
+<ul>
+<li data-note="N16">שמונה עמודים של ״השנה שלך עד עכשיו״: הליכה, ריצה, התמדה או משקל, שיאים, מקומות, הישגים, ציד והצל וכרטיס מסכם — מהנתונים האישיים שנשמרו.</li>
+<li data-note="N17">אפשר לשתף את סיכום השנה כתמונה או כסרטון של כל העמודים עם מוזיקת גיטרה רכה, בלי תלות בשפת הקריינות.</li>
+<li data-note="N18">הסיכום נפתח אחרי ההישגים; ב״היסטוריה״ שורה בירוק ליים שאפשר לסגור, ואחריה שורה רגילה למשך ⁨30⁩ יום; תקופה חדשה מתחילה ב־⁨25⁩ בדצמבר.</li>
+</ul>
+<h3>גובה ועליות</h3>
+<ul>
+<li data-note="N19">גובה, עלייה וירידה מחושבים מברומטר כשקיים, ומ־<bdi dir="ltr">GPS</bdi> מוחלק בהיעדרו, ונשמרים עם האימון.</li>
+<li data-note="N20">הסיבוב לומד את העליות מסיבובים מלאים: אחד עם ברומטר או לפחות שלושה עם <bdi dir="ltr">GPS</bdi>, עם פרופיל גובה וסימונים במפה.</li>
+<li data-note="N21">העליות מודגשות בצבע על קו הסיבוב במסך ״התחלה״, בדף הסיבוב ובמפת האימון.</li>
+<li data-note="N22">כרטיס הסיבוב הקומפקטי מציג את מספר העליות והטיפוס: ״⁨2⁩ עליות · ⁨‎+40⁩ מ׳״, תוך שמירה על גובהו ועל המקום למפה.</li>
+<li data-note="N23">אפשר לראות עליות בסיבוב שצויר עוד לפני הריצה הראשונה לפי נתוני תבליט זמינים; בהמשך המדידות מהסיבובים מחליפות את ההערכה.</li>
+</ul>
+<h3>הנחיות וצלילים</h3>
+<ul>
+<li data-note="N24">הנחיות לאינטרוולים: הריצה או ההליכה הבאה, ספירה לאחור של ⁨10/5/3⁩ שניות או צליל, משך המקטע, הזמן שנותר, הריצה האחרונה ושחרור.</li>
+<li data-note="N25">הקול מודיע על עלייה כ־⁨200⁩ מ׳ מראש, מציין בנפרד את הטיפוס ומודיע על סיום העלייה; להנחיות האינטרוולים נשמרת עדיפות.</li>
+<li data-note="N26">שמונה צלילים לקבלת גביעים, דרגות ואווטארים לפי רמה; מתג ״צלילי פרסים״ והתחשבות במצב שקט ובהנחיות האימון.</li>
+</ul>
+<h3>משקל, דופק והגדרות</h3>
+<ul>
+<li data-note="N27">אוכל ומשקל יחד ב״היום״ וב״יעד״: קלוריות ותקציב התוכנית, משקל אחרון ושינוי בשבעה ימים, לצד הרצף ויעד הצעדים היומי האישי שלנו.</li>
+<li data-note="N28">חיישן הדופק שנבחר מתחבר ב־<bdi dir="ltr">BLE</bdi> בתחילת האימון ומתחבר מחדש אחרי ניתוק; המדידות נשמרות עם האימון.</li>
+<li data-note="N29">אחרי ⁨25⁩ שניות ללא מדידת דופק מופיעה הנחיה; הלב עם קו הדופק פועם רק לפי מדידות חיות ועדכניות.</li>
+<li data-note="N30">הגדרות האימון בעיצוב אחיד: דף שדות קצר ובחירת ספירה לאחור בחלון האינטרוולים.</li>
+<li data-note="N31">הערכת הקלוריות בהליכה מתחשבת במהירות, והתוכנית בקצב האישי; התוכנית והאימון משתמשים באותו מודל תנועה.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="he-0-20-latest"><h2 id="he-0-20-latest">תוספות ותיקונים אחרונים</h2>
+<h3>מרחק, סיבובים וצעדים</h3>
+<ul>
+<li data-note="A01">המרחק מחושב לפי נקודות <bdi dir="ltr">GPS</bdi> מוחלקות; תוקן חוסר של כ־⁨10%⁩ במרחק ההליכה בחלק מהטלפונים.</li>
+<li data-note="A02">הסיבובים נספרים גם כשהמיקום הראשון מעט אחרי קו הזינוק וכשעוצרים ליד הסיום: ⁨3⁩ מתוך ⁨3⁩, וזמן הצל תואם לזמן הסיבוב הראשון.</li>
+<li data-note="A03">יעד צעדים יומי אישי אחד בכל המסכים. התוכנית כבר אינה מוסיפה לו צעדים או מפחיתה ממנו; ימי התוכנית נמדדים בדקות, והיעד משתנה רק מבחירה שלנו.</li>
+</ul>
+<h3>מפות ותבליט</h3>
+<ul>
+<li data-note="A04">המפה עודכנה ל־<bdi dir="ltr">MapLibre</bdi> ⁨13.7.1⁩.</li>
+<li data-note="A05">בכל מפה מופיע קרדיט קטן: © <bdi dir="ltr">OpenMapTiles</bdi> © <bdi dir="ltr">OpenStreetMap</bdi>. נגיעה פותחת את כל מקורות המפה והתבליט; הניסוח ברוסית הובהר.</li>
+<li data-note="A06">לעליות ולירידות יש סימוני התחלה ופסגה או תחתית. נגיעה מדגישה את המקטע בקו סגול מקווקו, בלי להסתיר את צבעי ההליכה והריצה.</li>
+<li data-note="A07">במקום כרטיס גדול לעלייה או לירידה מופיעה תווית שקופה למחצה עם אורך, הפרש גובה ושיפוע; נגיעה חוזרת סוגרת אותה.</li>
+<li data-note="A08">הטיפוס מוצג כבר בזמן ציור הסיבוב. בכל דף סיבוב יש פרופיל לפי מפת הגבהים גם לפני האימון הראשון; תיקון הטיפוס לפי התבליט חזר לפעול גם באימוני <bdi dir="ltr">GPS</bdi>.</li>
+<li data-note="A09">המפה שומרת על ההטיה והזום שבחרנו בזמן ציור, שמירה ובחירת עלייה. כפתור ⁨2D/3D⁩ נמצא מתחת לכפתור המיקום, ותצוגת התבליט מדויקת יותר.</li>
+<li data-note="A10">המפה הקטנה והמפה המלאה בדף הסיבוב שוב מציגות את כל הסיבוב; כפתור ⁨2D/3D⁩ עגול מהרגע הראשון ואינו חופף למצב ה־<bdi dir="ltr">GPS</bdi>.</li>
+<li data-note="A11">קליטת <bdi dir="ltr">GPS</bdi> חלשה ושאר המצבים במסך ״התחלה״ מופיעים בתוויות קטנות במראה זכוכית חלבית, עם טקסט לבן בין האווטאר לכפתור המיקום.</li>
+</ul>
+<h3>הגדרות האימון</h3>
+<ul>
+<li data-note="A12">דף ״אימון״ קצר יותר: רק שדות המסך בשתי עמודות, ללא הגדרות כפולות. בגופן בגודל ⁨200%⁩ תוויות ארוכות מוצגות בשתי שורות, והשורות שוות בגובהן.</li>
+<li data-note="A13">הספירה לאחור באינטרוולים נמצאת כעת ב״קצב״ ← ״אינטרוולים״: ⁨10⁩, ⁨5⁩ או ⁨3⁩ שניות, או צליל.</li>
+<li data-note="A14">חזרה מהגדרות ״אימון״ או ״מפה״ שנפתחו ממסך ״התחלה״ מחזירה להגדרות ההקלטה.</li>
+</ul>
+<h3>תוכנית ותחזית</h3>
+<ul>
+<li data-note="A15">קצב הירידה במשקל הוא לבחירתנו. מעל ⁨0.65%⁩ מהמשקל הנוכחי בשבוע מופיעה אזהרה; החישוב חוסם קצב העולה על ⁨1⁩ ק״ג בשבוע וצריכה מתחת לסף המתאים של ⁨1200/1350/1500⁩ קלוריות.</li>
+<li data-note="A16">כל דרגת גירעון זמינה משנה את תקציב האוכל. מתחת לאפשרות המהירה מופיע כרטיס אזהרה בולט, ״קצב מהיר מהמומלץ״, עם הנתונים שלנו.</li>
+<li data-note="A17">שינוי ימי התוכנית נשמר גם אחרי יציאה והפעלה מחדש. השבועות הקרובים, תחזית המשקל ותאריך היעד מתעדכנים תוך כדי עריכה, עוד לפני השמירה.</li>
+</ul>
+<h3>טקסט ומסך ההתחלה</h3>
+<ul>
+<li data-note="A18">בעברית סימן המינוס נשאר משמאל לספרות: ⁨‎−500⁩; טקסט משולב ומספרי גרסאות מוצגים בכיווניות הנכונה.</li>
+<li data-note="A19">בתווית הירידה מוצג סימן מינוס אמיתי במקום סימן שאלה.</li>
+<li data-note="A20">התראת הצעדים ברורה יותר: סמלי הצעדים, הברק ושעון העצר שלנו, מספרים גדולים יותר ופס התקדמות עבה יותר.</li>
+<li data-note="A21">האווטאר וכפתור המיקום במסך ״התחלה״ מיושרים עם שאר הלשוניות ואינם קופצים במעבר ביניהן.</li>
+</ul>
+<h3>סוללה והרשאות</h3>
+<ul>
+<li data-note="A22">צומצם שימוש מיותר בסוללה ובזיכרון: משאבי הקול וחיישן הצעדים משתחררים בזמן, עדכוני המסך ברקע נעצרים והשהיה ידנית אינה משאירה את המעבד ער.</li>
+<li data-note="A23">אחרי סירוב להרשאת <bdi dir="ltr">Health Connect</bdi> אפשר לפתוח ישירות את ההגדרות שלו; ההרשאות נבדקות שוב בחזרה לאפליקציה.</li>
+<li data-note="A24">ההגדרה לשמירת הרשאות כשהאפליקציה אינה בשימוש מציגה את המצב האמיתי ב־<bdi dir="ltr">Android</bdi>, גם ב־<bdi dir="ltr">Samsung</bdi>.</li>
+</ul>
+<h3>סיכומים ונגישות</h3>
+<ul>
+<li data-note="A25">סיכום השנה אינו נפתח מעל השאלה על דוחות ליליים או אחרי ההליכה הראשונה: לפתיחה אוטומטית נדרשים לפחות שלושה אימונים או שבעה ימי צעדים.</li>
+<li data-note="A26">פעילויות מאפליקציות אחרות הן מידע בלבד, בלי מסלול, הישגים, שיאים, נקודות או התקדמות ביעדים. בשדרוג הסיכומים מחושבים מחדש ואימוני ריצה נשמרים; צעדים ומשקל מ־<bdi dir="ltr">Health Connect</bdi> נשארים זמינים.</li>
+<li data-note="A27">עודכנה רשימת הקולות בעברית; בחירה בקול שהוסר מוחלפת ביעל.</li>
+<li data-note="A28">שופרה הנגישות ב־<bdi dir="ltr">TalkBack</bdi>: תפקידי כפתורים, תוויות פסי הסיבובים והסבר ללחיצה ממושכת על ציוד.</li>
+<li data-note="A29">המפרידים בסיכום האימון נמצאים בין התאים המוצגים ואינם חוצים מספרים כשמופיעים רק שני תאים.</li>
+</ul>
+<h3>פרטיות ועדכונים נוספים</h3>
+<ul>
+<li data-note="A30">עודכנו הפרטיות, התנאים וההסכמה לדוחות ליליים: רק בבטא ובהסכמה נפרדת, מחיקה אחרי בדיקה ועצירת התור אחרי סירוב או סיום הבטא. שליחה ברשת סלולרית מתאפשרת רק אחרי יומיים ללא <bdi dir="ltr">Wi-Fi</bdi>.</li>
+<li data-note="A31">הובהרו אזהרות העומס, הבחירה אם לעקוב אחרי קלוריות והעובדה שהתחזיות הן הערכות; קצב הירידה במשקל המוצג מעוגל כלפי מטה.</li>
+<li data-note="A32">שם קובץ ה־<bdi dir="ltr">GPX</bdi> והתזכורת השבועית באנגלית משתמשים בשם <bdi dir="ltr">Ritza</bdi>.</li>
+<li data-note="A33">האיורים תופסים פחות מקום; הוסרו רכיבים שאינם בשימוש ועודכנו רשימות הרישיונות והמקורות.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="he-0-20-fixed"><h2 id="he-0-20-fixed">תוקן</h2>
+<h3>קולות, אווטארים וסיכום השנה</h3>
+<ul>
+<li data-note="F01">שתי ההקלטות בעברית על הסיבוב הראשון של הצל מבטאות הצל נכון.</li>
+<li data-note="F02">כרטיס הסיבוב שומר על גובהו מ־⁨0.11⁩, ופרופיל הגובה נמצא בדף הסיבוב.</li>
+<li data-note="F03">הטקסטים וההקלטות המחודשות ברוסית ובעברית משתמשים ב״אנחנו״ או בניסוח ניטרלי ללא שיוך מגדר.</li>
+<li data-note="F04">כותרת סיכום השנה נכנסת גם בגופן בגודל ⁨200%⁩.</li>
+<li data-note="F05">בשדרוג מ־⁨0.11⁩ רגע קבלת הבונה של הבטא כבר אינו מסומן כאילו כבר הוצג.</li>
+</ul>
+<h3>שפות ותוויות</h3>
+<ul>
+<li data-note="F06">חיצי החזרה והניווט בעברית פונים לכיוון הנכון.</li>
+<li data-note="F07">המרחק הגדול ב״היסטוריה״ מוצג במלואו, גם בעברית ובגופן גדול.</li>
+<li data-note="F08">הכיתוב באנגלית <bdi dir="ltr">With shadow</bdi> והסבר הסיבוב אינם חותכים טקסט או זמן.</li>
+<li data-note="F09">הודעת <bdi dir="ltr">Health Connect</bdi> ב״היום״ שומרת על מילים שלמות בגופן גדול.</li>
+<li data-note="F10">התווית הקצרה ״ימים״ נכנסת מעל המספר בכרטיס האווטאר.</li>
+<li data-note="F11">התוויות בכרטיסים בעברית נמצאות מעל הערכים שלהן בתמונות ובסרטונים.</li>
+<li data-note="F12">בקריינות בעברית ״וחצי״ בא מיד אחרי המספר: ״חמש וחצי דקות״.</li>
+<li data-note="F13">ההודעה על עלייה מפרידה בין המרחק אליה לבין הטיפוס בגובה.</li>
+</ul>
+<h3>גרפים, מסלולים והנחיות</h3>
+<ul>
+<li data-note="F14">גרף הקילומטרים אינו קורס בחלון צר, בגופן גדול או בשינוי מספר העמודות.</li>
+<li data-note="F15">השמירה האוטומטית של אימונים ארוכים ונתוני דופק פחות מפריעה לפעולת המסך.</li>
+<li data-note="F16">תמונות וסרטונים אינם מחברים קטעים נפרדים בקו שגוי דרך הפסקת <bdi dir="ltr">GPS</bdi>.</li>
+<li data-note="F17">בחירה בעברית אינה הופכת את צורת המסלול או את הסימונים הגאוגרפיים בכרטיס.</li>
+<li data-note="F18">הנחיית האוכל בתוכנית אומרת בבירור לא לצמצם עוד את האכילה, בלי משמעות הפוכה.</li>
+<li data-note="F19">הובהרו יחידות דקות וק״ג, צורות מספרים וכיווניות טקסט משולב ברוסית, באנגלית ובעברית.</li>
+</ul>
+<h3>הישגים ושמירת נתונים</h3>
+<ul>
+<li data-note="F20">הישגים ממתינים לסגירת הסיכום, לסיום ההנחיות ולהגדרה הראשונה במקום להופיע מעליהם.</li>
+<li data-note="F21">עריכת קו הסיבוב וקישורי האימונים נשמרים בתיאום, גם במקרה של תקלה.</li>
+<li data-note="F22">מחיקת אימון ישן כוללת את רשומת הצעדים שלו מ־⁨0.11⁩ ב־<bdi dir="ltr">Health Connect</bdi> ושומרת תור לניסיון מחיקה נוסף אם הגישה חסרה.</li>
+<li data-note="F23">צפייה בתאריך קודם אינה פותחת עוד את עורך האוכל עם תאריך שגוי בתור ״היום״.</li>
+<li data-note="F24">חלקים לא מכוסים של פעילויות מידע חופפות מ־<bdi dir="ltr">Health Connect</bdi> משויכים לימים הנכונים, גם בחצות ובשינוי שעון.</li>
+<li data-note="F25">ההיסטוריה, הסיכומים השבועיים והווידג׳ט משתמשים באותן עובדות גאוגרפיות להישגים ולנקודות.</li>
+</ul>
+<h3>מפות, צעדים ודוחות</h3>
+<ul>
+<li data-note="F26">המסלול שהוקלט נראה מעל הקו המקווקו והמעומעם של הסיבוב המתוכנן.</li>
+<li data-note="F27">אחרי הסיבוב המלא הראשון התכנון נעלם והסיבוב הסגור שהוקלט נשאר.</li>
+<li data-note="F28">שמירת המפה ובדיקת הקולות מחוץ לתהליכון הראשי מטפלות במסך האפור בחזרה לאפליקציה.</li>
+<li data-note="F29">המסלול החי והסיבוב הראשון שנשמר שומרים על צבעי הקצב בלי שסיבובים מאוחרים יכסו אותם.</li>
+<li data-note="F30">שורת הרצף משתמשת באותו יעד צעדים יומי אישי כמו שאר המסכים; התוכנית אינה משנה אותו.</li>
+<li data-note="F31">הדוח הלילי מזהה נכון את מקור הצעדים המערכתי של הטלפון.</li>
+<li data-note="F32">הדוח הלילי בודק את זמן שינוי רשומות הצעדים בשבעה ימים ומבדיל בין נתונים שאינם קריאים לבין היעדר רשומות.</li>
+</ul>
+<h3>גופן גדול ותיקונים נוספים</h3>
+<ul>
+<li data-note="F33">כותרת האוכל בעברית אינה חופפת לכפתור ״+״ בגופן בגודל ⁨200%⁩.</li>
+<li data-note="F34">כותרת השעונים אינה נשברת באמצע מילים בגופן גדול.</li>
+<li data-note="F35">חישוב קלוריות הריצה בתוכנית ובאימון תואם: ⁨1.0⁩ קק״ל לק״ג לק״מ.</li>
+<li data-note="F36">הניסוח ברוסית של המרחק מהצל נשמע טבעי: Тень позади тебя в … метрах.</li>
+<li data-note="F37">כותרת המסלול ליעד עוברת שורה במקום להיחתך בגופן גדול.</li>
+<li data-note="F38">במסך ההעברה שמות הימים נשארים שלמים עם שוליים, תאי השבוע שווים בגובהם והדף הארוך נגלל.</li>
+<li data-note="F39">האיורים החדשים של המדליות מוצגים בגודל חזותי תואם למדליות הסמוכות מ־⁨0.11⁩.</li>
+<li data-note="F40">לשוניות הקצב והאינטרוולים שוב באותו גובה.</li>
+<li data-note="F41">שורת ההליכה ⁨70⁩ / ⁨70⁩ דקות אינה מפצלת מספרים ויחידה ועוברת בשלמותה כשאין די מקום.</li>
+</ul>
+</section>
+<section class="release-category" aria-labelledby="he-0-20-trophies"><h2 id="he-0-20-trophies">כל ⁨53⁩ הגביעים הגדולים החדשים</h2>
+<ul>
+<li data-note="trophy-1">צעדים ושנים — ⁨10⁩: ⁨2/5/10/25/50/100⁩ מיליון צעדים; ⁨1,000⁩ ימים פעילים; ⁨1/2/5⁩ שנים פעילות עם ריצה.</li>
+<li data-note="trophy-2">הליכה וריצה — ⁨8⁩: הליכה: ⁨2,500/5,000/10,000/20,000⁩ ק״מ; ריצה: ⁨2,500/5,000/10,000/15,000⁩ ק״מ.</li>
+<li data-note="trophy-3">מסעות — ⁨14⁩: תל אביב–ירושלים ⁨54⁩ ק״מ; סיאול–בוסאן ⁨325⁩; טוקיו–קיוטו ⁨360⁩; בנגקוק–צ׳יאנג מאי ⁨582⁩; לונדון–ציריך ⁨776⁩; ברלין–פריז ⁨877⁩; לונדון–מינכן ⁨919⁩; אמסטרדם–וינה ⁨935⁩; פראג–ברצלונה ⁨1,353⁩; מדריד–רומא ⁨1,364⁩; קופנהגן–אתונה ⁨2,136⁩; ליסבון–ברלין ⁨2,312⁩; ניו יורק–לוס אנג׳לס ⁨3,936⁩; סביב כדור הארץ ⁨40,075⁩ ק״מ.</li>
+<li data-note="trophy-4">הירח — ⁨3⁩: ⁨0.1%⁩, ⁨1%⁩ ו־⁨10%⁩ מהמרחק הממוצע לירח.</li>
+<li data-note="trophy-5">התמדה ומהירות — ⁨2⁩: ⁨52⁩ שבועות רצופים; ⁨5⁩ ק״מ מלאים בקצב אישי מהיר ב־⁨10%⁩ לפחות מהפעם הראשונה.</li>
+<li data-note="trophy-6">ציד — ⁨5⁩: ⁨100,000⁩ גזרים; ⁨1,000⁩ בריחות; ⁨1,000⁩ תפיסות; ⁨5,000⁩ ק״מ של ציד; ״שתי אגדות״ עם ⁨500⁩ בריחות ו־⁨500⁩ תפיסות.</li>
+<li data-note="trophy-7">אוסף — ⁨3⁩: ⁨5/10/15⁩ אווטארים שהתקבלו על הישגים.</li>
+<li data-note="trophy-8">העולם — ⁨8⁩: ⁨5/10/20⁩ מדינות עם לפחות ⁨5⁩ ק״מ של אימונים בכל אחת; אירופה, אסיה, אמריקה, אפריקה ואוקיאניה.</li>
+</ul>
+</section>
+<a class="back-top" href="#he">לראש העמוד</a>
+</article>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <a href="/new/" data-t="foot_new">Что нового</a>
+    <a href="/privacy/" data-t="foot_privacy">Политика конфиденциальности</a>
+    <a href="/terms/" data-t="foot_terms">Условия использования</a>
+    <a href="/accessibility/" data-t="foot_a11y">Заявление о доступности</a>
+    <span><span data-t="foot_support">Поддержка</span>: <bdi dir="ltr">ritza.support@gmail.com</bdi></span>
+    <span>© 2026</span>
+    <span class="note" data-t="foot_note">Рица — приложение для фитнеса и развлечения, не медицинское.</span>
+  </div>
+</footer>
+<script>
+const T = {"ru": {"foot_a11y": "Заявление о доступности", "foot_new": "Что нового", "foot_note": "Рица — приложение для фитнеса и развлечения, не медицинское.", "foot_privacy": "Политика конфиденциальности", "foot_support": "Поддержка", "foot_terms": "Условия использования", "lang_label": "Язык", "nav_features": "Возможности", "nav_hunt": "Охота", "nav_privacy": "Приватность", "nav_route": "Маршрут к цели", "title": "Рица — что нового", "description": "Полный список нового и исправлений в Рице 0.20."}, "en": {"foot_a11y": "Accessibility statement", "foot_new": "What's new", "foot_note": "Ritza is a fitness and entertainment app, not a medical one.", "foot_privacy": "Privacy policy", "foot_support": "Support", "foot_terms": "Terms of use", "lang_label": "Language", "nav_features": "Features", "nav_hunt": "The Hunt", "nav_privacy": "Privacy", "nav_route": "Route to the goal", "title": "Ritza — what's new", "description": "The full list of additions and fixes in Ritza 0.20."}, "he": {"foot_a11y": "הצהרת נגישות", "foot_new": "מה חדש", "foot_note": "ריצה היא אפליקציה לכושר ולבידור, ולא אפליקציה רפואית.", "foot_privacy": "מדיניות פרטיות", "foot_support": "תמיכה", "foot_terms": "תנאי שימוש", "lang_label": "שפה", "nav_features": "מה באפליקציה", "nav_hunt": "הציד", "nav_privacy": "פרטיות", "nav_route": "מסלול אל היעד", "title": "ריצה — מה חדש", "description": "הרשימה המלאה של התוספות והתיקונים בריצה 0.20."}};
+function apply(lang) {
+  if (!T[lang]) lang = "ru";
+  const d = T[lang];
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "he" ? "rtl" : "ltr";
+  document.title = d.title;
+  document.querySelector('meta[name="description"]').content = d.description;
+  document.querySelector('meta[property="og:title"]').content = d.title;
+  document.querySelector('meta[property="og:description"]').content = d.description;
+  document.querySelectorAll('[data-release-language]').forEach(section => { section.hidden = section.lang !== lang; });
+  document.querySelectorAll('[data-t]').forEach(el => { if (d[el.dataset.t]) el.textContent = d[el.dataset.t]; });
+  document.querySelectorAll('#lang button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === lang)));
+  document.getElementById('lang').setAttribute('aria-label', d.lang_label);
+  const brandName = lang === "he" ? "ריצה" : lang === "en" ? "Ritza" : "Рица";
+  document.querySelector('.brand').setAttribute('aria-label', brandName);
+  document.querySelector('.brand').href = '/#' + lang;
+  document.getElementById('wm-light').src = '/img/wordmark-' + lang + '.svg';
+  document.getElementById('wm-dark').src = '/img/wordmark-' + lang + '-dark.svg';
+  document.getElementById('wm-light').alt = brandName;
+  document.getElementById('wm-dark').alt = brandName;
+  try { localStorage.setItem('ritza-lang', lang); } catch (e) {}
+}
+document.querySelectorAll('#lang button').forEach(button => button.addEventListener('click', () => {
+  apply(button.dataset.lang);
+  history.replaceState(null, '', '#' + button.dataset.lang);
+}));
+function hashLanguage() { return location.hash.slice(1).split('-')[0]; }
+window.addEventListener('hashchange', () => { const lang = hashLanguage(); if (T[lang]) apply(lang); });
+let start = hashLanguage();
+if (!T[start]) { try { start = localStorage.getItem('ritza-lang'); } catch (e) {} }
+if (!T[start]) { const n = (navigator.language || 'ru').toLowerCase(); start = n.startsWith('he') || n.startsWith('iw') ? 'he' : n.startsWith('ru') ? 'ru' : 'en'; }
+apply(start);
+</script>
+</body>
+</html>

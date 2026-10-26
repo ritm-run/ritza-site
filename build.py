@@ -1,4 +1,4 @@
-# Builds index.html of ritza.app from i18n.json (Russian in the markup, the other languages switched by a small script).
+# Builds the static pages of ritza.app from i18n.json (Russian in the markup, the other languages switched by a small script).
 import json, os, html
 here = os.path.dirname(os.path.abspath(__file__))
 t = json.load(open(os.path.join(here, "i18n.json"), encoding="utf-8"))
@@ -454,8 +454,10 @@ FEATURES
 
 <footer>
   <div class="wrap">
+    <a href="/new/" data-t="foot_new">{s("foot_new")}</a>
     <a href="/privacy/" data-t="foot_privacy">{s("foot_privacy")}</a>
     <a href="/terms/" data-t="foot_terms">{s("foot_terms")}</a>
+    <a href="/accessibility/" data-t="foot_a11y">{s("foot_a11y")}</a>
     <span><span data-t="foot_support">{s("foot_support")}</span>: <bdi dir="ltr">ritza.support@gmail.com</bdi></span>
     <span>© 2026</span>
     <span class="note" data-t="foot_note">{s("foot_note")}</span>
@@ -520,7 +522,7 @@ cards = []
 for k in ("f1", "f2", "f3", "f4", "f5", "f6"):
     cards.append(f'        <article class="card"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">{icons[k]}</svg></div>'
                  f'<h3 data-t="{k}_h">{s(k + "_h")}</h3><p data-t="{k}_p">{s(k + "_p")}</p></article>')
-page = page.replace("FEATURES", "\n".join(cards)).replace("I18N", json.dumps(t, ensure_ascii=False))
+page = page.replace("FEATURES", "\n".join(cards)).replace("I18N", json.dumps({lang: {k: v for k, v in d.items() if k not in ("a11y", "new")} for lang, d in t.items()}, ensure_ascii=False))
 open(os.path.join(here, "index.html"), "w", encoding="utf-8").write(page)
 print("ok", len(page))
 
@@ -537,3 +539,113 @@ privacy_page = privacy_template.replace("{{PRIVACY_SECTIONS}}", "\n".join(privac
 assert chr(63) * 2 not in privacy_page, "Privacy page contains a broken encoding marker"
 with open(os.path.join(here, "privacy", "index.html"), "w", encoding="utf-8", newline="\n") as handle:
     handle.write(privacy_page)
+
+
+# Accessibility statement: three-language page from the "a11y" block of i18n.json and accessibility/template.html.
+BDI_LATIN = re.compile(r"(WCAG 2\.0 AA|TalkBack|Android|ritza\.app|app\.ritm|[0-9]+ ?(?:dp|%))")
+def a11y_text(text, lang):
+    out = html.escape(text, quote=False)
+    if lang == "he":
+        out = BDI_LATIN.sub(r'<bdi dir="ltr">\1</bdi>', out)
+    return out.replace("{email}", '<a href="mailto:ritza.support@gmail.com"><bdi dir="ltr">ritza.support@gmail.com</bdi></a>')
+def a11y_section(lang):
+    a = t[lang]["a11y"]
+    rtl = ' dir="rtl"' if lang == "he" else ""
+    parts = [f'<section id="{lang}" lang="{lang}"{rtl}>', f'<h1>{a11y_text(a["h1"], lang)}</h1>', f'<p class="meta">{a11y_text(a["meta"], lang)}</p>']
+    for sec in a["sections"]:
+        parts.append(f'<h2>{a11y_text(sec["h"], lang)}</h2>')
+        parts.extend(f'<p>{a11y_text(p, lang)}</p>' for p in sec.get("p", []))
+        if sec.get("ul"):
+            parts.append("<ul>" + "".join(f'<li>{a11y_text(li, lang)}</li>' for li in sec["ul"]) + "</ul>")
+    parts.append("</section>")
+    return "\n".join(parts)
+a11y_template = open(os.path.join(here, "accessibility", "template.html"), encoding="utf-8").read()
+for marker in ("{{A11Y_TITLE}}", "{{A11Y_DESCRIPTION}}", "{{A11Y_SECTIONS}}"):
+    assert a11y_template.count(marker) == 1, marker
+a11y_page = (a11y_template
+    .replace("{{A11Y_TITLE}}", html.escape(" · ".join(t[l]["a11y"]["title"] for l in ("en", "ru", "he")), quote=False))
+    .replace("{{A11Y_DESCRIPTION}}", html.escape(t["en"]["a11y"]["description"]))
+    .replace("{{A11Y_SECTIONS}}", "\n".join(a11y_section(l) for l in ("en", "ru", "he"))))
+assert chr(63) * 2 not in a11y_page, "Accessibility page contains a broken encoding marker"
+with open(os.path.join(here, "accessibility", "index.html"), "w", encoding="utf-8", newline="\n") as handle:
+    handle.write(a11y_page)
+
+
+# Release history is stored newest first in each language. Prepend future releases in i18n.json.
+release_versions = [r["version"] for r in t["ru"]["new"]["releases"]]
+assert release_versions == sorted(release_versions, key=lambda v: tuple(map(int, v.split("."))), reverse=True)
+for lang in ("en", "he"):
+    assert [r["version"] for r in t[lang]["new"]["releases"]] == release_versions
+
+def release_text(text, lang):
+    escaped = html.escape(text)
+    if lang == "he":
+        # Source Hebrew already isolates mixed-direction numbers; leave those spans intact.
+        pieces = re.split("(\u2068.*?\u2069)", escaped)
+        for i in range(0, len(pieces), 2):
+            pieces[i] = re.sub(r"[A-Za-z][A-Za-z0-9 .+%/:-]*[A-Za-z0-9]|[0-9]+(?:[.,:/][0-9]+)*(?: ?%)?", r'<bdi dir="ltr">\g<0></bdi>', pieces[i])
+        escaped = "".join(pieces)
+    return escaped
+
+def release_section(lang):
+    copy = t[lang]["new"]
+    direction = "rtl" if lang == "he" else "ltr"
+    parts = [f'<section id="{lang}" lang="{lang}" dir="{direction}" data-release-language>']
+    for index, release in enumerate(copy["releases"]):
+        prefix = lang + "-" + release["version"].replace(".", "-")
+        heading = "h1" if index == 0 else "h2"
+        category_heading = "h2" if index == 0 else "h3"
+        group_heading = "h3" if index == 0 else "h4"
+        parts.extend([
+            f'<article class="release" aria-labelledby="{prefix}-title">',
+            f'<p class="release-meta"><bdi dir="ltr">{html.escape(release["version"])}-beta</bdi> · <time datetime="{release["date"]}">{release_text(release["date_label"], lang)}</time></p>',
+            f'<{heading} id="{prefix}-title">{release_text(release["title"], lang)}</{heading}>',
+            f'<p class="release-intro">{release_text(release["intro"], lang)}</p>',
+            f'<nav class="release-contents" aria-label="{html.escape(copy["contents"])}">',
+        ])
+        for category in release["categories"]:
+            parts.append(f'<a href="#{prefix}-{category["id"]}">{release_text(category["title"], lang)}</a>')
+        parts.append('</nav>')
+        for category in release["categories"]:
+            parts.append(f'<section class="release-category" aria-labelledby="{prefix}-{category["id"]}"><{category_heading} id="{prefix}-{category["id"]}">{release_text(category["title"], lang)}</{category_heading}>')
+            for group in category["groups"]:
+                if group.get("title"):
+                    parts.append(f'<{group_heading}>{release_text(group["title"], lang)}</{group_heading}>')
+                parts.append('<ul>')
+                for item in group["items"]:
+                    parts.append(f'<li data-note="{html.escape(item["id"])}">{release_text(item["text"], lang)}</li>')
+                parts.append('</ul>')
+            parts.append('</section>')
+        parts.extend([f'<a class="back-top" href="#{lang}">{release_text(copy["back"], lang)}</a>', '</article>'])
+    parts.append('</section>')
+    return "\n".join(parts)
+
+new_template = open(os.path.join(here, "new", "template.html"), encoding="utf-8").read()
+new_head = page.split('<style>', 1)[0]
+new_head = new_head.replace(s("title"), html.escape(t["ru"]["new"]["title"]))
+new_head = new_head.replace(s("hero_sub"), html.escape(t["ru"]["new"]["description"]))
+new_head = new_head.replace('href="img/', 'href="/img/')
+new_head = new_head.replace('<meta property="og:title" content="Рица · Ritza · ריצה">', '<meta property="og:title" content="' + html.escape(t["ru"]["new"]["title"]) + '">')
+shared_css = page.split('<style>', 1)[1].split('/* hero */', 1)[0]
+new_header = re.search(r'<header>.*?</header>', page, re.S).group(0)
+new_header = new_header.replace('href="#', 'href="/#').replace('src="img/', 'src="/img/')
+new_footer = re.search(r'<footer>.*?</footer>', page, re.S).group(0)
+new_translation_keys = set(re.findall(r'data-t="([^"]+)"', new_header + new_footer)) | {"lang_label"}
+new_translations = {
+    lang: {**{k: d[k] for k in sorted(new_translation_keys)}, "title": d["new"]["title"], "description": d["new"]["description"]}
+    for lang, d in t.items()
+}
+new_page = new_template
+for marker, value in {
+    "{{NEW_HEAD}}": new_head,
+    "{{SHARED_CSS}}": shared_css,
+    "{{NEW_HEADER}}": new_header,
+    "{{NEW_RELEASES}}": "\n".join(release_section(lang) for lang in ("ru", "en", "he")),
+    "{{NEW_FOOTER}}": new_footer,
+    "{{NEW_TRANSLATIONS}}": json.dumps(new_translations, ensure_ascii=False),
+}.items():
+    assert new_page.count(marker) == 1, marker
+    new_page = new_page.replace(marker, value)
+assert chr(63) * 2 not in new_page and "\ufffd" not in new_page, "Release page contains broken text"
+with open(os.path.join(here, "new", "index.html"), "w", encoding="utf-8", newline="\n") as handle:
+    handle.write(new_page)
