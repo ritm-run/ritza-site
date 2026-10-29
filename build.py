@@ -542,7 +542,7 @@ with open(os.path.join(here, "privacy", "index.html"), "w", encoding="utf-8", ne
 
 
 # Accessibility statement: three-language page from the "a11y" block of i18n.json and accessibility/template.html.
-BDI_LATIN = re.compile(r"(WCAG 2\.0 AA|TalkBack|Android|ritza\.app|app\.ritm|[0-9]+ ?(?:dp|%))")
+BDI_LATIN = re.compile(r"(WCAG 2\.0 AA|TalkBack|Android|ritza\.app|app\.ritza|[0-9]+ ?(?:dp|%))")
 def a11y_text(text, lang):
     out = html.escape(text, quote=False)
     if lang == "he":
