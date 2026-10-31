@@ -149,6 +149,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="N19">Если устройство подключено, а пульс не приходит, отдельная подсказка объяснит, что проверить. Можно продолжить без пульса.</li>
 <li data-note="N30">Подсказки по пульсу есть для каждой модели часов и браслетов из списка — по инструкциям производителей. Если у марки несколько моделей, у каждой своя вкладка; лист всегда одной высоты, а главная кнопка не прыгает.</li>
 <li data-note="N31">Помощь по марке телефона: в первой настройке и в «Я → Функции и доступ» рядом со строками про батарею, автозапуск, уведомления, местоположение и доступ к активности есть кнопка «Как включить на …». Рица сама узнаёт марку телефона и показывает нарисованные шаги по порядку на языке приложения; шаги доступны и без сети.</li>
+<li data-note="N35">Приложение часов на телефоне: если телефон усыпил приложение часов и шаги с часов пришли с опозданием, Рица скажет об этом на «Сегодня» и покажет шаги для твоей марки телефона — батарея без ограничений и автозапуск.</li>
 </ul>
 <h3>Прогресс и итоги</h3>
 <ul>
@@ -179,6 +180,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="I02">На дорожке мальчик на ленте крупнее и движется плавнее, в том числе в свободном режиме.</li>
 <li data-note="I03">Старт на дорожке сначала запрашивает доступ к шагам и начинается только после ответа.</li>
 <li data-note="I04">На экране бега пульс и значок GPS стоят в одной строке под заголовком.</li>
+<li data-note="I08">«Старт» и карта работают плавнее: карта не перезагружается при смене плитки, кадры персонажей готовятся заранее, а приложение открывается быстрее.</li>
 </ul>
 <h3>Часы</h3>
 <ul>
@@ -215,6 +217,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="F20">Экран бега с крупным шрифтом: большие цифры остаются в своих границах, а подпись под персонажем охоты не рвётся по буквам.</li>
 <li data-note="F21">Экран видео для отправки с крупным шрифтом ничего не обрезает: настройки прокручиваются, главная кнопка закреплена внизу.</li>
 <li data-note="F22">В кладовой заголовок дня показывает «Сегодня» и дату, а в строках истории нет лишнего разделителя.</li>
+<li data-note="F23">Шаги, когда телефон и часы весь день с тобой: итог дня больше не завышается — каждый отрезок считается по одному устройству, а шаги с часов, пришедшие с опозданием, не складываются дважды.</li>
 </ul>
 </section>
 <a class="back-top" href="#ru">К началу</a>
@@ -465,6 +468,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="N19">If a device connects but sends no heart rate, a dedicated help sheet explains what to check. You can continue without heart rate.</li>
 <li data-note="N30">Heart-rate help now covers every watch and band model in the list, following the makers’ own instructions. When a brand has several models, each gets its own tab; the sheet keeps one height and the main button stays put.</li>
 <li data-note="N31">Help for your phone’s make: in first setup and in Me → Features &amp; access, rows such as battery, autostart, notifications, location and activity have a “How to on …” button. Ritza recognises your phone’s make by itself and shows drawn steps in order, in the app’s language; the steps also work offline.</li>
+<li data-note="N35">Watch app on the phone: when the phone puts the watch&#x27;s app to sleep and the watch&#x27;s steps arrive late, Ritza says so on Today and shows the steps for your phone brand — unrestricted battery and autostart.</li>
 </ul>
 <h3>Progress and recaps</h3>
 <ul>
@@ -495,6 +499,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="I02">On the treadmill our boy is bigger on the belt and moves more smoothly, in free mode too.</li>
 <li data-note="I03">Starting on the treadmill first asks for step access and begins only after the answer.</li>
 <li data-note="I04">On the run screen the heart rate and the GPS badge share one row under the header.</li>
+<li data-note="I08">Start and the map run more smoothly: the map no longer reloads when you switch tiles, the characters&#x27; frames are prepared in advance, and the app opens faster.</li>
 </ul>
 <h3>Watch</h3>
 <ul>
@@ -531,6 +536,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="F20">The run screen at large text sizes: the big figures stay within bounds and the caption under the hunt character no longer breaks letter by letter.</li>
 <li data-note="F21">The video screen for sharing cuts nothing at large text sizes: the settings scroll and the main button stays pinned at the bottom.</li>
 <li data-note="F22">In the pantry the day header shows Today and the date, and history rows have no stray separator.</li>
+<li data-note="F23">Steps when both the phone and the watch are with you all day: the day total is no longer inflated — each stretch counts one device, and late watch steps are not added twice.</li>
 </ul>
 </section>
 <a class="back-top" href="#en">Back to top</a>
@@ -781,6 +787,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="N19">אם המכשיר מחובר אבל לא מגיע דופק, דף עזרה מסביר מה לבדוק. אפשר להמשיך גם בלי דופק.</li>
 <li data-note="N30">העזרה לדופק מכסה כל דגם שעון וצמיד ברשימה, לפי ההוראות של היצרנים. כשלמותג יש כמה דגמים, לכל דגם לשונית משלו; הדף תמיד באותו גובה והכפתור הראשי נשאר במקומו.</li>
 <li data-note="N31">עזרה לפי יצרן הטלפון: בהגדרה הראשונה וב״אני ← תכונות והרשאות״, ליד שורות כמו סוללה, הפעלה אוטומטית, התראות, מיקום וגישה לפעילות יש כפתור ״איך מפעילים ב…״. האפליקציה מזהה לבד את יצרן הטלפון ומציגה שלבים מצוירים לפי הסדר, בשפת האפליקציה; השלבים זמינים גם בלי חיבור לרשת.</li>
+<li data-note="N35">אפליקציית השעון בטלפון: כשהטלפון מרדים את אפליקציית השעון והצעדים מהשעון מגיעים באיחור, ריצה מציינת זאת במסך ״היום״ ומציגה את השלבים לפי יצרן הטלפון — סוללה ללא הגבלה והפעלה אוטומטית ברקע.</li>
 </ul>
 <h3>התקדמות וסיכומים</h3>
 <ul>
@@ -811,6 +818,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="I02">בהליכון הילד שלנו גדול יותר על הרצועה ונע בצורה חלקה יותר, גם במצב חופשי.</li>
 <li data-note="I03">ההתחלה בהליכון מבקשת קודם גישה לצעדים ומתחילה רק אחרי התשובה.</li>
 <li data-note="I04">במסך האימון הדופק וסימן ה־⁨GPS⁩ באותה שורה מתחת לכותרת.</li>
+<li data-note="I08">המסך ״התחלה״ והמפה פועלים בצורה חלקה יותר: המפה לא נטענת מחדש במעבר בין האריחים, תמונות הדמויות מוכנות מראש, והאפליקציה נפתחת מהר יותר.</li>
 </ul>
 <h3>שעון</h3>
 <ul>
@@ -847,6 +855,7 @@ bdi { unicode-bidi: isolate; }
 <li data-note="F20">במסך האימון בגופן גדול המספרים הגדולים נשארים בגבולם והכיתוב מתחת לדמות הציד לא נשבר אות אחרי אות.</li>
 <li data-note="F21">במסך הסרטון לשליחה בגופן גדול שום דבר לא נחתך: ההגדרות נגללות והכפתור הראשי נשאר קבוע בתחתית.</li>
 <li data-note="F22">במזווה כותרת היום מציגה ״היום״ ותאריך, ובשורות ההיסטוריה אין מפריד מיותר.</li>
+<li data-note="F23">צעדים כשהטלפון והשעון איתנו כל היום: סך היום כבר לא מנופח — כל קטע נספר לפי מכשיר אחד, וצעדים מהשעון שהגיעו באיחור לא נספרים פעמיים.</li>
 </ul>
 </section>
 <a class="back-top" href="#he">לראש העמוד</a>

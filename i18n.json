@@ -281,6 +281,10 @@
                     {
                       "id": "N31",
                       "text": "Помощь по марке телефона: в первой настройке и в «Я → Функции и доступ» рядом со строками про батарею, автозапуск, уведомления, местоположение и доступ к активности есть кнопка «Как включить на …». Рица сама узнаёт марку телефона и показывает нарисованные шаги по порядку на языке приложения; шаги доступны и без сети."
+                    },
+                    {
+                      "id": "N35",
+                      "text": "Приложение часов на телефоне: если телефон усыпил приложение часов и шаги с часов пришли с опозданием, Рица скажет об этом на «Сегодня» и покажет шаги для твоей марки телефона — батарея без ограничений и автозапуск."
                     }
                   ]
                 },
@@ -364,6 +368,10 @@
                     {
                       "id": "I04",
                       "text": "На экране бега пульс и значок GPS стоят в одной строке под заголовком."
+                    },
+                    {
+                      "id": "I08",
+                      "text": "«Старт» и карта работают плавнее: карта не перезагружается при смене плитки, кадры персонажей готовятся заранее, а приложение открывается быстрее."
                     }
                   ]
                 },
@@ -485,6 +493,10 @@
                     {
                       "id": "F22",
                       "text": "В кладовой заголовок дня показывает «Сегодня» и дату, а в строках истории нет лишнего разделителя."
+                    },
+                    {
+                      "id": "F23",
+                      "text": "Шаги, когда телефон и часы весь день с тобой: итог дня больше не завышается — каждый отрезок считается по одному устройству, а шаги с часов, пришедшие с опозданием, не складываются дважды."
                     }
                   ]
                 }
@@ -1371,6 +1383,10 @@
                     {
                       "id": "N31",
                       "text": "Help for your phone’s make: in first setup and in Me → Features & access, rows such as battery, autostart, notifications, location and activity have a “How to on …” button. Ritza recognises your phone’s make by itself and shows drawn steps in order, in the app’s language; the steps also work offline."
+                    },
+                    {
+                      "id": "N35",
+                      "text": "Watch app on the phone: when the phone puts the watch's app to sleep and the watch's steps arrive late, Ritza says so on Today and shows the steps for your phone brand — unrestricted battery and autostart."
                     }
                   ]
                 },
@@ -1454,6 +1470,10 @@
                     {
                       "id": "I04",
                       "text": "On the run screen the heart rate and the GPS badge share one row under the header."
+                    },
+                    {
+                      "id": "I08",
+                      "text": "Start and the map run more smoothly: the map no longer reloads when you switch tiles, the characters' frames are prepared in advance, and the app opens faster."
                     }
                   ]
                 },
@@ -1575,6 +1595,10 @@
                     {
                       "id": "F22",
                       "text": "In the pantry the day header shows Today and the date, and history rows have no stray separator."
+                    },
+                    {
+                      "id": "F23",
+                      "text": "Steps when both the phone and the watch are with you all day: the day total is no longer inflated — each stretch counts one device, and late watch steps are not added twice."
                     }
                   ]
                 }
@@ -2461,6 +2485,10 @@
                     {
                       "id": "N31",
                       "text": "עזרה לפי יצרן הטלפון: בהגדרה הראשונה וב״אני ← תכונות והרשאות״, ליד שורות כמו סוללה, הפעלה אוטומטית, התראות, מיקום וגישה לפעילות יש כפתור ״איך מפעילים ב…״. האפליקציה מזהה לבד את יצרן הטלפון ומציגה שלבים מצוירים לפי הסדר, בשפת האפליקציה; השלבים זמינים גם בלי חיבור לרשת."
+                    },
+                    {
+                      "id": "N35",
+                      "text": "אפליקציית השעון בטלפון: כשהטלפון מרדים את אפליקציית השעון והצעדים מהשעון מגיעים באיחור, ריצה מציינת זאת במסך ״היום״ ומציגה את השלבים לפי יצרן הטלפון — סוללה ללא הגבלה והפעלה אוטומטית ברקע."
                     }
                   ]
                 },
@@ -2544,6 +2572,10 @@
                     {
                       "id": "I04",
                       "text": "במסך האימון הדופק וסימן ה־⁨GPS⁩ באותה שורה מתחת לכותרת."
+                    },
+                    {
+                      "id": "I08",
+                      "text": "המסך ״התחלה״ והמפה פועלים בצורה חלקה יותר: המפה לא נטענת מחדש במעבר בין האריחים, תמונות הדמויות מוכנות מראש, והאפליקציה נפתחת מהר יותר."
                     }
                   ]
                 },
@@ -2665,6 +2697,10 @@
                     {
                       "id": "F22",
                       "text": "במזווה כותרת היום מציגה ״היום״ ותאריך, ובשורות ההיסטוריה אין מפריד מיותר."
+                    },
+                    {
+                      "id": "F23",
+                      "text": "צעדים כשהטלפון והשעון איתנו כל היום: סך היום כבר לא מנופח — כל קטע נספר לפי מכשיר אחד, וצעדים מהשעון שהגיעו באיחור לא נספרים פעמיים."
                     }
                   ]
                 }
