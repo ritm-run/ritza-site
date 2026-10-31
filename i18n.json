@@ -154,6 +154,345 @@
       "back": "К началу",
       "releases": [
         {
+          "version": "0.30",
+          "date": "2026-10-31",
+          "date_label": "31 октября 2026",
+          "title": "Рица 0.30 — что нового",
+          "intro": "После 0.22: Рица на часах, новый Старт, дорожка и велосипед, редактирование тренировок, общий счёт шагов и «Поделиться» с видео. Здесь весь список нового, улучшений и исправлений.",
+          "categories": [
+            {
+              "id": "new",
+              "title": "Новое",
+              "groups": [
+                {
+                  "title": "Часы",
+                  "items": [
+                    {
+                      "id": "N01",
+                      "text": "Рица на часах Wear OS: начинай ходьбу или бег с часов, записывай пульс и тренировку без телефона рядом."
+                    },
+                    {
+                      "id": "N02",
+                      "text": "На часах можно выбрать Зайца или Волка. Тень выбранного круга приходит с телефона заранее — с ней можно стартовать без телефона."
+                    },
+                    {
+                      "id": "N03",
+                      "text": "Тренировка с телефона появляется и на часах; если запись идёт на часах, на телефоне есть строка «Тренировка идёт на часах → Открыть»."
+                    },
+                    {
+                      "id": "N04",
+                      "text": "Журнал на часах хранит тренировки и передаёт их в телефон с маршрутом. В итоге на телефоне доступны километровые отрезки и круги."
+                    },
+                    {
+                      "id": "N05",
+                      "text": "На часах — вибрация «тик, тик, пошли», пауза с подтверждением финиша и темп за последние 30 секунд."
+                    },
+                    {
+                      "id": "N26",
+                      "text": "Старт на часах не ждёт GPS: если сигнала нет, часы сообщают об этом, а дистанция считается по шагам."
+                    },
+                    {
+                      "id": "N27",
+                      "text": "На часах есть экран «Данные о здоровье»: он объясняет, зачем нужны пульс и GPS, и ведёт к политике конфиденциальности на телефоне; при отказе в доступе часы подсказывают, что включить."
+                    }
+                  ]
+                },
+                {
+                  "title": "Старт и запись",
+                  "items": [
+                    {
+                      "id": "N06",
+                      "text": "Новый «Старт»: четыре плитки — Ходьба, Бег, Велосипед и Охота. Для ходьбы и бега рядом режимы Свободно, Интервалы, Тень и Дорожка."
+                    },
+                    {
+                      "id": "N07",
+                      "text": "Интервалы настраиваются прямо на «Старте»: бег, ходьба, циклы, ходьба до и после; для дорожки — ещё и скорости отрезков."
+                    },
+                    {
+                      "id": "N08",
+                      "text": "Ходьба и бег на дорожке без GPS: наш мальчик идёт или бежит рядом с тобой. В свободном режиме дистанция оценивается по шагам, в интервалах — по заданным скоростям и времени."
+                    },
+                    {
+                      "id": "N09",
+                      "text": "После дорожки можно ввести дистанцию с её табло: уточним тренировку и длину шага для следующих занятий, сами шаги не меняем."
+                    },
+                    {
+                      "id": "N10",
+                      "text": "Запись велосипеда на телефоне: маршрут и дистанция по GPS-позициям, скорость в км/ч, автопауза и километровые отрезки. Велосипед не добавляет шаги."
+                    },
+                    {
+                      "id": "N11",
+                      "text": "Если запись похожа на велосипед вместо ходьбы или бега, спросим об этом в итоге. И наоборот: у велосипедной записи можно подтвердить ходьбу или бег. Решение за тобой."
+                    },
+                    {
+                      "id": "N12",
+                      "text": "Во время поездки наш мальчик крутит педали на карте и на «Старте»."
+                    },
+                    {
+                      "id": "N28",
+                      "text": "Интервалы стали нагляднее: план показан крупными цифрами — минуты и км/ч либо время каждой фазы, «Изменить» открывает окно по центру страницы. Перед стартом — отсчёт 3, 5 или 10 секунд либо «Сигнал». Так же на дорожке и на улице."
+                    },
+                    {
+                      "id": "N29",
+                      "text": "Маршрут и скорость велосипедной записи остаются в Рице и не передаются в Health Connect."
+                    }
+                  ]
+                },
+                {
+                  "title": "Тренировки и круги",
+                  "items": [
+                    {
+                      "id": "N13",
+                      "text": "Карандаш в итоге открывает «Изменить тренировку»: вид занятия, обрезка, файл GPX и удаление собраны вместе."
+                    },
+                    {
+                      "id": "N14",
+                      "text": "Обрезай начало или конец записанной тренировки по карте и полосе скорости; до сохранения видны новые границы и итоговые числа."
+                    },
+                    {
+                      "id": "N15",
+                      "text": "«Похоже, в конце ехали на машине»: предложим проверить и обрезать такой участок. Такая подсказка бывает и в начале записи; оставить запись как есть тоже можно."
+                    },
+                    {
+                      "id": "N16",
+                      "text": "Круги находятся сами по возвращению к месту старта после двух и более полных кругов. В итоге — столбики кругов и километров; нажми на столбик, чтобы увидеть время, «с … по …» и темп."
+                    },
+                    {
+                      "id": "N17",
+                      "text": "«Уточнить круг»: если несколько проходов согласованно отличаются от нарисованной линии, можно сравнить линии и обновить сохранённый круг. Записанные GPS-метры тренировки не меняются."
+                    }
+                  ]
+                },
+                {
+                  "title": "Часы и пульс",
+                  "items": [
+                    {
+                      "id": "N18",
+                      "text": "«Что у тебя на руке?» — часы, браслет, ремень на груди или только телефон. Сначала ищем устройство, затем подсказываем по марке, что включить; для Wear OS есть установка Рицы на часы."
+                    },
+                    {
+                      "id": "N19",
+                      "text": "Если устройство подключено, а пульс не приходит, отдельная подсказка объяснит, что проверить. Можно продолжить без пульса."
+                    },
+                    {
+                      "id": "N30",
+                      "text": "Подсказки по пульсу есть для каждой модели часов и браслетов из списка — по инструкциям производителей. Если у марки несколько моделей, у каждой своя вкладка; лист всегда одной высоты, а главная кнопка не прыгает."
+                    },
+                    {
+                      "id": "N31",
+                      "text": "Помощь по марке телефона: в первой настройке и в «Я → Функции и доступ» рядом со строками про батарею, автозапуск, уведомления, местоположение и доступ к активности есть кнопка «Как включить на …». Рица сама узнаёт марку телефона и показывает нарисованные шаги по порядку на языке приложения; шаги доступны и без сети."
+                    }
+                  ]
+                },
+                {
+                  "title": "Прогресс и итоги",
+                  "items": [
+                    {
+                      "id": "N20",
+                      "text": "Карточка «Бег с учётом возраста» в итоге, рекордах и картинке для отправки: ориентир для дорожных 5 и 10 км по году рождения и полу. Это сравнение с беговым эталоном, а не процент людей позади."
+                    },
+                    {
+                      "id": "N21",
+                      "text": "«Главный трофей года» выбирается по уровню медали и личной трудности достижения — с пояснением, чем оно выделяется именно для тебя."
+                    },
+                    {
+                      "id": "N22",
+                      "text": "«Твоя неделя» — компактная строка на «Сегодня», которая уходит после двух открытий или закрытия. В «Истории» неделя и год рядом, непросмотренный итог выделен."
+                    }
+                  ]
+                },
+                {
+                  "title": "Поделиться",
+                  "items": [
+                    {
+                      "id": "N23",
+                      "text": "На картинках и видео можно скрыть начало и конец пути отдельно: по умолчанию по 200 м. У тренировки по кругу скрываются подход и путь домой, сам круг остаётся целым; оригинал и GPX не меняются."
+                    },
+                    {
+                      "id": "N24",
+                      "text": "Три прозрачные наклейки для историй: маршрут с числами, только числа или только маршрут."
+                    },
+                    {
+                      "id": "N32",
+                      "text": "«Поделиться» стало галереей готовых вариантов: карточка, наклейка и видео на одной странице; получатели — одним рядом приложений, без лишних экранов выбора."
+                    },
+                    {
+                      "id": "N33",
+                      "text": "Видео на 12 секунд для отправки: облёт маршрута в 3D над картой с домами, повтор в 2D, только маршрут в 3D и в 2D, а также видео на твоём фото. Маршрут окрашен по темпу, фигурка бежит, числа растут, в конце — итог."
+                    }
+                  ]
+                },
+                {
+                  "title": "Карта и персонажи",
+                  "items": [
+                    {
+                      "id": "N34",
+                      "text": "Персонажи поворачиваются по направлению пути — к тебе, от тебя и боком — на карте и в видео: мальчик, велосипедист, Заяц, Волк и тень. Одежда мальчика при поворотах не меняется."
+                    }
+                  ]
+                },
+                {
+                  "title": "Охота и кладовая",
+                  "items": [
+                    {
+                      "id": "N25",
+                      "text": "Морковки и снаряжение доступны рядом с настройками охоты. Кладовая теперь с историей: добыча, покупки, находки и остаток; из записи охоты можно открыть её итог."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "improved",
+              "title": "Улучшено",
+              "groups": [
+                {
+                  "title": "Старт, дорожка и бег",
+                  "items": [
+                    {
+                      "id": "I01",
+                      "text": "Везде, где показан велосипед, теперь наш велосипедист."
+                    },
+                    {
+                      "id": "I02",
+                      "text": "На дорожке мальчик на ленте крупнее и движется плавнее, в том числе в свободном режиме."
+                    },
+                    {
+                      "id": "I03",
+                      "text": "Старт на дорожке сначала запрашивает доступ к шагам и начинается только после ответа."
+                    },
+                    {
+                      "id": "I04",
+                      "text": "На экране бега пульс и значок GPS стоят в одной строке под заголовком."
+                    }
+                  ]
+                },
+                {
+                  "title": "Часы",
+                  "items": [
+                    {
+                      "id": "I05",
+                      "text": "Часы: кнопки паузы, продолжения и финиша одного размера и на одном месте, цифры не заходят под них, версия приложения — в настройках."
+                    }
+                  ]
+                },
+                {
+                  "title": "Поделиться и итоги",
+                  "items": [
+                    {
+                      "id": "I06",
+                      "text": "Настройка «Скрыть начало и конец» теперь в «Я → Приватность»: каждый конец настраивается отдельно."
+                    },
+                    {
+                      "id": "I07",
+                      "text": "Вверху итога — часы старта и финиша тренировки."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fixes",
+              "title": "Исправлено",
+              "groups": [
+                {
+                  "title": "Исправлено",
+                  "items": [
+                    {
+                      "id": "F01",
+                      "text": "Шаги телефона и часов считаются один раз: совместная прогулка не удваивается, отдельные прогулки складываются. Одно число дня на обоих устройствах, без отката назад."
+                    },
+                    {
+                      "id": "F02",
+                      "text": "Шаги быстрее доходят между устройствами. Плитка часов обновляется при изменении итога дня, после обновления приложения и перезагрузки часов."
+                    },
+                    {
+                      "id": "F03",
+                      "text": "Часы показывают километры, ккал и минуты дня с телефона, учитывая ещё не переданные шаги часов. Метры уличной тренировки берутся из GPS, а не из длины шага."
+                    },
+                    {
+                      "id": "F04",
+                      "text": "Приложение открывается быстрее: связь с часами больше не задерживает первый экран."
+                    },
+                    {
+                      "id": "F05",
+                      "text": "При сохранении нарисованного круга окно имени открывается сразу, не дожидаясь названия с карты."
+                    },
+                    {
+                      "id": "F06",
+                      "text": "Волк подстраивается под изменение темпа за 10 секунд в обе стороны; ответ на рывок соперника больше не поднимает его основной темп."
+                    },
+                    {
+                      "id": "F07",
+                      "text": "На круглых экранах часов и с крупным шрифтом время, дистанция, шаги и кнопки паузы и финиша помещаются без перекрытий."
+                    },
+                    {
+                      "id": "F08",
+                      "text": "В итоге километры сохраняют два знака после запятой, а время короче часа показывается без лишнего часа. У велосипедной записи нет шагов от поездки."
+                    },
+                    {
+                      "id": "F09",
+                      "text": "Иврит: яснее различаются круг и сохранённый маршрут, исправлены грамматика, нейтральные обращения и порядок числа и единицы скорости. Карточки и строка тренировки с часов правильно отражены."
+                    },
+                    {
+                      "id": "F10",
+                      "text": "Озвучивание доступности называет график кругов «Круги», а не «Километры»."
+                    },
+                    {
+                      "id": "F11",
+                      "text": "Ползунки скрытия маршрута лучше видны в светлой теме."
+                    },
+                    {
+                      "id": "F12",
+                      "text": "Шаги самого телефона больше не удваиваются: собственный счётчик Рицы и запись Android считаются одной копией."
+                    },
+                    {
+                      "id": "F13",
+                      "text": "Часы получают шаги телефона, даже если у них самих за день ещё нет шагов."
+                    },
+                    {
+                      "id": "F14",
+                      "text": "В окне названия круга подпись «Название» не обрезается сверху — на всех языках и при крупном шрифте."
+                    },
+                    {
+                      "id": "F15",
+                      "text": "Неделя считает поездки на велосипеде тренировками так же, как месяц; километры остаются пешими."
+                    },
+                    {
+                      "id": "F16",
+                      "text": "Дорожка сохраняет выбранный вид занятия: бег с нулевой дистанцией в «Истории» больше не превращается в прогулку."
+                    },
+                    {
+                      "id": "F17",
+                      "text": "На экранах дорожки больше нет статуса GPS: дорожка не использует GPS."
+                    },
+                    {
+                      "id": "F18",
+                      "text": "Цель шагов в первой настройке записана с разделителем тысяч — так же, как в плитках рядом."
+                    },
+                    {
+                      "id": "F19",
+                      "text": "При прокрутке итога тренировки крупные цифры больше не заходят под строку состояния и часы."
+                    },
+                    {
+                      "id": "F20",
+                      "text": "Экран бега с крупным шрифтом: большие цифры остаются в своих границах, а подпись под персонажем охоты не рвётся по буквам."
+                    },
+                    {
+                      "id": "F21",
+                      "text": "Экран видео для отправки с крупным шрифтом ничего не обрезает: настройки прокручиваются, главная кнопка закреплена внизу."
+                    },
+                    {
+                      "id": "F22",
+                      "text": "В кладовой заголовок дня показывает «Сегодня» и дату, а в строках истории нет лишнего разделителя."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "version": "0.20",
           "date": "2026-10-25",
           "date_label": "25 октября 2026",
@@ -905,6 +1244,345 @@
       "back": "Back to top",
       "releases": [
         {
+          "version": "0.30",
+          "date": "2026-10-31",
+          "date_label": "31 October 2026",
+          "title": "Ritza 0.30 — what’s new",
+          "intro": "Since 0.22: Ritza on your watch, a new Start, treadmill and bike recording, workout editing, a shared step count and Share with videos. Here is the full list of additions, improvements and fixes.",
+          "categories": [
+            {
+              "id": "new",
+              "title": "New",
+              "groups": [
+                {
+                  "title": "Watch",
+                  "items": [
+                    {
+                      "id": "N01",
+                      "text": "Ritza on Wear OS watches: start a walk or run on your wrist and record heart rate and workouts without the phone nearby."
+                    },
+                    {
+                      "id": "N02",
+                      "text": "Choose Hare or Wolf on the watch. Your chosen loop’s shadow arrives from the phone in advance, ready for a start without the phone."
+                    },
+                    {
+                      "id": "N03",
+                      "text": "A phone workout also appears on the watch; when recording on the watch, the phone shows “Workout is running on the watch → Open”."
+                    },
+                    {
+                      "id": "N04",
+                      "text": "The watch journal keeps workouts and sends them, with their tracks, to the phone. The phone summary includes kilometre splits and laps."
+                    },
+                    {
+                      "id": "N05",
+                      "text": "The watch adds a “tick, tick, go” vibration, pause with finish confirmation and pace over the last 30 seconds."
+                    },
+                    {
+                      "id": "N26",
+                      "text": "Starting on the watch does not wait for GPS: with no signal the watch says so and distance comes from steps."
+                    },
+                    {
+                      "id": "N27",
+                      "text": "The watch has a Health data screen that explains why heart rate and GPS are needed and points to the privacy policy on the phone; if access is refused, the watch says what to allow."
+                    }
+                  ]
+                },
+                {
+                  "title": "Start and recording",
+                  "items": [
+                    {
+                      "id": "N06",
+                      "text": "A new Start: four tiles for Walk, Run, Bike and Hunt. Walking and running have Free, Intervals, Shadow and Treadmill modes."
+                    },
+                    {
+                      "id": "N07",
+                      "text": "Set intervals right on Start: run, walk, cycles and walking before and after; treadmill intervals also have segment speeds."
+                    },
+                    {
+                      "id": "N08",
+                      "text": "Walk or run on a treadmill without GPS, with our boy moving alongside you. Free mode estimates distance from steps; intervals use the speeds and times you set."
+                    },
+                    {
+                      "id": "N09",
+                      "text": "After a treadmill workout, enter its console distance to adjust the workout and stride length for next time; the step count stays unchanged."
+                    },
+                    {
+                      "id": "N10",
+                      "text": "Record bike rides on the phone: route and distance from GPS positions, speed in km/h, auto-pause and kilometre splits. Cycling adds no steps."
+                    },
+                    {
+                      "id": "N11",
+                      "text": "If a walk or run looks like a bike ride, we ask in the summary. A bike recording can also be confirmed as a walk or run. You decide."
+                    },
+                    {
+                      "id": "N12",
+                      "text": "During a ride, our boy pedals on the map and on Start."
+                    },
+                    {
+                      "id": "N28",
+                      "text": "Intervals are clearer: the plan appears in big figures — minutes and km/h, or the time of each phase — and Edit opens a window in the middle of the page. Before the start choose a 3, 5 or 10 second countdown, or a Signal. The same on a treadmill and outdoors."
+                    },
+                    {
+                      "id": "N29",
+                      "text": "A bike ride’s route and speed stay in Ritza and are not sent to Health Connect."
+                    }
+                  ]
+                },
+                {
+                  "title": "Workouts and loops",
+                  "items": [
+                    {
+                      "id": "N13",
+                      "text": "The summary pencil opens Edit workout, bringing activity type, crop, GPX export and deletion together."
+                    },
+                    {
+                      "id": "N14",
+                      "text": "Crop the start or end of a recorded workout using the map and speed strip; see the new boundaries and totals before saving."
+                    },
+                    {
+                      "id": "N15",
+                      "text": "“Looks like we drove at the end”: review and crop that section if needed. The same hint can appear for the start; you can keep the recording as it is."
+                    },
+                    {
+                      "id": "N16",
+                      "text": "Laps are found automatically on returns to the starting place after at least two full laps. Tap a lap or kilometre bar in the summary for its duration, start/end clock times and pace."
+                    },
+                    {
+                      "id": "N17",
+                      "text": "Refine loop: when repeated laps consistently differ from the drawn line, compare the lines and update the saved loop. The workout’s recorded GPS distance stays unchanged."
+                    }
+                  ]
+                },
+                {
+                  "title": "Devices and heart rate",
+                  "items": [
+                    {
+                      "id": "N18",
+                      "text": "“What is on your wrist?” offers watch, band, chest strap or phone only. Scan first, then get setup steps by brand; Wear OS has a link to install Ritza on the watch."
+                    },
+                    {
+                      "id": "N19",
+                      "text": "If a device connects but sends no heart rate, a dedicated help sheet explains what to check. You can continue without heart rate."
+                    },
+                    {
+                      "id": "N30",
+                      "text": "Heart-rate help now covers every watch and band model in the list, following the makers’ own instructions. When a brand has several models, each gets its own tab; the sheet keeps one height and the main button stays put."
+                    },
+                    {
+                      "id": "N31",
+                      "text": "Help for your phone’s make: in first setup and in Me → Features & access, rows such as battery, autostart, notifications, location and activity have a “How to on …” button. Ritza recognises your phone’s make by itself and shows drawn steps in order, in the app’s language; the steps also work offline."
+                    }
+                  ]
+                },
+                {
+                  "title": "Progress and recaps",
+                  "items": [
+                    {
+                      "id": "N20",
+                      "text": "An Age-graded running card in summaries, records and sharing: a reference for outdoor road 5 km and 10 km efforts using birth year and sex. It compares with a running standard, not the percentage of people behind you."
+                    },
+                    {
+                      "id": "N21",
+                      "text": "The main trophy of the year considers the medal’s tier and how challenging the achievement was for you, with an explanation of what made it stand out."
+                    },
+                    {
+                      "id": "N22",
+                      "text": "Your week has a compact Today row that leaves after two opens or dismissal. Week and year sit together in History, with unseen recaps highlighted."
+                    }
+                  ]
+                },
+                {
+                  "title": "Sharing",
+                  "items": [
+                    {
+                      "id": "N23",
+                      "text": "Hide each route end separately in shared pictures and videos: 200 m each by default. For loop workouts, hide the approach and way home while keeping the loop whole; the original and GPX stay unchanged."
+                    },
+                    {
+                      "id": "N24",
+                      "text": "Three transparent story stickers: route with figures, figures only or route only."
+                    },
+                    {
+                      "id": "N32",
+                      "text": "Share is now a gallery of ready-made options: card, sticker and videos on one page, with one row of apps to send to and no extra choosing screens."
+                    },
+                    {
+                      "id": "N33",
+                      "text": "A 12-second video to send: a 3D flight over the map with houses, a 2D replay, the route alone in 3D or 2D, and a version over your own photo. The route is coloured by pace, the figure runs, the numbers grow and the summary closes the clip."
+                    }
+                  ]
+                },
+                {
+                  "title": "Map and characters",
+                  "items": [
+                    {
+                      "id": "N34",
+                      "text": "Characters turn along the route — toward you, away and sideways — on the map and in the videos: the boy, the cyclist, the hare, the wolf and the shadow. The boy’s clothes never change as he turns."
+                    }
+                  ]
+                },
+                {
+                  "title": "Hunt and pantry",
+                  "items": [
+                    {
+                      "id": "N25",
+                      "text": "Carrots and gear sit beside the hunt settings. The pantry now has a history of earnings, purchases, finds and the balance; a hunt entry opens its summary."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "improved",
+              "title": "Improved",
+              "groups": [
+                {
+                  "title": "Start, treadmill and running",
+                  "items": [
+                    {
+                      "id": "I01",
+                      "text": "Our cyclist now marks the bike everywhere a bike is shown."
+                    },
+                    {
+                      "id": "I02",
+                      "text": "On the treadmill our boy is bigger on the belt and moves more smoothly, in free mode too."
+                    },
+                    {
+                      "id": "I03",
+                      "text": "Starting on the treadmill first asks for step access and begins only after the answer."
+                    },
+                    {
+                      "id": "I04",
+                      "text": "On the run screen the heart rate and the GPS badge share one row under the header."
+                    }
+                  ]
+                },
+                {
+                  "title": "Watch",
+                  "items": [
+                    {
+                      "id": "I05",
+                      "text": "Watch: the pause, resume and finish buttons share one size and place, the figures never run under them, and the app version is in Settings."
+                    }
+                  ]
+                },
+                {
+                  "title": "Sharing and summaries",
+                  "items": [
+                    {
+                      "id": "I06",
+                      "text": "The Hide start and end setting now lives in Me → Privacy, with each end set separately."
+                    },
+                    {
+                      "id": "I07",
+                      "text": "The top of the summary shows the workout’s start and end times."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fixes",
+              "title": "Fixed",
+              "groups": [
+                {
+                  "title": "Fixed",
+                  "items": [
+                    {
+                      "id": "F01",
+                      "text": "Phone and watch steps count once: walking together is not doubled, and separate walks add up. Both devices use one daily number without going backwards."
+                    },
+                    {
+                      "id": "F02",
+                      "text": "Steps reach the other device sooner. The watch tile refreshes when the daily total changes, after an app update and after a watch reboot."
+                    },
+                    {
+                      "id": "F03",
+                      "text": "The watch shows the phone’s daily kilometres, kcal and minutes, accounting for watch steps not yet sent. Outdoor workout distance uses GPS metres rather than stride length."
+                    },
+                    {
+                      "id": "F04",
+                      "text": "The app opens faster: the watch connection no longer holds up the first screen."
+                    },
+                    {
+                      "id": "F05",
+                      "text": "Saving a drawn loop opens its name dialog straight away, without waiting for the map’s place name."
+                    },
+                    {
+                      "id": "F06",
+                      "text": "The wolf adapts to pace changes within 10 seconds in either direction; answering a rival’s surge no longer raises its base pace."
+                    },
+                    {
+                      "id": "F07",
+                      "text": "On round watch screens and with large text, time, distance, steps and pause/finish buttons fit without overlap."
+                    },
+                    {
+                      "id": "F08",
+                      "text": "Summary distance keeps two decimal places, and times under an hour omit the extra hour. Bike recordings show no cycling steps."
+                    },
+                    {
+                      "id": "F09",
+                      "text": "Hebrew now distinguishes laps from saved routes more clearly, with grammar, neutral wording and speed-number order fixes. Cards and the watch-workout banner mirror correctly."
+                    },
+                    {
+                      "id": "F10",
+                      "text": "Accessibility speech names the lap chart “Laps” rather than “Kilometres”."
+                    },
+                    {
+                      "id": "F11",
+                      "text": "Route-hiding sliders are easier to see in the light theme."
+                    },
+                    {
+                      "id": "F12",
+                      "text": "The phone’s own steps are no longer doubled: Ritza’s counter and Android’s record count as one copy."
+                    },
+                    {
+                      "id": "F13",
+                      "text": "The watch receives the phone’s steps even when it has none of its own yet that day."
+                    },
+                    {
+                      "id": "F14",
+                      "text": "In the loop name window the Name label is no longer cut off at the top, in every language and at large text sizes."
+                    },
+                    {
+                      "id": "F15",
+                      "text": "The week counts bike rides as workouts just like the month does; kilometres stay on-foot kilometres."
+                    },
+                    {
+                      "id": "F16",
+                      "text": "A treadmill workout keeps the activity you choose: a run with zero distance no longer turns into a walk in History."
+                    },
+                    {
+                      "id": "F17",
+                      "text": "Treadmill screens no longer show a GPS status: a treadmill workout does not use GPS."
+                    },
+                    {
+                      "id": "F18",
+                      "text": "The step goal in first setup uses the same thousands separator as the tiles beside it."
+                    },
+                    {
+                      "id": "F19",
+                      "text": "When you scroll a workout summary, its big numbers no longer run under the status bar and clock."
+                    },
+                    {
+                      "id": "F20",
+                      "text": "The run screen at large text sizes: the big figures stay within bounds and the caption under the hunt character no longer breaks letter by letter."
+                    },
+                    {
+                      "id": "F21",
+                      "text": "The video screen for sharing cuts nothing at large text sizes: the settings scroll and the main button stays pinned at the bottom."
+                    },
+                    {
+                      "id": "F22",
+                      "text": "In the pantry the day header shows Today and the date, and history rows have no stray separator."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "version": "0.20",
           "date": "2026-10-25",
           "date_label": "25 October 2026",
@@ -1655,6 +2333,345 @@
       "contents": "בעדכון הזה",
       "back": "לראש העמוד",
       "releases": [
+        {
+          "version": "0.30",
+          "date": "2026-10-31",
+          "date_label": "⁨31⁩ באוקטובר ⁨2026⁩",
+          "title": "ריצה ⁨0.30⁩ — מה חדש",
+          "intro": "מאז ⁨0.22⁩: ריצה בשעון, מסך התחלה חדש, הקלטת הליכון ואופניים, עריכת אימונים, מספר צעדים משותף ושיתוף עם סרטונים. כאן הרשימה המלאה של התוספות, השיפורים והתיקונים.",
+          "categories": [
+            {
+              "id": "new",
+              "title": "חדש",
+              "groups": [
+                {
+                  "title": "שעון",
+                  "items": [
+                    {
+                      "id": "N01",
+                      "text": "ריצה בשעוני ⁨Wear OS⁩: אפשר להתחיל הליכה או ריצה מהשעון ולהקליט דופק ואימון גם בלי הטלפון לידך."
+                    },
+                    {
+                      "id": "N02",
+                      "text": "אפשר לבחור ארנב או זאב בשעון. הצל של המסלול שנבחר מגיע מהטלפון מראש, ואפשר להתחיל איתו גם בלי הטלפון."
+                    },
+                    {
+                      "id": "N03",
+                      "text": "אימון מהטלפון מופיע גם בשעון; כשההקלטה בשעון, בטלפון מופיעה השורה ״האימון מתנהל בשעון ← פתיחה״."
+                    },
+                    {
+                      "id": "N04",
+                      "text": "יומן השעון שומר אימונים ומעביר אותם עם המסלול לטלפון. בסיכום בטלפון מופיעים מקטעי קילומטר והקפות."
+                    },
+                    {
+                      "id": "N05",
+                      "text": "בשעון יש רטט ״טיק, טיק, יוצאים״, השהיה עם אישור סיום וקצב לפי ⁨30⁩ השניות האחרונות."
+                    },
+                    {
+                      "id": "N26",
+                      "text": "ההתחלה בשעון לא ממתינה ל־⁨GPS⁩: אם אין קליטה, השעון מודיע על כך והמרחק נמדד לפי צעדים."
+                    },
+                    {
+                      "id": "N27",
+                      "text": "בשעון יש מסך ״נתוני בריאות״ שמסביר למה צריך דופק ו־⁨GPS⁩ ומפנה למדיניות הפרטיות בטלפון; אם ההרשאה נדחתה, השעון מציין מה לאשר."
+                    }
+                  ]
+                },
+                {
+                  "title": "התחלה והקלטה",
+                  "items": [
+                    {
+                      "id": "N06",
+                      "text": "מסך התחלה חדש: ארבעה אריחים להליכה, ריצה, אופניים וציד. להליכה ולריצה יש מצבי חופשי, אינטרוולים, צל והליכון."
+                    },
+                    {
+                      "id": "N07",
+                      "text": "האינטרוולים מוגדרים במסך ההתחלה: ריצה, הליכה, מחזורים והליכה לפני ואחרי; בהליכון אפשר לקבוע גם מהירות לכל מקטע."
+                    },
+                    {
+                      "id": "N08",
+                      "text": "הליכה וריצה על הליכון בלי ⁨GPS⁩, עם הילד שלנו שהולך או רץ לצידך. במצב חופשי המרחק מוערך לפי צעדים; באינטרוולים לפי המהירויות והזמנים שנקבעו."
+                    },
+                    {
+                      "id": "N09",
+                      "text": "אחרי אימון הליכון אפשר להזין את המרחק מהצג כדי לעדכן את האימון ואת אורך הצעד לפעם הבאה; מספר הצעדים נשאר כפי שנמדד."
+                    },
+                    {
+                      "id": "N10",
+                      "text": "הקלטת רכיבה בטלפון: מסלול ומרחק לפי מיקומי ⁨GPS⁩, מהירות בקמ״ש, השהיה אוטומטית ומקטעי קילומטר. רכיבה אינה מוסיפה צעדים."
+                    },
+                    {
+                      "id": "N11",
+                      "text": "אם הליכה או ריצה נראות כמו רכיבה, נשאל בסיכום. גם הקלטת רכיבה אפשר לאשר כהליכה או כריצה. הבחירה נשארת שלך."
+                    },
+                    {
+                      "id": "N12",
+                      "text": "בזמן רכיבה הילד שלנו מדווש במפה ובמסך ההתחלה."
+                    },
+                    {
+                      "id": "N28",
+                      "text": "האינטרוולים ברורים יותר: התוכנית מוצגת במספרים גדולים — דקות וקמ״ש, או משך כל שלב — וכפתור העריכה פותח חלון במרכז העמוד. לפני ההתחלה אפשר לבחור ספירה לאחור של ⁨3⁩, ⁨5⁩ או ⁨10⁩ שניות, או ״צליל״. כך בהליכון וכך בחוץ."
+                    },
+                    {
+                      "id": "N29",
+                      "text": "המסלול והמהירות של הקלטת רכיבה נשארים באפליקציה ולא נשלחים ל־⁨Health Connect⁩."
+                    }
+                  ]
+                },
+                {
+                  "title": "אימונים ומסלולים",
+                  "items": [
+                    {
+                      "id": "N13",
+                      "text": "העיפרון בסיכום פותח את ״עריכת אימון״: סוג הפעילות, חיתוך, ייצוא ⁨GPX⁩ ומחיקה במקום אחד."
+                    },
+                    {
+                      "id": "N14",
+                      "text": "אפשר לחתוך את תחילת האימון המוקלט או את סופו בעזרת המפה ורצועת המהירות; הגבולות והנתונים החדשים מוצגים לפני השמירה."
+                    },
+                    {
+                      "id": "N15",
+                      "text": "״נראה שבסוף נסענו ברכב״: אפשר לבדוק ולחתוך את הקטע. ההצעה יכולה להופיע גם לתחילת האימון, ואפשר להשאיר את ההקלטה כפי שהיא."
+                    },
+                    {
+                      "id": "N16",
+                      "text": "הקפות מזוהות אוטומטית בחזרה למקום ההתחלה אחרי שתי הקפות מלאות לפחות. נגיעה בעמודת הקפה או קילומטר בסיכום מציגה משך, שעת התחלה וסיום וקצב."
+                    },
+                    {
+                      "id": "N17",
+                      "text": "״דיוק הסיבוב״: כשהקפות חוזרות שונות באופן עקבי מהקו שצויר, אפשר להשוות בין הקווים ולעדכן את המסלול השמור. מרחק האימון שנמדד ב־⁨GPS⁩ נשאר ללא שינוי."
+                    }
+                  ]
+                },
+                {
+                  "title": "מכשירים ודופק",
+                  "items": [
+                    {
+                      "id": "N18",
+                      "text": "״מה יש לך על היד?״ — שעון, צמיד, רצועת חזה או רק טלפון. קודם מחפשים מכשיר, ואז מציגים הוראות לפי היצרן; ל־⁨Wear OS⁩ יש קישור להתקנת ריצה בשעון."
+                    },
+                    {
+                      "id": "N19",
+                      "text": "אם המכשיר מחובר אבל לא מגיע דופק, דף עזרה מסביר מה לבדוק. אפשר להמשיך גם בלי דופק."
+                    },
+                    {
+                      "id": "N30",
+                      "text": "העזרה לדופק מכסה כל דגם שעון וצמיד ברשימה, לפי ההוראות של היצרנים. כשלמותג יש כמה דגמים, לכל דגם לשונית משלו; הדף תמיד באותו גובה והכפתור הראשי נשאר במקומו."
+                    },
+                    {
+                      "id": "N31",
+                      "text": "עזרה לפי יצרן הטלפון: בהגדרה הראשונה וב״אני ← תכונות והרשאות״, ליד שורות כמו סוללה, הפעלה אוטומטית, התראות, מיקום וגישה לפעילות יש כפתור ״איך מפעילים ב…״. האפליקציה מזהה לבד את יצרן הטלפון ומציגה שלבים מצוירים לפי הסדר, בשפת האפליקציה; השלבים זמינים גם בלי חיבור לרשת."
+                    }
+                  ]
+                },
+                {
+                  "title": "התקדמות וסיכומים",
+                  "items": [
+                    {
+                      "id": "N20",
+                      "text": "כרטיס ״ריצה בהתאמה לגיל״ בסיכום, בשיאים ובתמונה לשיתוף: מדד לריצות כביש של ⁨5⁩ ו־⁨10⁩ ק״מ לפי שנת לידה ומין. זו השוואה לרמת ייחוס בריצה, ולא אחוז האנשים שנשארו מאחור."
+                    },
+                    {
+                      "id": "N21",
+                      "text": "הגביע המרכזי של השנה נבחר לפי דרגת המדליה והקושי האישי של ההישג, עם הסבר למה הוא בולט עבורך."
+                    },
+                    {
+                      "id": "N22",
+                      "text": "״השבוע שלך״ מופיע בשורה קומפקטית ב״היום״ ונעלם אחרי שתי פתיחות או סגירה. ב״היסטוריה״ השבוע והשנה מופיעים יחד, וסיכום שטרם נפתח מודגש."
+                    }
+                  ]
+                },
+                {
+                  "title": "שיתוף",
+                  "items": [
+                    {
+                      "id": "N23",
+                      "text": "בתמונות ובסרטונים לשיתוף אפשר להסתיר כל קצה בנפרד, כברירת מחדל ⁨200⁩ מ׳ מכל צד. באימון במסלול סגור מוסתרות דרכי ההגעה והחזרה והמסלול נשאר שלם; המקור וקובץ ⁨GPX⁩ אינם משתנים."
+                    },
+                    {
+                      "id": "N24",
+                      "text": "שלוש מדבקות שקופות לסטורי: מסלול ונתונים, נתונים בלבד או מסלול בלבד."
+                    },
+                    {
+                      "id": "N32",
+                      "text": "השיתוף הוא עכשיו גלריה של אפשרויות מוכנות: כרטיס, מדבקה וסרטונים בעמוד אחד, ושורה אחת של אפליקציות לשליחה — בלי מסכי בחירה מיותרים."
+                    },
+                    {
+                      "id": "N33",
+                      "text": "סרטון של ⁨12⁩ שניות לשליחה: טיסה תלת־ממדית מעל המפה עם הבניינים, הקרנה חוזרת דו־ממדית, המסלול לבדו בתלת־ממד ובדו־ממד, וגרסה על התמונה שלך. המסלול צבוע לפי הקצב, הדמות רצה, המספרים גדלים ובסוף מופיע הסיכום."
+                    }
+                  ]
+                },
+                {
+                  "title": "מפה ודמויות",
+                  "items": [
+                    {
+                      "id": "N34",
+                      "text": "הדמויות מסתובבות לפי כיוון המסלול — אליך, ממך והלאה ולצדדים — במפה ובסרטונים: הילד, הרוכב, הארנב, הזאב והצל. הבגדים של הילד לא משתנים בפנייה."
+                    }
+                  ]
+                },
+                {
+                  "title": "ציד ומזווה",
+                  "items": [
+                    {
+                      "id": "N25",
+                      "text": "הגזרים והציוד זמינים ליד הגדרות הציד. למזווה נוספה היסטוריה של שלל, קניות, מציאות ויתרה; רשומת ציד פותחת את הסיכום שלו."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "improved",
+              "title": "שופר",
+              "groups": [
+                {
+                  "title": "התחלה, הליכון וריצה",
+                  "items": [
+                    {
+                      "id": "I01",
+                      "text": "בכל מקום שמוצגים בו אופניים מופיע עכשיו הרוכב שלנו."
+                    },
+                    {
+                      "id": "I02",
+                      "text": "בהליכון הילד שלנו גדול יותר על הרצועה ונע בצורה חלקה יותר, גם במצב חופשי."
+                    },
+                    {
+                      "id": "I03",
+                      "text": "ההתחלה בהליכון מבקשת קודם גישה לצעדים ומתחילה רק אחרי התשובה."
+                    },
+                    {
+                      "id": "I04",
+                      "text": "במסך האימון הדופק וסימן ה־⁨GPS⁩ באותה שורה מתחת לכותרת."
+                    }
+                  ]
+                },
+                {
+                  "title": "שעון",
+                  "items": [
+                    {
+                      "id": "I05",
+                      "text": "בשעון: כפתורי ההשהיה, ההמשך והסיום באותו גודל ובאותו מקום, המספרים לא נכנסים מתחתיהם והגרסה של האפליקציה מופיעה בהגדרות."
+                    }
+                  ]
+                },
+                {
+                  "title": "שיתוף וסיכומים",
+                  "items": [
+                    {
+                      "id": "I06",
+                      "text": "ההגדרה ״הסתרת ההתחלה והסוף״ נמצאת עכשיו ב״אני ← פרטיות״, וכל קצה מוגדר בנפרד."
+                    },
+                    {
+                      "id": "I07",
+                      "text": "בראש הסיכום מוצגות שעת ההתחלה ושעת הסיום של האימון."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fixes",
+              "title": "תוקן",
+              "groups": [
+                {
+                  "title": "תוקן",
+                  "items": [
+                    {
+                      "id": "F01",
+                      "text": "צעדי הטלפון והשעון נספרים פעם אחת: הליכה עם שניהם אינה מוכפלת, והליכות נפרדות מצטברות. בשני המכשירים מופיע מספר יומי משותף שאינו יורד."
+                    },
+                    {
+                      "id": "F02",
+                      "text": "הצעדים מגיעים מהר יותר בין המכשירים. אריח השעון מתעדכן כשהסכום היומי משתנה, אחרי עדכון האפליקציה ואחרי הפעלה מחדש של השעון."
+                    },
+                    {
+                      "id": "F03",
+                      "text": "השעון מציג את הקילומטרים, הקלוריות והדקות היומיים מהטלפון, ומתחשב גם בצעדי שעון שטרם הועברו. מרחק אימון חוץ מוקלט נלקח ממדידת ⁨GPS⁩ ולא מאורך הצעד."
+                    },
+                    {
+                      "id": "F04",
+                      "text": "האפליקציה נפתחת מהר יותר: החיבור לשעון כבר אינו מעכב את המסך הראשון."
+                    },
+                    {
+                      "id": "F05",
+                      "text": "בשמירת מסלול שצויר, חלון השם נפתח מיד בלי להמתין לשם המקום מהמפה."
+                    },
+                    {
+                      "id": "F06",
+                      "text": "הזאב מסתגל לשינוי קצב בתוך ⁨10⁩ שניות, לשני הכיוונים; מענה להאצה של היריב כבר אינו מעלה את קצב הבסיס שלו."
+                    },
+                    {
+                      "id": "F07",
+                      "text": "במסכי שעון עגולים ובגופן גדול, הזמן, המרחק, הצעדים וכפתורי ההשהיה והסיום מוצגים בלי חפיפה."
+                    },
+                    {
+                      "id": "F08",
+                      "text": "המרחק בסיכום מוצג עם שתי ספרות אחרי הנקודה, וזמן קצר משעה מוצג בלי שעת אפס מיותרת. בהקלטת רכיבה לא מוצגים צעדים מהרכיבה."
+                    },
+                    {
+                      "id": "F09",
+                      "text": "בעברית הובהר ההבדל בין הקפה למסלול שמור, ותוקנו דקדוק, ניסוח ניטרלי וסדר המספר ויחידת המהירות. הכרטיסים ושורת האימון מהשעון מוצגים בכיוון הנכון."
+                    },
+                    {
+                      "id": "F10",
+                      "text": "ההקראה לנגישות קוראת לגרף ההקפות ״הקפות״ ולא ״קילומטרים״."
+                    },
+                    {
+                      "id": "F11",
+                      "text": "מחווני הסתרת המסלול ברורים יותר בערכת הנושא הבהירה."
+                    },
+                    {
+                      "id": "F12",
+                      "text": "צעדי הטלפון עצמו כבר לא מוכפלים: המונה של האפליקציה והרישום של ⁨Android⁩ נספרים כעותק אחד."
+                    },
+                    {
+                      "id": "F13",
+                      "text": "השעון מקבל את צעדי הטלפון גם כשעדיין אין לו צעדים משלו באותו יום."
+                    },
+                    {
+                      "id": "F14",
+                      "text": "בחלון שם המסלול התווית של שדה השם כבר לא נחתכת מלמעלה, בכל השפות ובגופן גדול."
+                    },
+                    {
+                      "id": "F15",
+                      "text": "השבוע סופר רכיבות כאימונים בדיוק כמו החודש; הקילומטרים נשארים קילומטרים של הליכה וריצה."
+                    },
+                    {
+                      "id": "F16",
+                      "text": "באימון הליכון נשמר סוג הפעילות שנבחר: ריצה בלי מרחק כבר לא הופכת להליכה ב״היסטוריה״."
+                    },
+                    {
+                      "id": "F17",
+                      "text": "במסכי ההליכון אין יותר מצב ⁨GPS⁩: ההליכון אינו משתמש ב־⁨GPS⁩."
+                    },
+                    {
+                      "id": "F18",
+                      "text": "יעד הצעדים בהגדרה הראשונה מוצג עם מפריד אלפים, כמו באריחים שלידו."
+                    },
+                    {
+                      "id": "F19",
+                      "text": "בגלילת סיכום האימון המספרים הגדולים כבר לא נכנסים מתחת לשורת המצב ולשעון."
+                    },
+                    {
+                      "id": "F20",
+                      "text": "במסך האימון בגופן גדול המספרים הגדולים נשארים בגבולם והכיתוב מתחת לדמות הציד לא נשבר אות אחרי אות."
+                    },
+                    {
+                      "id": "F21",
+                      "text": "במסך הסרטון לשליחה בגופן גדול שום דבר לא נחתך: ההגדרות נגללות והכפתור הראשי נשאר קבוע בתחתית."
+                    },
+                    {
+                      "id": "F22",
+                      "text": "במזווה כותרת היום מציגה ״היום״ ותאריך, ובשורות ההיסטוריה אין מפריד מיותר."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "version": "0.20",
           "date": "2026-10-25",
