@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Рица — что нового</title>
-<meta name="description" content="Полный список нового и исправлений в Рице 0.20.">
+<meta name="description" content="Полный список нового и исправлений в Рице 0.30.">
 <meta property="og:title" content="Рица — что нового">
-<meta property="og:description" content="Полный список нового и исправлений в Рице 0.20.">
+<meta property="og:description" content="Полный список нового и исправлений в Рице 0.30.">
 <meta property="og:image" content="https://ritza.app/img/chase.webp">
 <link rel="icon" href="/img/favicon.png">
 <link rel="apple-touch-icon" href="/img/icon-192.png">
@@ -175,6 +175,17 @@ bdi { unicode-bidi: isolate; }
 <ul>
 <li data-note="N25">Морковки и снаряжение доступны рядом с настройками охоты. Кладовая теперь с историей: добыча, покупки, находки и остаток; из записи охоты можно открыть её итог.</li>
 </ul>
+<h3>Правила и приватность</h3>
+<ul>
+<li data-note="N36">Правила и Политика конфиденциальности 3.0 (1 ноября 2026): Рица описана как игровое и развлекательное приложение, назван поставщик — Пётр Корсунский, частный разработчик из Израиля, — и действует право Израиля, с разделами для ЕС, Великобритании и США.</li>
+<li data-note="N37">Согласие и уведомление: под «Дальше» на первом экране — строка о том, что, продолжая, ты подтверждаешь, что тебе есть 13 лет, и принимаешь Правила и Политику конфиденциальности. Рица запоминает принятую версию, а «Сегодня» сообщает, когда они меняются.</li>
+<li data-note="N38">«Я» → «Приватность» → «Удалить все данные Рицы»: после подтверждения и с возможностью сначала сохранить копию удаляет данные Рицы на телефоне и часах и записи, которые сделала Рица в Health Connect. Копии на Google Диске и то, что уже отправлено, остаются у тебя.</li>
+</ul>
+<h3>Маршрут к цели</h3>
+<ul>
+<li data-note="N39">Безопасность плана: «Цель» никогда не планирует потерю быстрее 1 кг в неделю, а при меньшем весе — быстрее 1 % веса в неделю. Еда урезается не больше чем на четверть привычного рациона и никогда не ниже дневной границы, а цель — не ниже здорового веса (ИМТ 20); при ИМТ 20,5 и ниже цель снижения веса не ставится.</li>
+<li data-note="N40">Перед открытием «Цели» страница условий просит отметку «Мне 18 лет или больше. Прочитано и принято». Возраст определяется по году рождения: «Цель» открывается с календарного года, в котором исполняется 19, первый введённый год сохраняется, а если Google Play сообщает, что аккаунт детский или под родительским контролем, «Цель» остаётся закрытой.</li>
+</ul>
 </section>
 <section class="release-category" aria-labelledby="ru-0-30-improved"><h2 id="ru-0-30-improved">Улучшено</h2>
 <h3>Старт, дорожка и бег</h3>
@@ -193,6 +204,12 @@ bdi { unicode-bidi: isolate; }
 <ul>
 <li data-note="I06">Настройка «Скрыть начало и конец» теперь в «Я → Приватность»: каждый конец настраивается отдельно.</li>
 <li data-note="I07">Вверху итога — часы старта и финиша тренировки.</li>
+<li data-note="I09">Итог года показывает только сброшенные килограммы, без настоящих значений веса.</li>
+<li data-note="I10">Экспорт GPX — твоя собственная полная копия трека: строка под кнопкой говорит, что начало и конец не скрыты. Скрытие концов относится к карточкам и видео для отправки.</li>
+</ul>
+<h3>Приватность</h3>
+<ul>
+<li data-note="I11">Отчёты об ошибках не содержат ничего о тебе: только твой текст, версии Рицы и Android, сведения о сборке Рицы, марку и модель телефона и, после сбоя, место в коде Рицы. Они уходят только с твоего согласия — «Отправить», согласие отправить отчёт о сбое или, если включены «Отчёты об ошибках», отчёт о сбое при следующем запуске. Ночного отчёта больше нет.</li>
 </ul>
 </section>
 <section class="release-category" aria-labelledby="ru-0-30-fixes"><h2 id="ru-0-30-fixes">Исправлено</h2>
@@ -221,6 +238,8 @@ bdi { unicode-bidi: isolate; }
 <li data-note="F21">Экран видео для отправки с крупным шрифтом ничего не обрезает: настройки прокручиваются, главная кнопка закреплена внизу.</li>
 <li data-note="F22">В кладовой заголовок дня показывает «Сегодня» и дату, а в строках истории нет лишнего разделителя.</li>
 <li data-note="F23">Шаги, когда телефон и часы весь день с тобой: итог дня больше не завышается — каждый отрезок считается по одному устройству, а шаги с часов, пришедшие с опозданием, не складываются дважды.</li>
+<li data-note="F24">Отметка в условиях «Цели» читается одинаково в приложении и в правилах на всех языках, а окно удаления на иврите больше не звучит так, будто копии хранит Рица.</li>
+<li data-note="F25">Тексты совпадают с приложением: политика, правила, страница магазина и сайт называют пределы в 1 % и четверть, проверку возраста в Google Play, сохранённый первый год рождения, кнопку удаления и картинки-подсказки с ritza.app.</li>
 </ul>
 </section>
 <a class="back-top" href="#ru">К началу</a>
@@ -494,6 +513,17 @@ bdi { unicode-bidi: isolate; }
 <ul>
 <li data-note="N25">Carrots and gear sit beside the hunt settings. The pantry now has a history of earnings, purchases, finds and the balance; a hunt entry opens its summary.</li>
 </ul>
+<h3>Rules and privacy</h3>
+<ul>
+<li data-note="N36">Terms and Privacy Policy 3.0 (1 November 2026): Ritza is described as a game and entertainment app, the provider is named — Peter Korsunsky, a private developer in Israel — and Israeli law applies, with sections for the EU, the UK and the US.</li>
+<li data-note="N37">Consent and notice: under Next on the first screen, a line says that by continuing you confirm you are at least 13 and accept the Terms and the Privacy Policy. Ritza remembers the version you accepted, and Today tells you when they change.</li>
+<li data-note="N38">Me → Privacy → Delete all Ritza data: after a confirmation, and with a chance to save a copy first, it deletes Ritza’s data on the phone and the watch and the records Ritza wrote to Health Connect. Copies on Google Drive and ones you sent stay with you.</li>
+</ul>
+<h3>Route to the goal</h3>
+<ul>
+<li data-note="N39">Plan safety: Goal never plans a loss faster than 1 kg a week, or 1 % of body weight a week at a lower weight. Food is cut by at most a quarter of your usual intake and never below the daily floor, and the goal is never below a healthy weight (BMI 20); at a BMI of 20.5 or less no weight-loss goal is set.</li>
+<li data-note="N40">Before Goal opens, a conditions page asks for a tick: “I am 18 or older. Read and accepted”. Age is judged by year of birth: Goal opens from the calendar year you turn 19, the first year you entered is kept, and Goal stays closed if Google Play says the account is a child’s or supervised.</li>
+</ul>
 </section>
 <section class="release-category" aria-labelledby="en-0-30-improved"><h2 id="en-0-30-improved">Improved</h2>
 <h3>Start, treadmill and running</h3>
@@ -512,6 +542,12 @@ bdi { unicode-bidi: isolate; }
 <ul>
 <li data-note="I06">The Hide start and end setting now lives in Me → Privacy, with each end set separately.</li>
 <li data-note="I07">The top of the summary shows the workout’s start and end times.</li>
+<li data-note="I09">The year recap shows only the kilograms lost, not the actual weights.</li>
+<li data-note="I10">A GPX export is your own full copy of the track: a line under the button says its start and end are not hidden. Hiding the ends applies to shared cards and videos.</li>
+</ul>
+<h3>Privacy</h3>
+<ul>
+<li data-note="I11">Error reports hold nothing about you: only your words, the Ritza and Android versions, the build details, the phone’s make and model and, after a crash, the place in Ritza’s code. They go only with your yes — Send, agreeing to send a crash, or, if you switch “Error reports” on, a crash at the next start. The nightly report is gone.</li>
 </ul>
 </section>
 <section class="release-category" aria-labelledby="en-0-30-fixes"><h2 id="en-0-30-fixes">Fixed</h2>
@@ -540,6 +576,8 @@ bdi { unicode-bidi: isolate; }
 <li data-note="F21">The video screen for sharing cuts nothing at large text sizes: the settings scroll and the main button stays pinned at the bottom.</li>
 <li data-note="F22">In the pantry the day header shows Today and the date, and history rows have no stray separator.</li>
 <li data-note="F23">Steps when both the phone and the watch are with you all day: the day total is no longer inflated — each stretch counts one device, and late watch steps are not added twice.</li>
+<li data-note="F24">The conditions tick reads the same in the app and in the terms in every language, and the Hebrew delete window no longer reads as if Ritza kept the copies.</li>
+<li data-note="F25">Texts now match the app: the policy, terms, store listing and site name the 1 % and quarter limits, the Google Play age check, the first birth year kept, the delete button and the help pictures from ritza.app.</li>
 </ul>
 </section>
 <a class="back-top" href="#en">Back to top</a>
@@ -813,6 +851,17 @@ bdi { unicode-bidi: isolate; }
 <ul>
 <li data-note="N25">הגזרים והציוד זמינים ליד הגדרות הציד. למזווה נוספה היסטוריה של שלל, קניות, מציאות ויתרה; רשומת ציד פותחת את הסיכום שלו.</li>
 </ul>
+<h3>כללים ופרטיות</h3>
+<ul>
+<li data-note="N36">תנאי השימוש ומדיניות הפרטיות ⁨3.0⁩ (⁨1⁩ בנובמבר ⁨2026⁩): ריצה מוגדרת כאפליקציית משחק ובידור, הספק מצוין בשמו — פטר קורסונסקי, מפתח עצמאי בישראל — והדין החל הוא הדין הישראלי, עם סעיפים לאיחוד האירופי, לבריטניה ולארה״ב.</li>
+<li data-note="N37">הסכמה והודעה: מתחת ל״הבא״ במסך הראשון מופיעה שורה שלפיה בהמשך השימוש מאשרים שהגיל הוא ⁨13⁩ ומעלה ומקבלים את תנאי השימוש ואת מדיניות הפרטיות. ריצה שומרת את הגרסה שאושרה, ומסך ״היום״ מודיע כשהמסמכים משתנים.</li>
+<li data-note="N38">״אני״ ← ״פרטיות״ ← ״מחיקת כל הנתונים של ריצה״: אחרי אישור, ואחרי אפשרות לשמור קודם עותק, נמחקים הנתונים של ריצה בטלפון ובשעון והרשומות שריצה כתבה ב־⁨Health Connect⁩. עותקים ב־⁨Google Drive⁩ ועותקים שנשלחו נשארים אצלך.</li>
+</ul>
+<h3>מסלול אל היעד</h3>
+<ul>
+<li data-note="N39">בטיחות התוכנית: ״יעד״ אינו מתכנן ירידה מהירה מ־⁨1⁩ ק״ג בשבוע, ובמשקל נמוך יותר — מהירה מ־⁨1%⁩ ממשקל הגוף בשבוע. המזון אינו מקוצץ ביותר מרבע מהצריכה הרגילה ואינו יורד מתחת לגבול היומי, והיעד אינו נמוך ממשקל תקין (⁨BMI 20⁩); ב־⁨BMI 20.5⁩ ומטה לא נקבע יעד ירידה במשקל.</li>
+<li data-note="N40">לפני ש״יעד״ נפתח, דף תנאים מבקש סימון: ״מלאו לי ⁨18⁩ שנים או יותר. נקרא ואושר״. הגיל נקבע לפי שנת הלידה: ״יעד״ נפתח מהשנה הקלנדרית שבה מלאות ⁨19⁩, שנת הלידה הראשונה שהוזנה נשמרת, ו״יעד״ נשאר סגור אם ⁨Google Play⁩ מדווח שהחשבון הוא של ילד או בפיקוח הורים.</li>
+</ul>
 </section>
 <section class="release-category" aria-labelledby="he-0-30-improved"><h2 id="he-0-30-improved">שופר</h2>
 <h3>התחלה, הליכון וריצה</h3>
@@ -831,6 +880,12 @@ bdi { unicode-bidi: isolate; }
 <ul>
 <li data-note="I06">ההגדרה ״הסתרת ההתחלה והסוף״ נמצאת עכשיו ב״אני ← פרטיות״, וכל קצה מוגדר בנפרד.</li>
 <li data-note="I07">בראש הסיכום מוצגות שעת ההתחלה ושעת הסיום של האימון.</li>
+<li data-note="I09">סיכום השנה מציג רק את הקילוגרמים שירדו, בלי המשקלים עצמם.</li>
+<li data-note="I10">ייצוא ⁨GPX⁩ הוא עותק מלא ואישי של המסלול: שורה מתחת לכפתור מציינת שההתחלה והסוף אינם מוסתרים. הסתרת הקצוות חלה על כרטיסים וסרטונים לשיתוף.</li>
+</ul>
+<h3>פרטיות</h3>
+<ul>
+<li data-note="I11">דוחות שגיאה אינם כוללים דבר עליך: רק את הטקסט שלך, את גרסאות ריצה ו־⁨Android⁩, את פרטי הגרסה של ריצה, את יצרן הטלפון ודגמו ובקריסה — את המקום בקוד של ריצה. הם נשלחים רק באישור שלך: ״שליחה״, הסכמה לשלוח דוח קריסה או, אם ״דוחות שגיאה״ מופעלים, דוח קריסה בהפעלה הבאה. הדוח הלילי בוטל.</li>
 </ul>
 </section>
 <section class="release-category" aria-labelledby="he-0-30-fixes"><h2 id="he-0-30-fixes">תוקן</h2>
@@ -859,6 +914,8 @@ bdi { unicode-bidi: isolate; }
 <li data-note="F21">במסך הסרטון לשליחה בגופן גדול שום דבר לא נחתך: ההגדרות נגללות והכפתור הראשי נשאר קבוע בתחתית.</li>
 <li data-note="F22">במזווה כותרת היום מציגה ״היום״ ותאריך, ובשורות ההיסטוריה אין מפריד מיותר.</li>
 <li data-note="F23">צעדים כשהטלפון והשעון איתנו כל היום: סך היום כבר לא מנופח — כל קטע נספר לפי מכשיר אחד, וצעדים מהשעון שהגיעו באיחור לא נספרים פעמיים.</li>
+<li data-note="F24">הסימון בתנאי ״יעד״ נקרא אותו דבר באפליקציה ובתנאי השימוש בכל השפות, וחלון המחיקה בעברית כבר אינו נשמע כאילו ריצה שומרת את העותקים.</li>
+<li data-note="F25">הטקסטים תואמים את האפליקציה: מדיניות הפרטיות, תנאי השימוש, דף החנות והאתר מציינים את המגבלות של ⁨1%⁩ ושל רבע, את בדיקת הגיל ב־⁨Google Play⁩, את שמירת שנת הלידה הראשונה, את כפתור המחיקה ואת תמונות העזרה מ־⁨ritza.app⁩.</li>
 </ul>
 </section>
 <a class="back-top" href="#he">לראש העמוד</a>
@@ -1071,11 +1128,11 @@ bdi { unicode-bidi: isolate; }
     <a href="/accessibility/" data-t="foot_a11y">Заявление о доступности</a>
     <span><span data-t="foot_support">Поддержка</span>: <bdi dir="ltr">ritza.support@gmail.com</bdi></span>
     <span>© 2026</span>
-    <span class="note" data-t="foot_note">Рица — приложение для фитнеса и развлечения, не медицинское.</span>
+    <span class="note" data-t="foot_note">Рица — игровое и развлекательное приложение, не медицинское. Она не даёт медицинских советов, советов о питании и тренировках.</span>
   </div>
 </footer>
 <script>
-const T = {"ru": {"foot_a11y": "Заявление о доступности", "foot_new": "Что нового", "foot_note": "Рица — приложение для фитнеса и развлечения, не медицинское.", "foot_privacy": "Политика конфиденциальности", "foot_support": "Поддержка", "foot_terms": "Условия использования", "lang_label": "Язык", "nav_features": "Возможности", "nav_hunt": "Охота", "nav_privacy": "Приватность", "nav_route": "Маршрут к цели", "title": "Рица — что нового", "description": "Полный список нового и исправлений в Рице 0.20."}, "en": {"foot_a11y": "Accessibility statement", "foot_new": "What's new", "foot_note": "Ritza is a fitness and entertainment app, not a medical one.", "foot_privacy": "Privacy policy", "foot_support": "Support", "foot_terms": "Terms of use", "lang_label": "Language", "nav_features": "Features", "nav_hunt": "The Hunt", "nav_privacy": "Privacy", "nav_route": "Route to the goal", "title": "Ritza — what's new", "description": "The full list of additions and fixes in Ritza 0.20."}, "he": {"foot_a11y": "הצהרת נגישות", "foot_new": "מה חדש", "foot_note": "ריצה היא אפליקציה לכושר ולבידור, ולא אפליקציה רפואית.", "foot_privacy": "מדיניות פרטיות", "foot_support": "תמיכה", "foot_terms": "תנאי שימוש", "lang_label": "שפה", "nav_features": "מה באפליקציה", "nav_hunt": "הציד", "nav_privacy": "פרטיות", "nav_route": "מסלול אל היעד", "title": "ריצה — מה חדש", "description": "הרשימה המלאה של התוספות והתיקונים בריצה 0.20."}};
+const T = {"ru": {"foot_a11y": "Заявление о доступности", "foot_new": "Что нового", "foot_note": "Рица — игровое и развлекательное приложение, не медицинское. Она не даёт медицинских советов, советов о питании и тренировках.", "foot_privacy": "Политика конфиденциальности", "foot_support": "Поддержка", "foot_terms": "Условия использования", "lang_label": "Язык", "nav_features": "Возможности", "nav_hunt": "Охота", "nav_privacy": "Приватность", "nav_route": "Маршрут к цели", "title": "Рица — что нового", "description": "Полный список нового и исправлений в Рице 0.30."}, "en": {"foot_a11y": "Accessibility statement", "foot_new": "What's new", "foot_note": "Ritza is a game and entertainment app, not a medical one. It gives no medical, diet or training advice.", "foot_privacy": "Privacy policy", "foot_support": "Support", "foot_terms": "Terms of use", "lang_label": "Language", "nav_features": "Features", "nav_hunt": "The Hunt", "nav_privacy": "Privacy", "nav_route": "Route to the goal", "title": "Ritza — what's new", "description": "The full list of additions and fixes in Ritza 0.30."}, "he": {"foot_a11y": "הצהרת נגישות", "foot_new": "מה חדש", "foot_note": "ריצה היא אפליקציית משחק ובידור ולא אפליקציה רפואית. היא אינה נותנת ייעוץ רפואי, תזונתי או ייעוץ אימונים.", "foot_privacy": "מדיניות פרטיות", "foot_support": "תמיכה", "foot_terms": "תנאי שימוש", "lang_label": "שפה", "nav_features": "מה באפליקציה", "nav_hunt": "הציד", "nav_privacy": "פרטיות", "nav_route": "מסלול אל היעד", "title": "ריצה — מה חדש", "description": "הרשימה המלאה של התוספות והתיקונים בריצה ⁨0.30⁩."}};
 function apply(lang) {
   if (!T[lang]) lang = "ru";
   const d = T[lang];

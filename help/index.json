@@ -1,0 +1,5978 @@
+[
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/battery/en-1.webp",
+      "/help/samsung/battery/en-2.webp",
+      "/help/samsung/battery/en-3.webp",
+      "/help/samsung/battery/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/sleep/en-1.webp",
+      "/help/samsung/sleep/en-2.webp",
+      "/help/samsung/sleep/en-3.webp",
+      "/help/samsung/sleep/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/en-1.webp",
+      "/help/samsung/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/notifications/en-1.webp",
+      "/help/samsung/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/en-1.webp",
+      "/help/samsung/precise-location/en-2.webp",
+      "/help/samsung/precise-location/en-3.webp",
+      "/help/samsung/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/en-1.webp",
+      "/help/samsung/physical-activity/en-2.webp",
+      "/help/samsung/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-8",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/location/en-1.webp",
+      "/help/samsung/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/battery/one-ui-7/en-1.webp",
+      "/help/samsung/battery/one-ui-7/en-2.webp",
+      "/help/samsung/battery/one-ui-7/en-3.webp",
+      "/help/samsung/battery/one-ui-7/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/sleep/one-ui-7/en-1.webp",
+      "/help/samsung/sleep/one-ui-7/en-2.webp",
+      "/help/samsung/sleep/one-ui-7/en-3.webp",
+      "/help/samsung/sleep/one-ui-7/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/one-ui-7/en-1.webp",
+      "/help/samsung/unused-permissions/one-ui-7/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/notifications/one-ui-7/en-1.webp",
+      "/help/samsung/notifications/one-ui-7/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/one-ui-7/en-1.webp",
+      "/help/samsung/precise-location/one-ui-7/en-2.webp",
+      "/help/samsung/precise-location/one-ui-7/en-3.webp",
+      "/help/samsung/precise-location/one-ui-7/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/one-ui-7/en-1.webp",
+      "/help/samsung/physical-activity/one-ui-7/en-2.webp",
+      "/help/samsung/physical-activity/one-ui-7/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-7",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/location/one-ui-7/en-1.webp",
+      "/help/samsung/location/one-ui-7/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/battery/one-ui-6/en-1.webp",
+      "/help/samsung/battery/one-ui-6/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/sleep/one-ui-6/en-1.webp",
+      "/help/samsung/sleep/one-ui-6/en-2.webp",
+      "/help/samsung/sleep/one-ui-6/en-3.webp",
+      "/help/samsung/sleep/one-ui-6/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/one-ui-6/en-1.webp",
+      "/help/samsung/unused-permissions/one-ui-6/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/notifications/one-ui-6/en-1.webp",
+      "/help/samsung/notifications/one-ui-6/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/one-ui-6/en-1.webp",
+      "/help/samsung/precise-location/one-ui-6/en-2.webp",
+      "/help/samsung/precise-location/one-ui-6/en-3.webp",
+      "/help/samsung/precise-location/one-ui-6/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/one-ui-6/en-1.webp",
+      "/help/samsung/physical-activity/one-ui-6/en-2.webp",
+      "/help/samsung/physical-activity/one-ui-6/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-6",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/samsung/location/one-ui-6/en-1.webp",
+      "/help/samsung/location/one-ui-6/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/en-1.webp",
+      "/help/xiaomi/battery/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/en-1.webp",
+      "/help/xiaomi/autostart/en-2.webp",
+      "/help/xiaomi/autostart/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/en-1.webp",
+      "/help/xiaomi/recents/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/en-1.webp",
+      "/help/xiaomi/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/en-1.webp",
+      "/help/xiaomi/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/en-1.webp",
+      "/help/xiaomi/precise-location/en-2.webp",
+      "/help/xiaomi/precise-location/en-3.webp",
+      "/help/xiaomi/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/en-1.webp",
+      "/help/xiaomi/physical-activity/en-2.webp",
+      "/help/xiaomi/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/location/en-1.webp",
+      "/help/xiaomi/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/hyperos-1/en-1.webp",
+      "/help/xiaomi/battery/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/hyperos-1/en-1.webp",
+      "/help/xiaomi/autostart/hyperos-1/en-2.webp",
+      "/help/xiaomi/autostart/hyperos-1/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/hyperos-1/en-1.webp",
+      "/help/xiaomi/recents/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/hyperos-1/en-1.webp",
+      "/help/xiaomi/unused-permissions/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/hyperos-1/en-1.webp",
+      "/help/xiaomi/notifications/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/hyperos-1/en-1.webp",
+      "/help/xiaomi/precise-location/hyperos-1/en-2.webp",
+      "/help/xiaomi/precise-location/hyperos-1/en-3.webp",
+      "/help/xiaomi/precise-location/hyperos-1/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/hyperos-1/en-1.webp",
+      "/help/xiaomi/physical-activity/hyperos-1/en-2.webp",
+      "/help/xiaomi/physical-activity/hyperos-1/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/location/hyperos-1/en-1.webp",
+      "/help/xiaomi/location/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/miui-14/en-1.webp",
+      "/help/xiaomi/battery/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/miui-14/en-1.webp",
+      "/help/xiaomi/autostart/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/miui-14/en-1.webp",
+      "/help/xiaomi/recents/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/miui-14/en-1.webp",
+      "/help/xiaomi/unused-permissions/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/miui-14/en-1.webp",
+      "/help/xiaomi/notifications/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/miui-14/en-1.webp",
+      "/help/xiaomi/precise-location/miui-14/en-2.webp",
+      "/help/xiaomi/precise-location/miui-14/en-3.webp",
+      "/help/xiaomi/precise-location/miui-14/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/miui-14/en-1.webp",
+      "/help/xiaomi/physical-activity/miui-14/en-2.webp",
+      "/help/xiaomi/physical-activity/miui-14/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/xiaomi/location/miui-14/en-1.webp",
+      "/help/xiaomi/location/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/battery/en-1.webp",
+      "/help/redmi/battery/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/autostart/en-1.webp",
+      "/help/redmi/autostart/en-2.webp",
+      "/help/redmi/autostart/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/recents/en-1.webp",
+      "/help/redmi/recents/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/en-1.webp",
+      "/help/redmi/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/notifications/en-1.webp",
+      "/help/redmi/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/en-1.webp",
+      "/help/redmi/precise-location/en-2.webp",
+      "/help/redmi/precise-location/en-3.webp",
+      "/help/redmi/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/en-1.webp",
+      "/help/redmi/physical-activity/en-2.webp",
+      "/help/redmi/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/location/en-1.webp",
+      "/help/redmi/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/battery/hyperos-1/en-1.webp",
+      "/help/redmi/battery/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/autostart/hyperos-1/en-1.webp",
+      "/help/redmi/autostart/hyperos-1/en-2.webp",
+      "/help/redmi/autostart/hyperos-1/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/recents/hyperos-1/en-1.webp",
+      "/help/redmi/recents/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/hyperos-1/en-1.webp",
+      "/help/redmi/unused-permissions/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/notifications/hyperos-1/en-1.webp",
+      "/help/redmi/notifications/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/hyperos-1/en-1.webp",
+      "/help/redmi/precise-location/hyperos-1/en-2.webp",
+      "/help/redmi/precise-location/hyperos-1/en-3.webp",
+      "/help/redmi/precise-location/hyperos-1/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/hyperos-1/en-1.webp",
+      "/help/redmi/physical-activity/hyperos-1/en-2.webp",
+      "/help/redmi/physical-activity/hyperos-1/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/location/hyperos-1/en-1.webp",
+      "/help/redmi/location/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/battery/miui-14/en-1.webp",
+      "/help/redmi/battery/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/autostart/miui-14/en-1.webp",
+      "/help/redmi/autostart/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/recents/miui-14/en-1.webp",
+      "/help/redmi/recents/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/miui-14/en-1.webp",
+      "/help/redmi/unused-permissions/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/notifications/miui-14/en-1.webp",
+      "/help/redmi/notifications/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/miui-14/en-1.webp",
+      "/help/redmi/precise-location/miui-14/en-2.webp",
+      "/help/redmi/precise-location/miui-14/en-3.webp",
+      "/help/redmi/precise-location/miui-14/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/miui-14/en-1.webp",
+      "/help/redmi/physical-activity/miui-14/en-2.webp",
+      "/help/redmi/physical-activity/miui-14/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/redmi/location/miui-14/en-1.webp",
+      "/help/redmi/location/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/battery/en-1.webp",
+      "/help/poco/battery/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/autostart/en-1.webp",
+      "/help/poco/autostart/en-2.webp",
+      "/help/poco/autostart/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/recents/en-1.webp",
+      "/help/poco/recents/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/en-1.webp",
+      "/help/poco/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/notifications/en-1.webp",
+      "/help/poco/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/precise-location/en-1.webp",
+      "/help/poco/precise-location/en-2.webp",
+      "/help/poco/precise-location/en-3.webp",
+      "/help/poco/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/en-1.webp",
+      "/help/poco/physical-activity/en-2.webp",
+      "/help/poco/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/location/en-1.webp",
+      "/help/poco/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/battery/hyperos-1/en-1.webp",
+      "/help/poco/battery/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/autostart/hyperos-1/en-1.webp",
+      "/help/poco/autostart/hyperos-1/en-2.webp",
+      "/help/poco/autostart/hyperos-1/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/recents/hyperos-1/en-1.webp",
+      "/help/poco/recents/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/hyperos-1/en-1.webp",
+      "/help/poco/unused-permissions/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/notifications/hyperos-1/en-1.webp",
+      "/help/poco/notifications/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/precise-location/hyperos-1/en-1.webp",
+      "/help/poco/precise-location/hyperos-1/en-2.webp",
+      "/help/poco/precise-location/hyperos-1/en-3.webp",
+      "/help/poco/precise-location/hyperos-1/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/hyperos-1/en-1.webp",
+      "/help/poco/physical-activity/hyperos-1/en-2.webp",
+      "/help/poco/physical-activity/hyperos-1/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/location/hyperos-1/en-1.webp",
+      "/help/poco/location/hyperos-1/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/battery/miui-14/en-1.webp",
+      "/help/poco/battery/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/autostart/miui-14/en-1.webp",
+      "/help/poco/autostart/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/recents/miui-14/en-1.webp",
+      "/help/poco/recents/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/miui-14/en-1.webp",
+      "/help/poco/unused-permissions/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/notifications/miui-14/en-1.webp",
+      "/help/poco/notifications/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/precise-location/miui-14/en-1.webp",
+      "/help/poco/precise-location/miui-14/en-2.webp",
+      "/help/poco/precise-location/miui-14/en-3.webp",
+      "/help/poco/precise-location/miui-14/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/miui-14/en-1.webp",
+      "/help/poco/physical-activity/miui-14/en-2.webp",
+      "/help/poco/physical-activity/miui-14/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/poco/location/miui-14/en-1.webp",
+      "/help/poco/location/miui-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-16",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/battery/en-1.webp",
+      "/help/pixel/battery/en-2.webp",
+      "/help/pixel/battery/en-3.webp",
+      "/help/pixel/battery/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-16",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/en-1.webp",
+      "/help/pixel/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-16",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/notifications/en-1.webp",
+      "/help/pixel/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-16",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/en-1.webp",
+      "/help/pixel/precise-location/en-2.webp",
+      "/help/pixel/precise-location/en-3.webp",
+      "/help/pixel/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-16",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/en-1.webp",
+      "/help/pixel/physical-activity/en-2.webp",
+      "/help/pixel/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-16",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/location/en-1.webp",
+      "/help/pixel/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-15",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/battery/android-15/en-1.webp",
+      "/help/pixel/battery/android-15/en-2.webp",
+      "/help/pixel/battery/android-15/en-3.webp",
+      "/help/pixel/battery/android-15/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-15",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/android-15/en-1.webp",
+      "/help/pixel/unused-permissions/android-15/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-15",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/notifications/android-15/en-1.webp",
+      "/help/pixel/notifications/android-15/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-15",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/android-15/en-1.webp",
+      "/help/pixel/precise-location/android-15/en-2.webp",
+      "/help/pixel/precise-location/android-15/en-3.webp",
+      "/help/pixel/precise-location/android-15/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-15",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/android-15/en-1.webp",
+      "/help/pixel/physical-activity/android-15/en-2.webp",
+      "/help/pixel/physical-activity/android-15/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-15",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/location/android-15/en-1.webp",
+      "/help/pixel/location/android-15/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/battery/android-14/en-1.webp",
+      "/help/pixel/battery/android-14/en-2.webp",
+      "/help/pixel/battery/android-14/en-3.webp",
+      "/help/pixel/battery/android-14/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/android-14/en-1.webp",
+      "/help/pixel/unused-permissions/android-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/notifications/android-14/en-1.webp",
+      "/help/pixel/notifications/android-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/android-14/en-1.webp",
+      "/help/pixel/precise-location/android-14/en-2.webp",
+      "/help/pixel/precise-location/android-14/en-3.webp",
+      "/help/pixel/precise-location/android-14/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/android-14/en-1.webp",
+      "/help/pixel/physical-activity/android-14/en-2.webp",
+      "/help/pixel/physical-activity/android-14/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-14",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/pixel/location/android-14/en-1.webp",
+      "/help/pixel/location/android-14/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "battery",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/battery/en-1.webp",
+      "/help/huawei/battery/en-2.webp",
+      "/help/huawei/battery/en-3.webp",
+      "/help/huawei/battery/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "autostart",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/autostart/en-1.webp",
+      "/help/huawei/autostart/en-2.webp",
+      "/help/huawei/autostart/en-3.webp",
+      "/help/huawei/autostart/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "unused-permissions",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/unused-permissions/en-1.webp",
+      "/help/huawei/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "notifications",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/notifications/en-1.webp",
+      "/help/huawei/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "precise-location",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/precise-location/en-1.webp",
+      "/help/huawei/precise-location/en-2.webp",
+      "/help/huawei/precise-location/en-3.webp",
+      "/help/huawei/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "physical-activity",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/physical-activity/en-1.webp",
+      "/help/huawei/physical-activity/en-2.webp",
+      "/help/huawei/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "location",
+    "skin": "emui",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/huawei/location/en-1.webp",
+      "/help/huawei/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "battery",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/battery/en-1.webp",
+      "/help/honor/battery/en-2.webp",
+      "/help/honor/battery/en-3.webp",
+      "/help/honor/battery/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "autostart",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/autostart/en-1.webp",
+      "/help/honor/autostart/en-2.webp",
+      "/help/honor/autostart/en-3.webp",
+      "/help/honor/autostart/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "unused-permissions",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/unused-permissions/en-1.webp",
+      "/help/honor/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "notifications",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/notifications/en-1.webp",
+      "/help/honor/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "precise-location",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/precise-location/en-1.webp",
+      "/help/honor/precise-location/en-2.webp",
+      "/help/honor/precise-location/en-3.webp",
+      "/help/honor/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "physical-activity",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/physical-activity/en-1.webp",
+      "/help/honor/physical-activity/en-2.webp",
+      "/help/honor/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "location",
+    "skin": "magicos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/honor/location/en-1.webp",
+      "/help/honor/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "battery",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/battery/en-1.webp",
+      "/help/oppo/battery/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "autostart",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/autostart/en-1.webp",
+      "/help/oppo/autostart/en-2.webp",
+      "/help/oppo/autostart/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "unused-permissions",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/unused-permissions/en-1.webp",
+      "/help/oppo/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "notifications",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/notifications/en-1.webp",
+      "/help/oppo/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "precise-location",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/precise-location/en-1.webp",
+      "/help/oppo/precise-location/en-2.webp",
+      "/help/oppo/precise-location/en-3.webp",
+      "/help/oppo/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "physical-activity",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/physical-activity/en-1.webp",
+      "/help/oppo/physical-activity/en-2.webp",
+      "/help/oppo/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "location",
+    "skin": "coloros",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oppo/location/en-1.webp",
+      "/help/oppo/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "battery",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/battery/en-1.webp",
+      "/help/oneplus/battery/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "autostart",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/autostart/en-1.webp",
+      "/help/oneplus/autostart/en-2.webp",
+      "/help/oneplus/autostart/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "unused-permissions",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/unused-permissions/en-1.webp",
+      "/help/oneplus/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "notifications",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/notifications/en-1.webp",
+      "/help/oneplus/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "precise-location",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/precise-location/en-1.webp",
+      "/help/oneplus/precise-location/en-2.webp",
+      "/help/oneplus/precise-location/en-3.webp",
+      "/help/oneplus/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "physical-activity",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/physical-activity/en-1.webp",
+      "/help/oneplus/physical-activity/en-2.webp",
+      "/help/oneplus/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "location",
+    "skin": "oxygenos",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/oneplus/location/en-1.webp",
+      "/help/oneplus/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "battery",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/battery/en-1.webp",
+      "/help/vivo/battery/en-2.webp",
+      "/help/vivo/battery/en-3.webp",
+      "/help/vivo/battery/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "autostart",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/autostart/en-1.webp",
+      "/help/vivo/autostart/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "unused-permissions",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/unused-permissions/en-1.webp",
+      "/help/vivo/unused-permissions/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "notifications",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/notifications/en-1.webp",
+      "/help/vivo/notifications/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "precise-location",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/precise-location/en-1.webp",
+      "/help/vivo/precise-location/en-2.webp",
+      "/help/vivo/precise-location/en-3.webp",
+      "/help/vivo/precise-location/en-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "physical-activity",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/physical-activity/en-1.webp",
+      "/help/vivo/physical-activity/en-2.webp",
+      "/help/vivo/physical-activity/en-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "location",
+    "skin": "funtouch",
+    "langs": [
+      "en"
+    ],
+    "frames": [
+      "/help/vivo/location/en-1.webp",
+      "/help/vivo/location/en-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/battery/ru-1.webp",
+      "/help/samsung/battery/ru-2.webp",
+      "/help/samsung/battery/ru-3.webp",
+      "/help/samsung/battery/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/sleep/ru-1.webp",
+      "/help/samsung/sleep/ru-2.webp",
+      "/help/samsung/sleep/ru-3.webp",
+      "/help/samsung/sleep/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/ru-1.webp",
+      "/help/samsung/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/notifications/ru-1.webp",
+      "/help/samsung/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/ru-1.webp",
+      "/help/samsung/precise-location/ru-2.webp",
+      "/help/samsung/precise-location/ru-3.webp",
+      "/help/samsung/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/ru-1.webp",
+      "/help/samsung/physical-activity/ru-2.webp",
+      "/help/samsung/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-8",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/location/ru-1.webp",
+      "/help/samsung/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/battery/one-ui-7/ru-1.webp",
+      "/help/samsung/battery/one-ui-7/ru-2.webp",
+      "/help/samsung/battery/one-ui-7/ru-3.webp",
+      "/help/samsung/battery/one-ui-7/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/sleep/one-ui-7/ru-1.webp",
+      "/help/samsung/sleep/one-ui-7/ru-2.webp",
+      "/help/samsung/sleep/one-ui-7/ru-3.webp",
+      "/help/samsung/sleep/one-ui-7/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/one-ui-7/ru-1.webp",
+      "/help/samsung/unused-permissions/one-ui-7/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/notifications/one-ui-7/ru-1.webp",
+      "/help/samsung/notifications/one-ui-7/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/one-ui-7/ru-1.webp",
+      "/help/samsung/precise-location/one-ui-7/ru-2.webp",
+      "/help/samsung/precise-location/one-ui-7/ru-3.webp",
+      "/help/samsung/precise-location/one-ui-7/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/one-ui-7/ru-1.webp",
+      "/help/samsung/physical-activity/one-ui-7/ru-2.webp",
+      "/help/samsung/physical-activity/one-ui-7/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-7",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/location/one-ui-7/ru-1.webp",
+      "/help/samsung/location/one-ui-7/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/battery/one-ui-6/ru-1.webp",
+      "/help/samsung/battery/one-ui-6/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/sleep/one-ui-6/ru-1.webp",
+      "/help/samsung/sleep/one-ui-6/ru-2.webp",
+      "/help/samsung/sleep/one-ui-6/ru-3.webp",
+      "/help/samsung/sleep/one-ui-6/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/one-ui-6/ru-1.webp",
+      "/help/samsung/unused-permissions/one-ui-6/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/notifications/one-ui-6/ru-1.webp",
+      "/help/samsung/notifications/one-ui-6/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/one-ui-6/ru-1.webp",
+      "/help/samsung/precise-location/one-ui-6/ru-2.webp",
+      "/help/samsung/precise-location/one-ui-6/ru-3.webp",
+      "/help/samsung/precise-location/one-ui-6/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/one-ui-6/ru-1.webp",
+      "/help/samsung/physical-activity/one-ui-6/ru-2.webp",
+      "/help/samsung/physical-activity/one-ui-6/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-6",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/samsung/location/one-ui-6/ru-1.webp",
+      "/help/samsung/location/one-ui-6/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/ru-1.webp",
+      "/help/xiaomi/battery/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/ru-1.webp",
+      "/help/xiaomi/autostart/ru-2.webp",
+      "/help/xiaomi/autostart/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/ru-1.webp",
+      "/help/xiaomi/recents/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/ru-1.webp",
+      "/help/xiaomi/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/ru-1.webp",
+      "/help/xiaomi/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/ru-1.webp",
+      "/help/xiaomi/precise-location/ru-2.webp",
+      "/help/xiaomi/precise-location/ru-3.webp",
+      "/help/xiaomi/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/ru-1.webp",
+      "/help/xiaomi/physical-activity/ru-2.webp",
+      "/help/xiaomi/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/location/ru-1.webp",
+      "/help/xiaomi/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/hyperos-1/ru-1.webp",
+      "/help/xiaomi/battery/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/hyperos-1/ru-1.webp",
+      "/help/xiaomi/autostart/hyperos-1/ru-2.webp",
+      "/help/xiaomi/autostart/hyperos-1/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/hyperos-1/ru-1.webp",
+      "/help/xiaomi/recents/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/hyperos-1/ru-1.webp",
+      "/help/xiaomi/unused-permissions/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/hyperos-1/ru-1.webp",
+      "/help/xiaomi/notifications/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/hyperos-1/ru-1.webp",
+      "/help/xiaomi/precise-location/hyperos-1/ru-2.webp",
+      "/help/xiaomi/precise-location/hyperos-1/ru-3.webp",
+      "/help/xiaomi/precise-location/hyperos-1/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/hyperos-1/ru-1.webp",
+      "/help/xiaomi/physical-activity/hyperos-1/ru-2.webp",
+      "/help/xiaomi/physical-activity/hyperos-1/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/location/hyperos-1/ru-1.webp",
+      "/help/xiaomi/location/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/miui-14/ru-1.webp",
+      "/help/xiaomi/battery/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/miui-14/ru-1.webp",
+      "/help/xiaomi/autostart/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/miui-14/ru-1.webp",
+      "/help/xiaomi/recents/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/miui-14/ru-1.webp",
+      "/help/xiaomi/unused-permissions/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/miui-14/ru-1.webp",
+      "/help/xiaomi/notifications/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/miui-14/ru-1.webp",
+      "/help/xiaomi/precise-location/miui-14/ru-2.webp",
+      "/help/xiaomi/precise-location/miui-14/ru-3.webp",
+      "/help/xiaomi/precise-location/miui-14/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/miui-14/ru-1.webp",
+      "/help/xiaomi/physical-activity/miui-14/ru-2.webp",
+      "/help/xiaomi/physical-activity/miui-14/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/xiaomi/location/miui-14/ru-1.webp",
+      "/help/xiaomi/location/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/battery/ru-1.webp",
+      "/help/redmi/battery/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/autostart/ru-1.webp",
+      "/help/redmi/autostart/ru-2.webp",
+      "/help/redmi/autostart/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/recents/ru-1.webp",
+      "/help/redmi/recents/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/ru-1.webp",
+      "/help/redmi/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/notifications/ru-1.webp",
+      "/help/redmi/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/ru-1.webp",
+      "/help/redmi/precise-location/ru-2.webp",
+      "/help/redmi/precise-location/ru-3.webp",
+      "/help/redmi/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/ru-1.webp",
+      "/help/redmi/physical-activity/ru-2.webp",
+      "/help/redmi/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/location/ru-1.webp",
+      "/help/redmi/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/battery/hyperos-1/ru-1.webp",
+      "/help/redmi/battery/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/autostart/hyperos-1/ru-1.webp",
+      "/help/redmi/autostart/hyperos-1/ru-2.webp",
+      "/help/redmi/autostart/hyperos-1/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/recents/hyperos-1/ru-1.webp",
+      "/help/redmi/recents/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/hyperos-1/ru-1.webp",
+      "/help/redmi/unused-permissions/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/notifications/hyperos-1/ru-1.webp",
+      "/help/redmi/notifications/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/hyperos-1/ru-1.webp",
+      "/help/redmi/precise-location/hyperos-1/ru-2.webp",
+      "/help/redmi/precise-location/hyperos-1/ru-3.webp",
+      "/help/redmi/precise-location/hyperos-1/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/hyperos-1/ru-1.webp",
+      "/help/redmi/physical-activity/hyperos-1/ru-2.webp",
+      "/help/redmi/physical-activity/hyperos-1/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/location/hyperos-1/ru-1.webp",
+      "/help/redmi/location/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/battery/miui-14/ru-1.webp",
+      "/help/redmi/battery/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/autostart/miui-14/ru-1.webp",
+      "/help/redmi/autostart/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/recents/miui-14/ru-1.webp",
+      "/help/redmi/recents/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/miui-14/ru-1.webp",
+      "/help/redmi/unused-permissions/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/notifications/miui-14/ru-1.webp",
+      "/help/redmi/notifications/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/miui-14/ru-1.webp",
+      "/help/redmi/precise-location/miui-14/ru-2.webp",
+      "/help/redmi/precise-location/miui-14/ru-3.webp",
+      "/help/redmi/precise-location/miui-14/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/miui-14/ru-1.webp",
+      "/help/redmi/physical-activity/miui-14/ru-2.webp",
+      "/help/redmi/physical-activity/miui-14/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/redmi/location/miui-14/ru-1.webp",
+      "/help/redmi/location/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/battery/ru-1.webp",
+      "/help/poco/battery/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/autostart/ru-1.webp",
+      "/help/poco/autostart/ru-2.webp",
+      "/help/poco/autostart/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/recents/ru-1.webp",
+      "/help/poco/recents/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/ru-1.webp",
+      "/help/poco/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/notifications/ru-1.webp",
+      "/help/poco/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/precise-location/ru-1.webp",
+      "/help/poco/precise-location/ru-2.webp",
+      "/help/poco/precise-location/ru-3.webp",
+      "/help/poco/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/ru-1.webp",
+      "/help/poco/physical-activity/ru-2.webp",
+      "/help/poco/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/location/ru-1.webp",
+      "/help/poco/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/battery/hyperos-1/ru-1.webp",
+      "/help/poco/battery/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/autostart/hyperos-1/ru-1.webp",
+      "/help/poco/autostart/hyperos-1/ru-2.webp",
+      "/help/poco/autostart/hyperos-1/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/recents/hyperos-1/ru-1.webp",
+      "/help/poco/recents/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/hyperos-1/ru-1.webp",
+      "/help/poco/unused-permissions/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/notifications/hyperos-1/ru-1.webp",
+      "/help/poco/notifications/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/precise-location/hyperos-1/ru-1.webp",
+      "/help/poco/precise-location/hyperos-1/ru-2.webp",
+      "/help/poco/precise-location/hyperos-1/ru-3.webp",
+      "/help/poco/precise-location/hyperos-1/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/hyperos-1/ru-1.webp",
+      "/help/poco/physical-activity/hyperos-1/ru-2.webp",
+      "/help/poco/physical-activity/hyperos-1/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/location/hyperos-1/ru-1.webp",
+      "/help/poco/location/hyperos-1/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/battery/miui-14/ru-1.webp",
+      "/help/poco/battery/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/autostart/miui-14/ru-1.webp",
+      "/help/poco/autostart/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/recents/miui-14/ru-1.webp",
+      "/help/poco/recents/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/miui-14/ru-1.webp",
+      "/help/poco/unused-permissions/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/notifications/miui-14/ru-1.webp",
+      "/help/poco/notifications/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/precise-location/miui-14/ru-1.webp",
+      "/help/poco/precise-location/miui-14/ru-2.webp",
+      "/help/poco/precise-location/miui-14/ru-3.webp",
+      "/help/poco/precise-location/miui-14/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/miui-14/ru-1.webp",
+      "/help/poco/physical-activity/miui-14/ru-2.webp",
+      "/help/poco/physical-activity/miui-14/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/poco/location/miui-14/ru-1.webp",
+      "/help/poco/location/miui-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-16",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/battery/ru-1.webp",
+      "/help/pixel/battery/ru-2.webp",
+      "/help/pixel/battery/ru-3.webp",
+      "/help/pixel/battery/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-16",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/ru-1.webp",
+      "/help/pixel/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-16",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/notifications/ru-1.webp",
+      "/help/pixel/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-16",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/ru-1.webp",
+      "/help/pixel/precise-location/ru-2.webp",
+      "/help/pixel/precise-location/ru-3.webp",
+      "/help/pixel/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-16",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/ru-1.webp",
+      "/help/pixel/physical-activity/ru-2.webp",
+      "/help/pixel/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-16",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/location/ru-1.webp",
+      "/help/pixel/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-15",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/battery/android-15/ru-1.webp",
+      "/help/pixel/battery/android-15/ru-2.webp",
+      "/help/pixel/battery/android-15/ru-3.webp",
+      "/help/pixel/battery/android-15/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-15",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/android-15/ru-1.webp",
+      "/help/pixel/unused-permissions/android-15/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-15",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/notifications/android-15/ru-1.webp",
+      "/help/pixel/notifications/android-15/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-15",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/android-15/ru-1.webp",
+      "/help/pixel/precise-location/android-15/ru-2.webp",
+      "/help/pixel/precise-location/android-15/ru-3.webp",
+      "/help/pixel/precise-location/android-15/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-15",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/android-15/ru-1.webp",
+      "/help/pixel/physical-activity/android-15/ru-2.webp",
+      "/help/pixel/physical-activity/android-15/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-15",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/location/android-15/ru-1.webp",
+      "/help/pixel/location/android-15/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/battery/android-14/ru-1.webp",
+      "/help/pixel/battery/android-14/ru-2.webp",
+      "/help/pixel/battery/android-14/ru-3.webp",
+      "/help/pixel/battery/android-14/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/android-14/ru-1.webp",
+      "/help/pixel/unused-permissions/android-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/notifications/android-14/ru-1.webp",
+      "/help/pixel/notifications/android-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/android-14/ru-1.webp",
+      "/help/pixel/precise-location/android-14/ru-2.webp",
+      "/help/pixel/precise-location/android-14/ru-3.webp",
+      "/help/pixel/precise-location/android-14/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/android-14/ru-1.webp",
+      "/help/pixel/physical-activity/android-14/ru-2.webp",
+      "/help/pixel/physical-activity/android-14/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-14",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/pixel/location/android-14/ru-1.webp",
+      "/help/pixel/location/android-14/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "battery",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/battery/ru-1.webp",
+      "/help/huawei/battery/ru-2.webp",
+      "/help/huawei/battery/ru-3.webp",
+      "/help/huawei/battery/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "autostart",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/autostart/ru-1.webp",
+      "/help/huawei/autostart/ru-2.webp",
+      "/help/huawei/autostart/ru-3.webp",
+      "/help/huawei/autostart/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "unused-permissions",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/unused-permissions/ru-1.webp",
+      "/help/huawei/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "notifications",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/notifications/ru-1.webp",
+      "/help/huawei/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "precise-location",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/precise-location/ru-1.webp",
+      "/help/huawei/precise-location/ru-2.webp",
+      "/help/huawei/precise-location/ru-3.webp",
+      "/help/huawei/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "physical-activity",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/physical-activity/ru-1.webp",
+      "/help/huawei/physical-activity/ru-2.webp",
+      "/help/huawei/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "location",
+    "skin": "emui",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/huawei/location/ru-1.webp",
+      "/help/huawei/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "battery",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/battery/ru-1.webp",
+      "/help/honor/battery/ru-2.webp",
+      "/help/honor/battery/ru-3.webp",
+      "/help/honor/battery/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "autostart",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/autostart/ru-1.webp",
+      "/help/honor/autostart/ru-2.webp",
+      "/help/honor/autostart/ru-3.webp",
+      "/help/honor/autostart/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "unused-permissions",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/unused-permissions/ru-1.webp",
+      "/help/honor/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "notifications",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/notifications/ru-1.webp",
+      "/help/honor/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "precise-location",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/precise-location/ru-1.webp",
+      "/help/honor/precise-location/ru-2.webp",
+      "/help/honor/precise-location/ru-3.webp",
+      "/help/honor/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "physical-activity",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/physical-activity/ru-1.webp",
+      "/help/honor/physical-activity/ru-2.webp",
+      "/help/honor/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "location",
+    "skin": "magicos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/honor/location/ru-1.webp",
+      "/help/honor/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "battery",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/battery/ru-1.webp",
+      "/help/oppo/battery/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "autostart",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/autostart/ru-1.webp",
+      "/help/oppo/autostart/ru-2.webp",
+      "/help/oppo/autostart/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "unused-permissions",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/unused-permissions/ru-1.webp",
+      "/help/oppo/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "notifications",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/notifications/ru-1.webp",
+      "/help/oppo/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "precise-location",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/precise-location/ru-1.webp",
+      "/help/oppo/precise-location/ru-2.webp",
+      "/help/oppo/precise-location/ru-3.webp",
+      "/help/oppo/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "physical-activity",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/physical-activity/ru-1.webp",
+      "/help/oppo/physical-activity/ru-2.webp",
+      "/help/oppo/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "location",
+    "skin": "coloros",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oppo/location/ru-1.webp",
+      "/help/oppo/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "battery",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/battery/ru-1.webp",
+      "/help/oneplus/battery/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "autostart",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/autostart/ru-1.webp",
+      "/help/oneplus/autostart/ru-2.webp",
+      "/help/oneplus/autostart/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "unused-permissions",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/unused-permissions/ru-1.webp",
+      "/help/oneplus/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "notifications",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/notifications/ru-1.webp",
+      "/help/oneplus/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "precise-location",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/precise-location/ru-1.webp",
+      "/help/oneplus/precise-location/ru-2.webp",
+      "/help/oneplus/precise-location/ru-3.webp",
+      "/help/oneplus/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "physical-activity",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/physical-activity/ru-1.webp",
+      "/help/oneplus/physical-activity/ru-2.webp",
+      "/help/oneplus/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "location",
+    "skin": "oxygenos",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/oneplus/location/ru-1.webp",
+      "/help/oneplus/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "battery",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/battery/ru-1.webp",
+      "/help/vivo/battery/ru-2.webp",
+      "/help/vivo/battery/ru-3.webp",
+      "/help/vivo/battery/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "autostart",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/autostart/ru-1.webp",
+      "/help/vivo/autostart/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "unused-permissions",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/unused-permissions/ru-1.webp",
+      "/help/vivo/unused-permissions/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "notifications",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/notifications/ru-1.webp",
+      "/help/vivo/notifications/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "precise-location",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/precise-location/ru-1.webp",
+      "/help/vivo/precise-location/ru-2.webp",
+      "/help/vivo/precise-location/ru-3.webp",
+      "/help/vivo/precise-location/ru-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "physical-activity",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/physical-activity/ru-1.webp",
+      "/help/vivo/physical-activity/ru-2.webp",
+      "/help/vivo/physical-activity/ru-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "location",
+    "skin": "funtouch",
+    "langs": [
+      "ru"
+    ],
+    "frames": [
+      "/help/vivo/location/ru-1.webp",
+      "/help/vivo/location/ru-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/battery/he-1.webp",
+      "/help/samsung/battery/he-2.webp",
+      "/help/samsung/battery/he-3.webp",
+      "/help/samsung/battery/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/sleep/he-1.webp",
+      "/help/samsung/sleep/he-2.webp",
+      "/help/samsung/sleep/he-3.webp",
+      "/help/samsung/sleep/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/he-1.webp",
+      "/help/samsung/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/notifications/he-1.webp",
+      "/help/samsung/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/he-1.webp",
+      "/help/samsung/precise-location/he-2.webp",
+      "/help/samsung/precise-location/he-3.webp",
+      "/help/samsung/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/he-1.webp",
+      "/help/samsung/physical-activity/he-2.webp",
+      "/help/samsung/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-8",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/location/he-1.webp",
+      "/help/samsung/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/battery/one-ui-7/he-1.webp",
+      "/help/samsung/battery/one-ui-7/he-2.webp",
+      "/help/samsung/battery/one-ui-7/he-3.webp",
+      "/help/samsung/battery/one-ui-7/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/sleep/one-ui-7/he-1.webp",
+      "/help/samsung/sleep/one-ui-7/he-2.webp",
+      "/help/samsung/sleep/one-ui-7/he-3.webp",
+      "/help/samsung/sleep/one-ui-7/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/one-ui-7/he-1.webp",
+      "/help/samsung/unused-permissions/one-ui-7/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/notifications/one-ui-7/he-1.webp",
+      "/help/samsung/notifications/one-ui-7/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/one-ui-7/he-1.webp",
+      "/help/samsung/precise-location/one-ui-7/he-2.webp",
+      "/help/samsung/precise-location/one-ui-7/he-3.webp",
+      "/help/samsung/precise-location/one-ui-7/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/one-ui-7/he-1.webp",
+      "/help/samsung/physical-activity/one-ui-7/he-2.webp",
+      "/help/samsung/physical-activity/one-ui-7/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-7",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/location/one-ui-7/he-1.webp",
+      "/help/samsung/location/one-ui-7/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "battery",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/battery/one-ui-6/he-1.webp",
+      "/help/samsung/battery/one-ui-6/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "sleep",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/sleep/one-ui-6/he-1.webp",
+      "/help/samsung/sleep/one-ui-6/he-2.webp",
+      "/help/samsung/sleep/one-ui-6/he-3.webp",
+      "/help/samsung/sleep/one-ui-6/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "unused-permissions",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/unused-permissions/one-ui-6/he-1.webp",
+      "/help/samsung/unused-permissions/one-ui-6/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "notifications",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/notifications/one-ui-6/he-1.webp",
+      "/help/samsung/notifications/one-ui-6/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "precise-location",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/precise-location/one-ui-6/he-1.webp",
+      "/help/samsung/precise-location/one-ui-6/he-2.webp",
+      "/help/samsung/precise-location/one-ui-6/he-3.webp",
+      "/help/samsung/precise-location/one-ui-6/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "physical-activity",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/physical-activity/one-ui-6/he-1.webp",
+      "/help/samsung/physical-activity/one-ui-6/he-2.webp",
+      "/help/samsung/physical-activity/one-ui-6/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "samsung",
+    "item": "location",
+    "skin": "one-ui-6",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/samsung/location/one-ui-6/he-1.webp",
+      "/help/samsung/location/one-ui-6/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/he-1.webp",
+      "/help/xiaomi/battery/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/he-1.webp",
+      "/help/xiaomi/autostart/he-2.webp",
+      "/help/xiaomi/autostart/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/he-1.webp",
+      "/help/xiaomi/recents/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/he-1.webp",
+      "/help/xiaomi/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/he-1.webp",
+      "/help/xiaomi/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/he-1.webp",
+      "/help/xiaomi/precise-location/he-2.webp",
+      "/help/xiaomi/precise-location/he-3.webp",
+      "/help/xiaomi/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/he-1.webp",
+      "/help/xiaomi/physical-activity/he-2.webp",
+      "/help/xiaomi/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/location/he-1.webp",
+      "/help/xiaomi/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/hyperos-1/he-1.webp",
+      "/help/xiaomi/battery/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/hyperos-1/he-1.webp",
+      "/help/xiaomi/autostart/hyperos-1/he-2.webp",
+      "/help/xiaomi/autostart/hyperos-1/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/hyperos-1/he-1.webp",
+      "/help/xiaomi/recents/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/hyperos-1/he-1.webp",
+      "/help/xiaomi/unused-permissions/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/hyperos-1/he-1.webp",
+      "/help/xiaomi/notifications/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/hyperos-1/he-1.webp",
+      "/help/xiaomi/precise-location/hyperos-1/he-2.webp",
+      "/help/xiaomi/precise-location/hyperos-1/he-3.webp",
+      "/help/xiaomi/precise-location/hyperos-1/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/hyperos-1/he-1.webp",
+      "/help/xiaomi/physical-activity/hyperos-1/he-2.webp",
+      "/help/xiaomi/physical-activity/hyperos-1/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/location/hyperos-1/he-1.webp",
+      "/help/xiaomi/location/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/battery/miui-14/he-1.webp",
+      "/help/xiaomi/battery/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/autostart/miui-14/he-1.webp",
+      "/help/xiaomi/autostart/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/recents/miui-14/he-1.webp",
+      "/help/xiaomi/recents/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/unused-permissions/miui-14/he-1.webp",
+      "/help/xiaomi/unused-permissions/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/notifications/miui-14/he-1.webp",
+      "/help/xiaomi/notifications/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/precise-location/miui-14/he-1.webp",
+      "/help/xiaomi/precise-location/miui-14/he-2.webp",
+      "/help/xiaomi/precise-location/miui-14/he-3.webp",
+      "/help/xiaomi/precise-location/miui-14/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/physical-activity/miui-14/he-1.webp",
+      "/help/xiaomi/physical-activity/miui-14/he-2.webp",
+      "/help/xiaomi/physical-activity/miui-14/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "xiaomi",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/xiaomi/location/miui-14/he-1.webp",
+      "/help/xiaomi/location/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/battery/he-1.webp",
+      "/help/redmi/battery/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/autostart/he-1.webp",
+      "/help/redmi/autostart/he-2.webp",
+      "/help/redmi/autostart/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/recents/he-1.webp",
+      "/help/redmi/recents/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/he-1.webp",
+      "/help/redmi/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/notifications/he-1.webp",
+      "/help/redmi/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/he-1.webp",
+      "/help/redmi/precise-location/he-2.webp",
+      "/help/redmi/precise-location/he-3.webp",
+      "/help/redmi/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/he-1.webp",
+      "/help/redmi/physical-activity/he-2.webp",
+      "/help/redmi/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/location/he-1.webp",
+      "/help/redmi/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/battery/hyperos-1/he-1.webp",
+      "/help/redmi/battery/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/autostart/hyperos-1/he-1.webp",
+      "/help/redmi/autostart/hyperos-1/he-2.webp",
+      "/help/redmi/autostart/hyperos-1/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/recents/hyperos-1/he-1.webp",
+      "/help/redmi/recents/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/hyperos-1/he-1.webp",
+      "/help/redmi/unused-permissions/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/notifications/hyperos-1/he-1.webp",
+      "/help/redmi/notifications/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/hyperos-1/he-1.webp",
+      "/help/redmi/precise-location/hyperos-1/he-2.webp",
+      "/help/redmi/precise-location/hyperos-1/he-3.webp",
+      "/help/redmi/precise-location/hyperos-1/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/hyperos-1/he-1.webp",
+      "/help/redmi/physical-activity/hyperos-1/he-2.webp",
+      "/help/redmi/physical-activity/hyperos-1/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/location/hyperos-1/he-1.webp",
+      "/help/redmi/location/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/battery/miui-14/he-1.webp",
+      "/help/redmi/battery/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/autostart/miui-14/he-1.webp",
+      "/help/redmi/autostart/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/recents/miui-14/he-1.webp",
+      "/help/redmi/recents/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/unused-permissions/miui-14/he-1.webp",
+      "/help/redmi/unused-permissions/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/notifications/miui-14/he-1.webp",
+      "/help/redmi/notifications/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/precise-location/miui-14/he-1.webp",
+      "/help/redmi/precise-location/miui-14/he-2.webp",
+      "/help/redmi/precise-location/miui-14/he-3.webp",
+      "/help/redmi/precise-location/miui-14/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/physical-activity/miui-14/he-1.webp",
+      "/help/redmi/physical-activity/miui-14/he-2.webp",
+      "/help/redmi/physical-activity/miui-14/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "redmi",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/redmi/location/miui-14/he-1.webp",
+      "/help/redmi/location/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/battery/he-1.webp",
+      "/help/poco/battery/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/autostart/he-1.webp",
+      "/help/poco/autostart/he-2.webp",
+      "/help/poco/autostart/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/recents/he-1.webp",
+      "/help/poco/recents/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/he-1.webp",
+      "/help/poco/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/notifications/he-1.webp",
+      "/help/poco/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/precise-location/he-1.webp",
+      "/help/poco/precise-location/he-2.webp",
+      "/help/poco/precise-location/he-3.webp",
+      "/help/poco/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/he-1.webp",
+      "/help/poco/physical-activity/he-2.webp",
+      "/help/poco/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "hyperos-2",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/location/he-1.webp",
+      "/help/poco/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/battery/hyperos-1/he-1.webp",
+      "/help/poco/battery/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/autostart/hyperos-1/he-1.webp",
+      "/help/poco/autostart/hyperos-1/he-2.webp",
+      "/help/poco/autostart/hyperos-1/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/recents/hyperos-1/he-1.webp",
+      "/help/poco/recents/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/hyperos-1/he-1.webp",
+      "/help/poco/unused-permissions/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/notifications/hyperos-1/he-1.webp",
+      "/help/poco/notifications/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/precise-location/hyperos-1/he-1.webp",
+      "/help/poco/precise-location/hyperos-1/he-2.webp",
+      "/help/poco/precise-location/hyperos-1/he-3.webp",
+      "/help/poco/precise-location/hyperos-1/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/hyperos-1/he-1.webp",
+      "/help/poco/physical-activity/hyperos-1/he-2.webp",
+      "/help/poco/physical-activity/hyperos-1/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "hyperos-1",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/location/hyperos-1/he-1.webp",
+      "/help/poco/location/hyperos-1/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "battery",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/battery/miui-14/he-1.webp",
+      "/help/poco/battery/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "autostart",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/autostart/miui-14/he-1.webp",
+      "/help/poco/autostart/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "recents",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/recents/miui-14/he-1.webp",
+      "/help/poco/recents/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "unused-permissions",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/unused-permissions/miui-14/he-1.webp",
+      "/help/poco/unused-permissions/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "notifications",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/notifications/miui-14/he-1.webp",
+      "/help/poco/notifications/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "precise-location",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/precise-location/miui-14/he-1.webp",
+      "/help/poco/precise-location/miui-14/he-2.webp",
+      "/help/poco/precise-location/miui-14/he-3.webp",
+      "/help/poco/precise-location/miui-14/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "physical-activity",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/physical-activity/miui-14/he-1.webp",
+      "/help/poco/physical-activity/miui-14/he-2.webp",
+      "/help/poco/physical-activity/miui-14/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "poco",
+    "item": "location",
+    "skin": "miui-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/poco/location/miui-14/he-1.webp",
+      "/help/poco/location/miui-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-16",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/battery/he-1.webp",
+      "/help/pixel/battery/he-2.webp",
+      "/help/pixel/battery/he-3.webp",
+      "/help/pixel/battery/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-16",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/he-1.webp",
+      "/help/pixel/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-16",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/notifications/he-1.webp",
+      "/help/pixel/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-16",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/he-1.webp",
+      "/help/pixel/precise-location/he-2.webp",
+      "/help/pixel/precise-location/he-3.webp",
+      "/help/pixel/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-16",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/he-1.webp",
+      "/help/pixel/physical-activity/he-2.webp",
+      "/help/pixel/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-16",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/location/he-1.webp",
+      "/help/pixel/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-15",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/battery/android-15/he-1.webp",
+      "/help/pixel/battery/android-15/he-2.webp",
+      "/help/pixel/battery/android-15/he-3.webp",
+      "/help/pixel/battery/android-15/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-15",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/android-15/he-1.webp",
+      "/help/pixel/unused-permissions/android-15/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-15",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/notifications/android-15/he-1.webp",
+      "/help/pixel/notifications/android-15/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-15",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/android-15/he-1.webp",
+      "/help/pixel/precise-location/android-15/he-2.webp",
+      "/help/pixel/precise-location/android-15/he-3.webp",
+      "/help/pixel/precise-location/android-15/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-15",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/android-15/he-1.webp",
+      "/help/pixel/physical-activity/android-15/he-2.webp",
+      "/help/pixel/physical-activity/android-15/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-15",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/location/android-15/he-1.webp",
+      "/help/pixel/location/android-15/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "battery",
+    "skin": "android-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/battery/android-14/he-1.webp",
+      "/help/pixel/battery/android-14/he-2.webp",
+      "/help/pixel/battery/android-14/he-3.webp",
+      "/help/pixel/battery/android-14/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "unused-permissions",
+    "skin": "android-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/unused-permissions/android-14/he-1.webp",
+      "/help/pixel/unused-permissions/android-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "notifications",
+    "skin": "android-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/notifications/android-14/he-1.webp",
+      "/help/pixel/notifications/android-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "precise-location",
+    "skin": "android-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/precise-location/android-14/he-1.webp",
+      "/help/pixel/precise-location/android-14/he-2.webp",
+      "/help/pixel/precise-location/android-14/he-3.webp",
+      "/help/pixel/precise-location/android-14/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "physical-activity",
+    "skin": "android-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/physical-activity/android-14/he-1.webp",
+      "/help/pixel/physical-activity/android-14/he-2.webp",
+      "/help/pixel/physical-activity/android-14/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "pixel",
+    "item": "location",
+    "skin": "android-14",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/pixel/location/android-14/he-1.webp",
+      "/help/pixel/location/android-14/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "battery",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/battery/he-1.webp",
+      "/help/huawei/battery/he-2.webp",
+      "/help/huawei/battery/he-3.webp",
+      "/help/huawei/battery/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "autostart",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/autostart/he-1.webp",
+      "/help/huawei/autostart/he-2.webp",
+      "/help/huawei/autostart/he-3.webp",
+      "/help/huawei/autostart/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "unused-permissions",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/unused-permissions/he-1.webp",
+      "/help/huawei/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "notifications",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/notifications/he-1.webp",
+      "/help/huawei/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "precise-location",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/precise-location/he-1.webp",
+      "/help/huawei/precise-location/he-2.webp",
+      "/help/huawei/precise-location/he-3.webp",
+      "/help/huawei/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "physical-activity",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/physical-activity/he-1.webp",
+      "/help/huawei/physical-activity/he-2.webp",
+      "/help/huawei/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "huawei",
+    "item": "location",
+    "skin": "emui",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/huawei/location/he-1.webp",
+      "/help/huawei/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "battery",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/battery/he-1.webp",
+      "/help/honor/battery/he-2.webp",
+      "/help/honor/battery/he-3.webp",
+      "/help/honor/battery/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "autostart",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/autostart/he-1.webp",
+      "/help/honor/autostart/he-2.webp",
+      "/help/honor/autostart/he-3.webp",
+      "/help/honor/autostart/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "unused-permissions",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/unused-permissions/he-1.webp",
+      "/help/honor/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "notifications",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/notifications/he-1.webp",
+      "/help/honor/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "precise-location",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/precise-location/he-1.webp",
+      "/help/honor/precise-location/he-2.webp",
+      "/help/honor/precise-location/he-3.webp",
+      "/help/honor/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "physical-activity",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/physical-activity/he-1.webp",
+      "/help/honor/physical-activity/he-2.webp",
+      "/help/honor/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "honor",
+    "item": "location",
+    "skin": "magicos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/honor/location/he-1.webp",
+      "/help/honor/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "battery",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/battery/he-1.webp",
+      "/help/oppo/battery/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "autostart",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/autostart/he-1.webp",
+      "/help/oppo/autostart/he-2.webp",
+      "/help/oppo/autostart/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "unused-permissions",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/unused-permissions/he-1.webp",
+      "/help/oppo/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "notifications",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/notifications/he-1.webp",
+      "/help/oppo/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "precise-location",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/precise-location/he-1.webp",
+      "/help/oppo/precise-location/he-2.webp",
+      "/help/oppo/precise-location/he-3.webp",
+      "/help/oppo/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "physical-activity",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/physical-activity/he-1.webp",
+      "/help/oppo/physical-activity/he-2.webp",
+      "/help/oppo/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oppo",
+    "item": "location",
+    "skin": "coloros",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oppo/location/he-1.webp",
+      "/help/oppo/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "battery",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/battery/he-1.webp",
+      "/help/oneplus/battery/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "autostart",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/autostart/he-1.webp",
+      "/help/oneplus/autostart/he-2.webp",
+      "/help/oneplus/autostart/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "unused-permissions",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/unused-permissions/he-1.webp",
+      "/help/oneplus/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "notifications",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/notifications/he-1.webp",
+      "/help/oneplus/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "precise-location",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/precise-location/he-1.webp",
+      "/help/oneplus/precise-location/he-2.webp",
+      "/help/oneplus/precise-location/he-3.webp",
+      "/help/oneplus/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "physical-activity",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/physical-activity/he-1.webp",
+      "/help/oneplus/physical-activity/he-2.webp",
+      "/help/oneplus/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "oneplus",
+    "item": "location",
+    "skin": "oxygenos",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/oneplus/location/he-1.webp",
+      "/help/oneplus/location/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "battery",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/battery/he-1.webp",
+      "/help/vivo/battery/he-2.webp",
+      "/help/vivo/battery/he-3.webp",
+      "/help/vivo/battery/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "autostart",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/autostart/he-1.webp",
+      "/help/vivo/autostart/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "unused-permissions",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/unused-permissions/he-1.webp",
+      "/help/vivo/unused-permissions/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "notifications",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/notifications/he-1.webp",
+      "/help/vivo/notifications/he-2.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "precise-location",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/precise-location/he-1.webp",
+      "/help/vivo/precise-location/he-2.webp",
+      "/help/vivo/precise-location/he-3.webp",
+      "/help/vivo/precise-location/he-4.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "physical-activity",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/physical-activity/he-1.webp",
+      "/help/vivo/physical-activity/he-2.webp",
+      "/help/vivo/physical-activity/he-3.webp"
+    ],
+    "version": "030.1"
+  },
+  {
+    "brand": "vivo",
+    "item": "location",
+    "skin": "funtouch",
+    "langs": [
+      "he"
+    ],
+    "frames": [
+      "/help/vivo/location/he-1.webp",
+      "/help/vivo/location/he-2.webp"
+    ],
+    "version": "030.1"
+  }
+]

@@ -35,14 +35,14 @@
     "shot_start": "Старт и выбор режима",
     "priv_kicker": "Приватность",
     "priv_h2": "Приватность понятными словами",
-    "p1": "Без аккаунта Рицы",
+    "p1": "Без аккаунта Рицы: данные остаются на телефоне",
     "p2": "Без рекламы и трекеров",
     "p3": "Копии — на твой Google Диск или в файл",
     "end_h2": "Скоро в Google Play",
     "end_p": "Бета уже идёт. Хочешь попробовать в числе первых — напиши нам.",
     "foot_privacy": "Политика конфиденциальности",
     "foot_support": "Поддержка",
-    "foot_note": "Рица — приложение для фитнеса и развлечения, не медицинское.",
+    "foot_note": "Рица — игровое и развлекательное приложение, не медицинское. Она не даёт медицинских советов, советов о питании и тренировках.",
     "lang_label": "Язык",
     "nav_route": "Маршрут к цели",
     "route_kicker": "Маршрут к цели",
@@ -50,9 +50,9 @@
     "route_p": "Целевой вес, дни занятий и нагрузка — личный выбор. Рица покажет ориентировочный прогноз к выбранной дате.",
     "route_b1": "План на каждый день: минуты и шаги",
     "route_b2": "Подстраивается по твоим взвешиваниям",
-    "route_b3": "Темп — личный выбор. Советуем до 0,65 % веса в неделю; выше предупреждаем. Расчёт не допускает больше 1 кг/неделю; пищевые пороги сохраняются.",
+    "route_b3": "Темп — личный выбор. Советуем до 0,65 % веса в неделю; выше предупреждаем. Расчёт не допускает больше 1 кг в неделю, а при меньшем весе — больше 1 % веса; еду не урезаем больше чем на четверть и ниже порогов.",
     "route_b4": "Движение и необязательный учёт калорий",
-    "route_note": "Человек самостоятельно задаёт темп нагрузкой и дефицитом 250/500/750/1000 ккал. Советуем сбрасывать не быстрее 0,65 % текущего веса в неделю; выше предупреждаем, но не блокируем выбор. Расчёт не допускает больше 1 кг в неделю: на этой границе прогноз останавливается, а дефицит при необходимости уменьшается, с пояснением. Бюджеты ниже 1500 ккал для мужчин, 1200 для женщин или 1350, если пол не указан, отключены. Рица не даёт медицинских советов и советов о питании и не обещает результата. План — только с 18 лет. При болезни или перед большой нагрузкой стоит посоветоваться с врачом.",
+    "route_note": "Человек самостоятельно задаёт темп нагрузкой и дефицитом 250/500/750/1000 ккал. Советуем сбрасывать не быстрее 0,65 % текущего веса в неделю; выше предупреждаем, но не блокируем выбор. Расчёт не допускает больше 1 кг в неделю, а при меньшем весе — больше 1 % массы тела в неделю, и урезания еды больше чем на четверть привычного рациона: на этой границе прогноз останавливается, а дефицит при необходимости уменьшается, с пояснением. Цель — не ниже ИМТ 20; при ИМТ 20,5 и ниже цель снижения веса не ставится. Бюджеты ниже 1500 ккал для мужчин, 1200 для женщин или 1350, если пол не указан, отключены. Рица не даёт медицинских советов и советов о питании и не обещает результата. План — только с 18 лет. При болезни или перед большой нагрузкой стоит посоветоваться с врачом.",
     "shot_plan": "План к дате",
     "shot_today": "План на сегодня",
     "trophy_kicker": "Трофеи",
@@ -149,7 +149,7 @@
     "foot_new": "Что нового",
     "new": {
       "title": "Рица — что нового",
-      "description": "Полный список нового и исправлений в Рице 0.20.",
+      "description": "Полный список нового и исправлений в Рице 0.30.",
       "contents": "Разделы выпуска",
       "back": "К началу",
       "releases": [
@@ -343,6 +343,36 @@
                       "text": "Морковки и снаряжение доступны рядом с настройками охоты. Кладовая теперь с историей: добыча, покупки, находки и остаток; из записи охоты можно открыть её итог."
                     }
                   ]
+                },
+                {
+                  "title": "Правила и приватность",
+                  "items": [
+                    {
+                      "id": "N36",
+                      "text": "Правила и Политика конфиденциальности 3.0 (1 ноября 2026): Рица описана как игровое и развлекательное приложение, назван поставщик — Пётр Корсунский, частный разработчик из Израиля, — и действует право Израиля, с разделами для ЕС, Великобритании и США."
+                    },
+                    {
+                      "id": "N37",
+                      "text": "Согласие и уведомление: под «Дальше» на первом экране — строка о том, что, продолжая, ты подтверждаешь, что тебе есть 13 лет, и принимаешь Правила и Политику конфиденциальности. Рица запоминает принятую версию, а «Сегодня» сообщает, когда они меняются."
+                    },
+                    {
+                      "id": "N38",
+                      "text": "«Я» → «Приватность» → «Удалить все данные Рицы»: после подтверждения и с возможностью сначала сохранить копию удаляет данные Рицы на телефоне и часах и записи, которые сделала Рица в Health Connect. Копии на Google Диске и то, что уже отправлено, остаются у тебя."
+                    }
+                  ]
+                },
+                {
+                  "title": "Маршрут к цели",
+                  "items": [
+                    {
+                      "id": "N39",
+                      "text": "Безопасность плана: «Цель» никогда не планирует потерю быстрее 1 кг в неделю, а при меньшем весе — быстрее 1 % веса в неделю. Еда урезается не больше чем на четверть привычного рациона и никогда не ниже дневной границы, а цель — не ниже здорового веса (ИМТ 20); при ИМТ 20,5 и ниже цель снижения веса не ставится."
+                    },
+                    {
+                      "id": "N40",
+                      "text": "Перед открытием «Цели» страница условий просит отметку «Мне 18 лет или больше. Прочитано и принято». Возраст определяется по году рождения: «Цель» открывается с календарного года, в котором исполняется 19, первый введённый год сохраняется, а если Google Play сообщает, что аккаунт детский или под родительским контролем, «Цель» остаётся закрытой."
+                    }
+                  ]
                 }
               ]
             },
@@ -394,6 +424,23 @@
                     {
                       "id": "I07",
                       "text": "Вверху итога — часы старта и финиша тренировки."
+                    },
+                    {
+                      "id": "I09",
+                      "text": "Итог года показывает только сброшенные килограммы, без настоящих значений веса."
+                    },
+                    {
+                      "id": "I10",
+                      "text": "Экспорт GPX — твоя собственная полная копия трека: строка под кнопкой говорит, что начало и конец не скрыты. Скрытие концов относится к карточкам и видео для отправки."
+                    }
+                  ]
+                },
+                {
+                  "title": "Приватность",
+                  "items": [
+                    {
+                      "id": "I11",
+                      "text": "Отчёты об ошибках не содержат ничего о тебе: только твой текст, версии Рицы и Android, сведения о сборке Рицы, марку и модель телефона и, после сбоя, место в коде Рицы. Они уходят только с твоего согласия — «Отправить», согласие отправить отчёт о сбое или, если включены «Отчёты об ошибках», отчёт о сбое при следующем запуске. Ночного отчёта больше нет."
                     }
                   ]
                 }
@@ -497,6 +544,14 @@
                     {
                       "id": "F23",
                       "text": "Шаги, когда телефон и часы весь день с тобой: итог дня больше не завышается — каждый отрезок считается по одному устройству, а шаги с часов, пришедшие с опозданием, не складываются дважды."
+                    },
+                    {
+                      "id": "F24",
+                      "text": "Отметка в условиях «Цели» читается одинаково в приложении и в правилах на всех языках, а окно удаления на иврите больше не звучит так, будто копии хранит Рица."
+                    },
+                    {
+                      "id": "F25",
+                      "text": "Тексты совпадают с приложением: политика, правила, страница магазина и сайт называют пределы в 1 % и четверть, проверку возраста в Google Play, сохранённый первый год рождения, кнопку удаления и картинки-подсказки с ritza.app."
                     }
                   ]
                 }
@@ -1137,14 +1192,14 @@
     "shot_start": "Start and game modes",
     "priv_kicker": "Privacy",
     "priv_h2": "Privacy in plain words",
-    "p1": "No Ritza account",
+    "p1": "No Ritza account: your data stays on your phone",
     "p2": "No ads, no trackers",
     "p3": "Backups to your own Google Drive or a file",
     "end_h2": "Coming to Google Play",
     "end_p": "The beta is running. Want to try it first? Write to us.",
     "foot_privacy": "Privacy policy",
     "foot_support": "Support",
-    "foot_note": "Ritza is a fitness and entertainment app, not a medical one.",
+    "foot_note": "Ritza is a game and entertainment app, not a medical one. It gives no medical, diet or training advice.",
     "lang_label": "Language",
     "nav_route": "Route to the goal",
     "route_kicker": "Route to the goal",
@@ -1152,9 +1207,9 @@
     "route_p": "Choose a goal weight, training days and activity load. Ritza shows an approximate forecast for the chosen date.",
     "route_b1": "A plan for every day: minutes and steps",
     "route_b2": "Adjusts to your weigh-ins",
-    "route_b3": "The pace is a personal choice. We advise up to 0.65% of weight a week and warn above that. Forecasts cannot exceed 1 kg/week; intake floors apply.",
+    "route_b3": "The pace is a personal choice. We advise up to 0.65% of weight a week and warn above that. Forecasts never exceed 1 kg a week, or 1% of body weight at a lower weight; food is never cut by more than a quarter or below the floors.",
     "route_b4": "Movement and optional calorie tracking",
-    "route_note": "The person sets the pace through activity and deficits of 250/500/750/1000 kcal. We advise losing no faster than 0.65% of current body weight per week; above that, we warn without blocking the choice. Forecasts cannot exceed 1 kg per week: at that boundary, the forecast stops and the applied deficit is reduced when needed, with an explanation. Budgets below 1,500 kcal for men, 1,200 for women or 1,350 if sex is not given are disabled. Ritza gives no medical or nutrition advice and promises no result. The plan is for ages 18 and over. Medical advice is recommended for a health condition or before a big increase in exercise.",
+    "route_note": "The person sets the pace through activity and deficits of 250/500/750/1000 kcal. We advise losing no faster than 0.65% of current body weight per week; above that, we warn without blocking the choice. Forecasts cannot exceed 1 kg per week, or 1% of body weight per week at a lower weight, and the food cut is never more than a quarter of usual intake: at that boundary, the forecast stops and the applied deficit is reduced when needed, with an explanation. The goal is never below a BMI of 20; at a BMI of 20.5 or less no weight-loss goal is set. Budgets below 1,500 kcal for men, 1,200 for women or 1,350 if sex is not given are disabled. Ritza gives no medical or nutrition advice and promises no result. The plan is for ages 18 and over. Medical advice is recommended for a health condition or before a big increase in exercise.",
     "shot_plan": "Plan to a date",
     "shot_today": "Today's plan",
     "trophy_kicker": "Trophies",
@@ -1251,7 +1306,7 @@
     "foot_new": "What's new",
     "new": {
       "title": "Ritza — what's new",
-      "description": "The full list of additions and fixes in Ritza 0.20.",
+      "description": "The full list of additions and fixes in Ritza 0.30.",
       "contents": "In this release",
       "back": "Back to top",
       "releases": [
@@ -1445,6 +1500,36 @@
                       "text": "Carrots and gear sit beside the hunt settings. The pantry now has a history of earnings, purchases, finds and the balance; a hunt entry opens its summary."
                     }
                   ]
+                },
+                {
+                  "title": "Rules and privacy",
+                  "items": [
+                    {
+                      "id": "N36",
+                      "text": "Terms and Privacy Policy 3.0 (1 November 2026): Ritza is described as a game and entertainment app, the provider is named — Peter Korsunsky, a private developer in Israel — and Israeli law applies, with sections for the EU, the UK and the US."
+                    },
+                    {
+                      "id": "N37",
+                      "text": "Consent and notice: under Next on the first screen, a line says that by continuing you confirm you are at least 13 and accept the Terms and the Privacy Policy. Ritza remembers the version you accepted, and Today tells you when they change."
+                    },
+                    {
+                      "id": "N38",
+                      "text": "Me → Privacy → Delete all Ritza data: after a confirmation, and with a chance to save a copy first, it deletes Ritza’s data on the phone and the watch and the records Ritza wrote to Health Connect. Copies on Google Drive and ones you sent stay with you."
+                    }
+                  ]
+                },
+                {
+                  "title": "Route to the goal",
+                  "items": [
+                    {
+                      "id": "N39",
+                      "text": "Plan safety: Goal never plans a loss faster than 1 kg a week, or 1 % of body weight a week at a lower weight. Food is cut by at most a quarter of your usual intake and never below the daily floor, and the goal is never below a healthy weight (BMI 20); at a BMI of 20.5 or less no weight-loss goal is set."
+                    },
+                    {
+                      "id": "N40",
+                      "text": "Before Goal opens, a conditions page asks for a tick: “I am 18 or older. Read and accepted”. Age is judged by year of birth: Goal opens from the calendar year you turn 19, the first year you entered is kept, and Goal stays closed if Google Play says the account is a child’s or supervised."
+                    }
+                  ]
                 }
               ]
             },
@@ -1496,6 +1581,23 @@
                     {
                       "id": "I07",
                       "text": "The top of the summary shows the workout’s start and end times."
+                    },
+                    {
+                      "id": "I09",
+                      "text": "The year recap shows only the kilograms lost, not the actual weights."
+                    },
+                    {
+                      "id": "I10",
+                      "text": "A GPX export is your own full copy of the track: a line under the button says its start and end are not hidden. Hiding the ends applies to shared cards and videos."
+                    }
+                  ]
+                },
+                {
+                  "title": "Privacy",
+                  "items": [
+                    {
+                      "id": "I11",
+                      "text": "Error reports hold nothing about you: only your words, the Ritza and Android versions, the build details, the phone’s make and model and, after a crash, the place in Ritza’s code. They go only with your yes — Send, agreeing to send a crash, or, if you switch “Error reports” on, a crash at the next start. The nightly report is gone."
                     }
                   ]
                 }
@@ -1599,6 +1701,14 @@
                     {
                       "id": "F23",
                       "text": "Steps when both the phone and the watch are with you all day: the day total is no longer inflated — each stretch counts one device, and late watch steps are not added twice."
+                    },
+                    {
+                      "id": "F24",
+                      "text": "The conditions tick reads the same in the app and in the terms in every language, and the Hebrew delete window no longer reads as if Ritza kept the copies."
+                    },
+                    {
+                      "id": "F25",
+                      "text": "Texts now match the app: the policy, terms, store listing and site name the 1 % and quarter limits, the Google Play age check, the first birth year kept, the delete button and the help pictures from ritza.app."
                     }
                   ]
                 }
@@ -2239,14 +2349,14 @@
     "shot_start": "התחלה ובחירת מצב",
     "priv_kicker": "פרטיות",
     "priv_h2": "פרטיות במילים פשוטות",
-    "p1": "בלי חשבון ריצה",
+    "p1": "בלי חשבון ריצה: הנתונים נשארים בטלפון",
     "p2": "בלי פרסומות ובלי רכיבי מעקב",
     "p3": "גיבוי ב־⁨Google Drive⁩ שלך או בקובץ",
     "end_h2": "בקרוב ב־⁨Google Play⁩",
     "end_p": "הבטא כבר כאן. רוצה לנסות לפני כולם? אפשר לכתוב לנו.",
     "foot_privacy": "מדיניות פרטיות",
     "foot_support": "תמיכה",
-    "foot_note": "ריצה היא אפליקציה לכושר ולבידור, ולא אפליקציה רפואית.",
+    "foot_note": "ריצה היא אפליקציית משחק ובידור ולא אפליקציה רפואית. היא אינה נותנת ייעוץ רפואי, תזונתי או ייעוץ אימונים.",
     "lang_label": "שפה",
     "nav_route": "מסלול אל היעד",
     "route_kicker": "מסלול אל היעד",
@@ -2254,9 +2364,9 @@
     "route_p": "בוחרים משקל יעד, ימי אימון ועומס פעילות. ריצה מציגה תחזית משוערת לתאריך שנבחר.",
     "route_b1": "תוכנית לכל יום: דקות וצעדים",
     "route_b2": "מתעדכנת לפי השקילות שלך",
-    "route_b3": "הקצב נקבע בבחירה אישית. מומלץ לרדת עד ⁨0.65%⁩ מהמשקל בשבוע; מעבר לכך מוצגת אזהרה. החישוב אינו מאפשר יותר מ־⁨1⁩ ק״ג בשבוע; חלים ספי מינימום לצריכת קלוריות.",
+    "route_b3": "הקצב נקבע בבחירה אישית. מומלץ לרדת עד ⁨0.65%⁩ מהמשקל בשבוע; מעבר לכך מוצגת אזהרה. החישוב אינו מאפשר יותר מ־⁨1⁩ ק״ג בשבוע, ובמשקל נמוך יותר — יותר מ־⁨1%⁩ ממשקל הגוף; המזון אינו מקוצץ ביותר מרבע ואינו יורד מתחת לספים.",
     "route_b4": "תנועה ומעקב קלוריות לבחירה",
-    "route_note": "קצב התוכנית נקבע בבחירה אישית של הפעילות ושל הגירעון הקלורי: ⁨250/500/750/1000⁩ קק״ל. אנו ממליצים על ירידה של עד ⁨0.65%⁩ ממשקל הגוף הנוכחי בשבוע; מעבר לכך מוצגת אזהרה, ללא חסימת הבחירה. התוכנית אינה מאפשרת קצב מחושב של יותר מ־⁨1⁩ ק״ג בשבוע: בגבול הזה התחזית מוגבלת והגירעון המיושם מופחת לפי הצורך, עם הסבר. אפשרויות מתחת ל־⁨1,500⁩ קק״ל לגברים, ⁨1,200⁩ לנשים או ⁨1,350⁩ כשלא צוין מין אינן זמינות לבחירה. ריצה אינה מספקת ייעוץ רפואי או תזונתי ואינה מבטיחה תוצאה. התוכנית מיועדת לבני ⁨18⁩ ומעלה בלבד. במקרה של בעיה רפואית או לפני הגדלה משמעותית של עומס האימונים, מומלץ להתייעץ עם רופא.",
+    "route_note": "קצב התוכנית נקבע בבחירה אישית של הפעילות ושל הגירעון הקלורי: ⁨250/500/750/1000⁩ קק״ל. אנו ממליצים על ירידה של עד ⁨0.65%⁩ ממשקל הגוף הנוכחי בשבוע; מעבר לכך מוצגת אזהרה, ללא חסימת הבחירה. התוכנית אינה מאפשרת קצב מחושב של יותר מ־⁨1⁩ ק״ג בשבוע, ובמשקל נמוך יותר — של יותר מ־⁨1%⁩ ממשקל הגוף בשבוע, והקיצוץ במזון אינו עולה על רבע מהצריכה הרגילה: בגבול הזה התחזית מוגבלת והגירעון המיושם מופחת לפי הצורך, עם הסבר. היעד אינו נמוך מ־⁨BMI 20⁩; ב־⁨BMI 20.5⁩ ומטה לא נקבע יעד ירידה במשקל. אפשרויות מתחת ל־⁨1,500⁩ קק״ל לגברים, ⁨1,200⁩ לנשים או ⁨1,350⁩ כשלא צוין מין אינן זמינות לבחירה. ריצה אינה מספקת ייעוץ רפואי או תזונתי ואינה מבטיחה תוצאה. התוכנית מיועדת לבני ⁨18⁩ ומעלה בלבד. במקרה של בעיה רפואית או לפני הגדלה משמעותית של עומס האימונים, מומלץ להתייעץ עם רופא.",
     "shot_plan": "תוכנית לתאריך היעד",
     "shot_today": "התוכנית להיום",
     "trophy_kicker": "גביעים",
@@ -2353,7 +2463,7 @@
     "foot_new": "מה חדש",
     "new": {
       "title": "ריצה — מה חדש",
-      "description": "הרשימה המלאה של התוספות והתיקונים בריצה 0.20.",
+      "description": "הרשימה המלאה של התוספות והתיקונים בריצה ⁨0.30⁩.",
       "contents": "בעדכון הזה",
       "back": "לראש העמוד",
       "releases": [
@@ -2547,6 +2657,36 @@
                       "text": "הגזרים והציוד זמינים ליד הגדרות הציד. למזווה נוספה היסטוריה של שלל, קניות, מציאות ויתרה; רשומת ציד פותחת את הסיכום שלו."
                     }
                   ]
+                },
+                {
+                  "title": "כללים ופרטיות",
+                  "items": [
+                    {
+                      "id": "N36",
+                      "text": "תנאי השימוש ומדיניות הפרטיות ⁨3.0⁩ (⁨1⁩ בנובמבר ⁨2026⁩): ריצה מוגדרת כאפליקציית משחק ובידור, הספק מצוין בשמו — פטר קורסונסקי, מפתח עצמאי בישראל — והדין החל הוא הדין הישראלי, עם סעיפים לאיחוד האירופי, לבריטניה ולארה״ב."
+                    },
+                    {
+                      "id": "N37",
+                      "text": "הסכמה והודעה: מתחת ל״הבא״ במסך הראשון מופיעה שורה שלפיה בהמשך השימוש מאשרים שהגיל הוא ⁨13⁩ ומעלה ומקבלים את תנאי השימוש ואת מדיניות הפרטיות. ריצה שומרת את הגרסה שאושרה, ומסך ״היום״ מודיע כשהמסמכים משתנים."
+                    },
+                    {
+                      "id": "N38",
+                      "text": "״אני״ ← ״פרטיות״ ← ״מחיקת כל הנתונים של ריצה״: אחרי אישור, ואחרי אפשרות לשמור קודם עותק, נמחקים הנתונים של ריצה בטלפון ובשעון והרשומות שריצה כתבה ב־⁨Health Connect⁩. עותקים ב־⁨Google Drive⁩ ועותקים שנשלחו נשארים אצלך."
+                    }
+                  ]
+                },
+                {
+                  "title": "מסלול אל היעד",
+                  "items": [
+                    {
+                      "id": "N39",
+                      "text": "בטיחות התוכנית: ״יעד״ אינו מתכנן ירידה מהירה מ־⁨1⁩ ק״ג בשבוע, ובמשקל נמוך יותר — מהירה מ־⁨1%⁩ ממשקל הגוף בשבוע. המזון אינו מקוצץ ביותר מרבע מהצריכה הרגילה ואינו יורד מתחת לגבול היומי, והיעד אינו נמוך ממשקל תקין (⁨BMI 20⁩); ב־⁨BMI 20.5⁩ ומטה לא נקבע יעד ירידה במשקל."
+                    },
+                    {
+                      "id": "N40",
+                      "text": "לפני ש״יעד״ נפתח, דף תנאים מבקש סימון: ״מלאו לי ⁨18⁩ שנים או יותר. נקרא ואושר״. הגיל נקבע לפי שנת הלידה: ״יעד״ נפתח מהשנה הקלנדרית שבה מלאות ⁨19⁩, שנת הלידה הראשונה שהוזנה נשמרת, ו״יעד״ נשאר סגור אם ⁨Google Play⁩ מדווח שהחשבון הוא של ילד או בפיקוח הורים."
+                    }
+                  ]
                 }
               ]
             },
@@ -2598,6 +2738,23 @@
                     {
                       "id": "I07",
                       "text": "בראש הסיכום מוצגות שעת ההתחלה ושעת הסיום של האימון."
+                    },
+                    {
+                      "id": "I09",
+                      "text": "סיכום השנה מציג רק את הקילוגרמים שירדו, בלי המשקלים עצמם."
+                    },
+                    {
+                      "id": "I10",
+                      "text": "ייצוא ⁨GPX⁩ הוא עותק מלא ואישי של המסלול: שורה מתחת לכפתור מציינת שההתחלה והסוף אינם מוסתרים. הסתרת הקצוות חלה על כרטיסים וסרטונים לשיתוף."
+                    }
+                  ]
+                },
+                {
+                  "title": "פרטיות",
+                  "items": [
+                    {
+                      "id": "I11",
+                      "text": "דוחות שגיאה אינם כוללים דבר עליך: רק את הטקסט שלך, את גרסאות ריצה ו־⁨Android⁩, את פרטי הגרסה של ריצה, את יצרן הטלפון ודגמו ובקריסה — את המקום בקוד של ריצה. הם נשלחים רק באישור שלך: ״שליחה״, הסכמה לשלוח דוח קריסה או, אם ״דוחות שגיאה״ מופעלים, דוח קריסה בהפעלה הבאה. הדוח הלילי בוטל."
                     }
                   ]
                 }
@@ -2701,6 +2858,14 @@
                     {
                       "id": "F23",
                       "text": "צעדים כשהטלפון והשעון איתנו כל היום: סך היום כבר לא מנופח — כל קטע נספר לפי מכשיר אחד, וצעדים מהשעון שהגיעו באיחור לא נספרים פעמיים."
+                    },
+                    {
+                      "id": "F24",
+                      "text": "הסימון בתנאי ״יעד״ נקרא אותו דבר באפליקציה ובתנאי השימוש בכל השפות, וחלון המחיקה בעברית כבר אינו נשמע כאילו ריצה שומרת את העותקים."
+                    },
+                    {
+                      "id": "F25",
+                      "text": "הטקסטים תואמים את האפליקציה: מדיניות הפרטיות, תנאי השימוש, דף החנות והאתר מציינים את המגבלות של ⁨1%⁩ ושל רבע, את בדיקת הגיל ב־⁨Google Play⁩, את שמירת שנת הלידה הראשונה, את כפתור המחיקה ואת תמונות העזרה מ־⁨ritza.app⁩."
                     }
                   ]
                 }
